@@ -1,34 +1,59 @@
 {
- "updated_at": "2026-10-21 09:54",
- "date": "2026-10-21",
+ "updated_at": "2026-10-22 03:52",
+ "date": "2026-10-22",
  "user": "ha_03ru_01",
  "nickname": "長屋晴太 | はる🌎🎮[ゲーム業界志望]",
  "tracking_since": "2026-10-21",
  "kpi": {
-  "followers": 325,
-  "followers_1d": null,
+  "followers": 326,
+  "followers_1d": 1,
   "followers_7d": null,
   "followers_30d": null,
-  "total_likes": 4108,
-  "likes_1d": null,
+  "total_likes": 4133,
+  "likes_1d": 25,
   "likes_7d": null,
   "notes": 274,
-  "posts_7d": 7,
-  "total_comments": 115,
-  "avg_likes": 15.0
+  "posts_7d": 6,
+  "total_comments": 119,
+  "avg_likes": 15.1
  },
  "top_gainers_1d": [
   {
    "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
    "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
-   "gain": 6
+   "gain": 13
+  },
+  {
+   "title": "「【3Dゲーム制作】敵のAIとレベルアップを実装！戦闘システムをブラッシュアップ」 はる日記#269",
+   "url": "https://note.com/ha_03ru_01/n/n7cc49151c940",
+   "gain": 3
+  },
+  {
+   "title": "「ゲームを途中でやめた人は、つまらなかったから？ 約88万回表示された投稿から考えたこと」 はる日記#268",
+   "url": "https://note.com/ha_03ru_01/n/ncc00ee02dc4e",
+   "gain": 3
+  },
+  {
+   "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
+   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
+   "gain": 3
+  },
+  {
+   "title": "サイバーコネクトツーの企業研究 | ゲームプログラマー志望者向け",
+   "url": "https://note.com/ha_03ru_01/n/nc943bd1c8603",
+   "gain": 2
   }
  ],
  "top_gainers_7d": [
   {
    "title": "「ゲームを途中でやめた人は、つまらなかったから？ 約88万回表示された投稿から考えたこと」 はる日記#268",
    "url": "https://note.com/ha_03ru_01/n/ncc00ee02dc4e",
-   "gain": 30
+   "gain": 33
+  },
+  {
+   "title": "「【3Dゲーム制作】敵のAIとレベルアップを実装！戦闘システムをブラッシュアップ」 はる日記#269",
+   "url": "https://note.com/ha_03ru_01/n/n7cc49151c940",
+   "gain": 26
   },
   {
    "title": "「Unityで3DアクションRPG制作ver2.0 | プレイヤーのアニメーション実装」 はる日記#266",
@@ -36,44 +61,39 @@
    "gain": 24
   },
   {
-   "title": "「【3Dゲーム制作】敵のAIとレベルアップを実装！戦闘システムをブラッシュアップ」 はる日記#269",
-   "url": "https://note.com/ha_03ru_01/n/n7cc49151c940",
-   "gain": 23
-  },
-  {
-   "title": "「Unityで3DアクションRPGを制作開始！6本目のゲーム制作に挑戦」 はる日記#265",
-   "url": "https://note.com/ha_03ru_01/n/n19dec73264c5",
-   "gain": 23
-  },
-  {
    "title": "「3DアクションRPG制作ver3.0 | 敵が現れた。」 はる日記#267",
    "url": "https://note.com/ha_03ru_01/n/n847fa87f6c59",
-   "gain": 22
+   "gain": 23
+  },
+  {
+   "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
+   "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
+   "gain": 19
   }
  ],
  "categories": [
   {
    "name": "就活・学び",
    "count": 17,
-   "avg_likes": 23.8,
+   "avg_likes": 24,
    "median_likes": 10
   },
   {
    "name": "企業研究",
    "count": 2,
-   "avg_likes": 20.5,
-   "median_likes": 20.5
+   "avg_likes": 21.5,
+   "median_likes": 21.5
   },
   {
    "name": "考察・コラム",
    "count": 34,
-   "avg_likes": 19.8,
+   "avg_likes": 19.9,
    "median_likes": 19.0
   },
   {
    "name": "ゲーム制作ログ",
    "count": 59,
-   "avg_likes": 17.3,
+   "avg_likes": 17.5,
    "median_likes": 18
   },
   {
@@ -87,7 +107,7 @@
   {
    "name": "月",
    "count": 45,
-   "avg_likes": 14.8,
+   "avg_likes": 14.9,
    "median_likes": 11
   },
   {
@@ -99,8 +119,8 @@
   {
    "name": "水",
    "count": 48,
-   "avg_likes": 12.2,
-   "median_likes": 8.5
+   "avg_likes": 12.5,
+   "median_likes": 9.0
   },
   {
    "name": "木",
@@ -117,7 +137,7 @@
   {
    "name": "土",
    "count": 26,
-   "avg_likes": 23.9,
+   "avg_likes": 24.0,
    "median_likes": 16.0
   },
   {
@@ -131,13 +151,13 @@
   {
    "name": "朝 5-11時",
    "count": 137,
-   "avg_likes": 15.1,
+   "avg_likes": 15.2,
    "median_likes": 15
   },
   {
    "name": "昼 11-17時",
    "count": 96,
-   "avg_likes": 14.7,
+   "avg_likes": 14.8,
    "median_likes": 9.0
   },
   {
@@ -212,11 +232,11 @@
    "weekday": "水",
    "hour": 6,
    "category": "ゲーム制作ログ",
-   "likes": 6,
-   "comments": 0,
-   "gain_1d": 6,
-   "gain_7d": 6,
-   "likes_per_day": 6.0,
+   "likes": 19,
+   "comments": 1,
+   "gain_1d": 13,
+   "gain_7d": 19,
+   "likes_per_day": 9.5,
    "band": "朝 5-11時"
   },
   {
@@ -227,11 +247,11 @@
    "weekday": "火",
    "hour": 6,
    "category": "ゲーム制作ログ",
-   "likes": 23,
+   "likes": 26,
    "comments": 0,
-   "gain_1d": null,
-   "gain_7d": 23,
-   "likes_per_day": 11.5,
+   "gain_1d": 3,
+   "gain_7d": 26,
+   "likes_per_day": 8.67,
    "band": "朝 5-11時"
   },
   {
@@ -242,11 +262,11 @@
    "weekday": "月",
    "hour": 20,
    "category": "企業研究",
-   "likes": 16,
+   "likes": 18,
    "comments": 0,
-   "gain_1d": null,
-   "gain_7d": 16,
-   "likes_per_day": 5.33,
+   "gain_1d": 2,
+   "gain_7d": 18,
+   "likes_per_day": 4.5,
    "band": "夜 17-22時"
   },
   {
@@ -257,11 +277,11 @@
    "weekday": "月",
    "hour": 5,
    "category": "考察・コラム",
-   "likes": 30,
-   "comments": 2,
-   "gain_1d": null,
-   "gain_7d": 30,
-   "likes_per_day": 10.0,
+   "likes": 33,
+   "comments": 5,
+   "gain_1d": 3,
+   "gain_7d": 33,
+   "likes_per_day": 8.25,
    "band": "朝 5-11時"
   },
   {
@@ -272,11 +292,11 @@
    "weekday": "土",
    "hour": 15,
    "category": "ゲーム制作ログ",
-   "likes": 22,
+   "likes": 23,
    "comments": 0,
-   "gain_1d": null,
-   "gain_7d": 22,
-   "likes_per_day": 4.4,
+   "gain_1d": 1,
+   "gain_7d": 23,
+   "likes_per_day": 3.83,
    "band": "昼 11-17時"
   },
   {
@@ -289,9 +309,9 @@
    "category": "ゲーム制作ログ",
    "likes": 24,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": 24,
-   "likes_per_day": 4.0,
+   "likes_per_day": 3.43,
    "band": "朝 5-11時"
   },
   {
@@ -304,9 +324,9 @@
    "category": "ゲーム制作ログ",
    "likes": 23,
    "comments": 0,
-   "gain_1d": null,
-   "gain_7d": 23,
-   "likes_per_day": 3.29,
+   "gain_1d": 0,
+   "gain_7d": null,
+   "likes_per_day": 2.88,
    "band": "深夜 22-5時"
   },
   {
@@ -319,9 +339,9 @@
    "category": "ゲーム制作ログ",
    "likes": 25,
    "comments": 3,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 3.12,
+   "likes_per_day": 2.78,
    "band": "朝 5-11時"
   },
   {
@@ -334,9 +354,9 @@
    "category": "ゲーム制作ログ",
    "likes": 32,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 3.56,
+   "likes_per_day": 3.2,
    "band": "深夜 22-5時"
   },
   {
@@ -349,9 +369,9 @@
    "category": "企業研究",
    "likes": 25,
    "comments": 3,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.5,
+   "likes_per_day": 2.27,
    "band": "夜 17-22時"
   },
   {
@@ -364,9 +384,9 @@
    "category": "その他",
    "likes": 26,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.6,
+   "likes_per_day": 2.36,
    "band": "朝 5-11時"
   },
   {
@@ -379,9 +399,9 @@
    "category": "就活・学び",
    "likes": 23,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.09,
+   "likes_per_day": 1.92,
    "band": "朝 5-11時"
   },
   {
@@ -394,9 +414,9 @@
    "category": "ゲーム制作ログ",
    "likes": 28,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.33,
+   "likes_per_day": 2.15,
    "band": "昼 11-17時"
   },
   {
@@ -409,9 +429,9 @@
    "category": "ゲーム制作ログ",
    "likes": 22,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.83,
+   "likes_per_day": 1.69,
    "band": "朝 5-11時"
   },
   {
@@ -424,9 +444,9 @@
    "category": "ゲーム制作ログ",
    "likes": 35,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.69,
+   "likes_per_day": 2.5,
    "band": "朝 5-11時"
   },
   {
@@ -439,9 +459,9 @@
    "category": "ゲーム制作ログ",
    "likes": 23,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.64,
+   "likes_per_day": 1.53,
    "band": "朝 5-11時"
   },
   {
@@ -454,9 +474,9 @@
    "category": "就活・学び",
    "likes": 27,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.8,
+   "likes_per_day": 1.69,
    "band": "朝 5-11時"
   },
   {
@@ -469,9 +489,9 @@
    "category": "ゲーム制作ログ",
    "likes": 22,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.38,
+   "likes_per_day": 1.29,
    "band": "深夜 22-5時"
   },
   {
@@ -484,9 +504,9 @@
    "category": "ゲーム制作ログ",
    "likes": 27,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.59,
+   "likes_per_day": 1.5,
    "band": "朝 5-11時"
   },
   {
@@ -499,9 +519,9 @@
    "category": "その他",
    "likes": 50,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.78,
+   "likes_per_day": 2.63,
    "band": "昼 11-17時"
   },
   {
@@ -514,9 +534,9 @@
    "category": "ゲーム制作ログ",
    "likes": 24,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.26,
+   "likes_per_day": 1.2,
    "band": "朝 5-11時"
   },
   {
@@ -529,9 +549,9 @@
    "category": "考察・コラム",
    "likes": 35,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.75,
+   "likes_per_day": 1.67,
    "band": "朝 5-11時"
   },
   {
@@ -544,9 +564,9 @@
    "category": "その他",
    "likes": 37,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.76,
+   "likes_per_day": 1.68,
    "band": "昼 11-17時"
   },
   {
@@ -559,9 +579,9 @@
    "category": "ゲーム制作ログ",
    "likes": 20,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.91,
+   "likes_per_day": 0.87,
    "band": "朝 5-11時"
   },
   {
@@ -574,9 +594,9 @@
    "category": "考察・コラム",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.7,
+   "likes_per_day": 0.67,
    "band": "昼 11-17時"
   },
   {
@@ -589,9 +609,9 @@
    "category": "その他",
    "likes": 24,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.0,
+   "likes_per_day": 0.96,
    "band": "朝 5-11時"
   },
   {
@@ -604,9 +624,9 @@
    "category": "ゲーム制作ログ",
    "likes": 17,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.68,
+   "likes_per_day": 0.65,
    "band": "朝 5-11時"
   },
   {
@@ -619,9 +639,9 @@
    "category": "その他",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.58,
+   "likes_per_day": 0.56,
    "band": "朝 5-11時"
   },
   {
@@ -634,9 +654,9 @@
    "category": "その他",
    "likes": 24,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.89,
+   "likes_per_day": 0.86,
    "band": "朝 5-11時"
   },
   {
@@ -649,9 +669,9 @@
    "category": "ゲーム制作ログ",
    "likes": 36,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 1.29,
+   "likes_per_day": 1.24,
    "band": "朝 5-11時"
   },
   {
@@ -664,9 +684,9 @@
    "category": "その他",
    "likes": 64,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.21,
+   "likes_per_day": 2.13,
    "band": "昼 11-17時"
   },
   {
@@ -679,9 +699,9 @@
    "category": "ゲーム制作ログ",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.57,
+   "likes_per_day": 0.55,
    "band": "朝 5-11時"
   },
   {
@@ -694,9 +714,9 @@
    "category": "その他",
    "likes": 70,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 2.26,
+   "likes_per_day": 2.19,
    "band": "昼 11-17時"
   },
   {
@@ -709,9 +729,9 @@
    "category": "その他",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.66,
+   "likes_per_day": 0.64,
    "band": "朝 5-11時"
   },
   {
@@ -724,9 +744,9 @@
    "category": "その他",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.55,
+   "likes_per_day": 0.53,
    "band": "深夜 22-5時"
   },
   {
@@ -739,9 +759,9 @@
    "category": "その他",
    "likes": 131,
    "comments": 4,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 3.74,
+   "likes_per_day": 3.64,
    "band": "深夜 22-5時"
   },
   {
@@ -754,9 +774,9 @@
    "category": "ゲーム制作ログ",
    "likes": 30,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.83,
+   "likes_per_day": 0.81,
    "band": "深夜 22-5時"
   },
   {
@@ -769,9 +789,9 @@
    "category": "ゲーム制作ログ",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.41,
+   "likes_per_day": 0.39,
    "band": "夜 17-22時"
   },
   {
@@ -784,9 +804,9 @@
    "category": "ゲーム制作ログ",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.4,
+   "likes_per_day": 0.39,
    "band": "朝 5-11時"
   },
   {
@@ -799,9 +819,9 @@
    "category": "ゲーム制作ログ",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.34,
+   "likes_per_day": 0.33,
    "band": "朝 5-11時"
   },
   {
@@ -814,9 +834,9 @@
    "category": "その他",
    "likes": 23,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.52,
+   "likes_per_day": 0.51,
    "band": "昼 11-17時"
   },
   {
@@ -829,9 +849,9 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.27,
+   "likes_per_day": 0.26,
    "band": "朝 5-11時"
   },
   {
@@ -844,9 +864,9 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.37,
+   "likes_per_day": 0.36,
    "band": "朝 5-11時"
   },
   {
@@ -859,9 +879,9 @@
    "category": "その他",
    "likes": 33,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.7,
+   "likes_per_day": 0.69,
    "band": "朝 5-11時"
   },
   {
@@ -874,7 +894,7 @@
    "category": "考察・コラム",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.31,
    "band": "朝 5-11時"
@@ -889,9 +909,9 @@
    "category": "考察・コラム",
    "likes": 26,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.53,
+   "likes_per_day": 0.52,
    "band": "昼 11-17時"
   },
   {
@@ -904,9 +924,9 @@
    "category": "考察・コラム",
    "likes": 22,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.44,
+   "likes_per_day": 0.43,
    "band": "昼 11-17時"
   },
   {
@@ -919,9 +939,9 @@
    "category": "考察・コラム",
    "likes": 28,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.55,
+   "likes_per_day": 0.54,
    "band": "朝 5-11時"
   },
   {
@@ -934,7 +954,7 @@
    "category": "考察・コラム",
    "likes": 21,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.4,
    "band": "朝 5-11時"
@@ -949,9 +969,9 @@
    "category": "その他",
    "likes": 24,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.45,
+   "likes_per_day": 0.44,
    "band": "昼 11-17時"
   },
   {
@@ -964,9 +984,9 @@
    "category": "考察・コラム",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.39,
+   "likes_per_day": 0.38,
    "band": "朝 5-11時"
   },
   {
@@ -979,7 +999,7 @@
    "category": "考察・コラム",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.27,
    "band": "朝 5-11時"
@@ -994,9 +1014,9 @@
    "category": "考察・コラム",
    "likes": 15,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.27,
+   "likes_per_day": 0.26,
    "band": "昼 11-17時"
   },
   {
@@ -1009,7 +1029,7 @@
    "category": "考察・コラム",
    "likes": 19,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.33,
    "band": "朝 5-11時"
@@ -1024,9 +1044,9 @@
    "category": "その他",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.26,
+   "likes_per_day": 0.25,
    "band": "朝 5-11時"
   },
   {
@@ -1039,7 +1059,7 @@
    "category": "就活・学び",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.17,
    "band": "昼 11-17時"
@@ -1054,7 +1074,7 @@
    "category": "ゲーム制作ログ",
    "likes": 18,
    "comments": 1,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.3,
    "band": "朝 5-11時"
@@ -1069,9 +1089,9 @@
    "category": "考察・コラム",
    "likes": 31,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.51,
+   "likes_per_day": 0.5,
    "band": "朝 5-11時"
   },
   {
@@ -1084,7 +1104,7 @@
    "category": "ゲーム制作ログ",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.29,
    "band": "昼 11-17時"
@@ -1099,7 +1119,7 @@
    "category": "考察・コラム",
    "likes": 28,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.44,
    "band": "昼 11-17時"
@@ -1114,9 +1134,9 @@
    "category": "考察・コラム",
    "likes": 25,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.39,
+   "likes_per_day": 0.38,
    "band": "朝 5-11時"
   },
   {
@@ -1129,7 +1149,7 @@
    "category": "考察・コラム",
    "likes": 28,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.42,
    "band": "朝 5-11時"
@@ -1144,7 +1164,7 @@
    "category": "考察・コラム",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.19,
    "band": "昼 11-17時"
@@ -1159,9 +1179,9 @@
    "category": "考察・コラム",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.24,
+   "likes_per_day": 0.23,
    "band": "朝 5-11時"
   },
   {
@@ -1174,7 +1194,7 @@
    "category": "その他",
    "likes": 23,
    "comments": 3,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.33,
    "band": "朝 5-11時"
@@ -1189,7 +1209,7 @@
    "category": "考察・コラム",
    "likes": 19,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.27,
    "band": "昼 11-17時"
@@ -1204,7 +1224,7 @@
    "category": "考察・コラム",
    "likes": 22,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.31,
    "band": "朝 5-11時"
@@ -1219,7 +1239,7 @@
    "category": "ゲーム制作ログ",
    "likes": 19,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.26,
    "band": "朝 5-11時"
@@ -1234,9 +1254,9 @@
    "category": "考察・コラム",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.29,
+   "likes_per_day": 0.28,
    "band": "朝 5-11時"
   },
   {
@@ -1249,7 +1269,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.23,
    "band": "朝 5-11時"
@@ -1264,7 +1284,7 @@
    "category": "ゲーム制作ログ",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.17,
    "band": "朝 5-11時"
@@ -1279,9 +1299,9 @@
    "category": "ゲーム制作ログ",
    "likes": 38,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.5,
+   "likes_per_day": 0.49,
    "band": "朝 5-11時"
   },
   {
@@ -1294,7 +1314,7 @@
    "category": "その他",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.21,
    "band": "朝 5-11時"
@@ -1309,7 +1329,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.22,
    "band": "朝 5-11時"
@@ -1324,9 +1344,9 @@
    "category": "考察・コラム",
    "likes": 45,
    "comments": 5,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.57,
+   "likes_per_day": 0.56,
    "band": "朝 5-11時"
   },
   {
@@ -1339,7 +1359,7 @@
    "category": "考察・コラム",
    "likes": 41,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.51,
    "band": "朝 5-11時"
@@ -1354,9 +1374,9 @@
    "category": "その他",
    "likes": 25,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.31,
+   "likes_per_day": 0.3,
    "band": "朝 5-11時"
   },
   {
@@ -1369,9 +1389,9 @@
    "category": "その他",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.2,
+   "likes_per_day": 0.19,
    "band": "朝 5-11時"
   },
   {
@@ -1384,7 +1404,7 @@
    "category": "その他",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.17,
    "band": "朝 5-11時"
@@ -1399,7 +1419,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.2,
    "band": "朝 5-11時"
@@ -1414,7 +1434,7 @@
    "category": "その他",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.21,
    "band": "朝 5-11時"
@@ -1429,7 +1449,7 @@
    "category": "その他",
    "likes": 33,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.38,
    "band": "朝 5-11時"
@@ -1444,9 +1464,9 @@
    "category": "その他",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.21,
+   "likes_per_day": 0.2,
    "band": "深夜 22-5時"
   },
   {
@@ -1459,9 +1479,9 @@
    "category": "その他",
    "likes": 26,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.3,
+   "likes_per_day": 0.29,
    "band": "朝 5-11時"
   },
   {
@@ -1474,9 +1494,9 @@
    "category": "ゲーム制作ログ",
    "likes": 29,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.33,
+   "likes_per_day": 0.32,
    "band": "朝 5-11時"
   },
   {
@@ -1489,7 +1509,7 @@
    "category": "その他",
    "likes": 19,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.21,
    "band": "朝 5-11時"
@@ -1504,7 +1524,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.1,
    "band": "朝 5-11時"
@@ -1519,9 +1539,9 @@
    "category": "ゲーム制作ログ",
    "likes": 33,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.36,
+   "likes_per_day": 0.35,
    "band": "朝 5-11時"
   },
   {
@@ -1534,9 +1554,9 @@
    "category": "ゲーム制作ログ",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.23,
+   "likes_per_day": 0.22,
    "band": "朝 5-11時"
   },
   {
@@ -1549,7 +1569,7 @@
    "category": "ゲーム制作ログ",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.14,
    "band": "朝 5-11時"
@@ -1564,7 +1584,7 @@
    "category": "ゲーム制作ログ",
    "likes": 24,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.25,
    "band": "朝 5-11時"
@@ -1579,9 +1599,9 @@
    "category": "就活・学び",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.15,
+   "likes_per_day": 0.14,
    "band": "朝 5-11時"
   },
   {
@@ -1594,9 +1614,9 @@
    "category": "ゲーム制作ログ",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.18,
+   "likes_per_day": 0.17,
    "band": "夜 17-22時"
   },
   {
@@ -1609,7 +1629,7 @@
    "category": "その他",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.16,
    "band": "朝 5-11時"
@@ -1624,7 +1644,7 @@
    "category": "ゲーム制作ログ",
    "likes": 23,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.23,
    "band": "朝 5-11時"
@@ -1639,7 +1659,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.12,
    "band": "夜 17-22時"
@@ -1654,7 +1674,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.17,
    "band": "朝 5-11時"
@@ -1669,7 +1689,7 @@
    "category": "ゲーム制作ログ",
    "likes": 18,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.18,
    "band": "朝 5-11時"
@@ -1684,7 +1704,7 @@
    "category": "ゲーム制作ログ",
    "likes": 23,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.23,
    "band": "昼 11-17時"
@@ -1699,7 +1719,7 @@
    "category": "ゲーム制作ログ",
    "likes": 25,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.25,
    "band": "朝 5-11時"
@@ -1714,7 +1734,7 @@
    "category": "考察・コラム",
    "likes": 38,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.37,
    "band": "昼 11-17時"
@@ -1729,7 +1749,7 @@
    "category": "ゲーム制作ログ",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.08,
    "band": "朝 5-11時"
@@ -1744,7 +1764,7 @@
    "category": "その他",
    "likes": 26,
    "comments": 9,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.25,
    "band": "朝 5-11時"
@@ -1759,7 +1779,7 @@
    "category": "その他",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -1774,7 +1794,7 @@
    "category": "考察・コラム",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.09,
    "band": "昼 11-17時"
@@ -1789,7 +1809,7 @@
    "category": "その他",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.14,
    "band": "朝 5-11時"
@@ -1804,7 +1824,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "夜 17-22時"
@@ -1819,7 +1839,7 @@
    "category": "その他",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -1834,7 +1854,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.11,
    "band": "昼 11-17時"
@@ -1849,7 +1869,7 @@
    "category": "ゲーム制作ログ",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.16,
    "band": "朝 5-11時"
@@ -1864,7 +1884,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.08,
    "band": "昼 11-17時"
@@ -1879,7 +1899,7 @@
    "category": "その他",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.18,
    "band": "朝 5-11時"
@@ -1892,11 +1912,11 @@
    "weekday": "土",
    "hour": 15,
    "category": "就活・学び",
-   "likes": 223,
+   "likes": 226,
    "comments": 21,
-   "gain_1d": null,
+   "gain_1d": 3,
    "gain_7d": null,
-   "likes_per_day": 1.91,
+   "likes_per_day": 1.92,
    "band": "昼 11-17時"
   },
   {
@@ -1909,7 +1929,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.1,
    "band": "朝 5-11時"
@@ -1924,7 +1944,7 @@
    "category": "就活・学び",
    "likes": 13,
    "comments": 4,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.11,
    "band": "朝 5-11時"
@@ -1939,7 +1959,7 @@
    "category": "ゲーム制作ログ",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "朝 5-11時"
@@ -1954,7 +1974,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -1969,7 +1989,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -1984,7 +2004,7 @@
    "category": "その他",
    "likes": 3,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -1999,7 +2019,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
@@ -2014,7 +2034,7 @@
    "category": "ゲーム制作ログ",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "朝 5-11時"
@@ -2029,7 +2049,7 @@
    "category": "その他",
    "likes": 1,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -2044,7 +2064,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2059,7 +2079,7 @@
    "category": "ゲーム制作ログ",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
@@ -2074,7 +2094,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2089,7 +2109,7 @@
    "category": "ゲーム制作ログ",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -2104,7 +2124,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 1,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2119,7 +2139,7 @@
    "category": "ゲーム制作ログ",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2134,7 +2154,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2149,7 +2169,7 @@
    "category": "その他",
    "likes": 1,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
@@ -2164,7 +2184,7 @@
    "category": "その他",
    "likes": 1,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -2179,7 +2199,7 @@
    "category": "その他",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -2194,7 +2214,7 @@
    "category": "その他",
    "likes": 1,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -2209,7 +2229,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2224,7 +2244,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -2239,9 +2259,9 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
-   "likes_per_day": 0.04,
+   "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
   {
@@ -2254,7 +2274,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.08,
    "band": "朝 5-11時"
@@ -2269,7 +2289,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2284,7 +2304,7 @@
    "category": "考察・コラム",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -2299,7 +2319,7 @@
    "category": "就活・学び",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.11,
    "band": "朝 5-11時"
@@ -2314,7 +2334,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
@@ -2329,7 +2349,7 @@
    "category": "考察・コラム",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
@@ -2344,7 +2364,7 @@
    "category": "その他",
    "likes": 1,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -2359,7 +2379,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "昼 11-17時"
@@ -2374,7 +2394,7 @@
    "category": "その他",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.08,
    "band": "夜 17-22時"
@@ -2389,7 +2409,7 @@
    "category": "ゲーム制作ログ",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -2404,7 +2424,7 @@
    "category": "考察・コラム",
    "likes": 3,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -2419,7 +2439,7 @@
    "category": "ゲーム制作ログ",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2434,7 +2454,7 @@
    "category": "ゲーム制作ログ",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -2449,7 +2469,7 @@
    "category": "ゲーム制作ログ",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
@@ -2464,7 +2484,7 @@
    "category": "ゲーム制作ログ",
    "likes": 2,
    "comments": 1,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "深夜 22-5時"
@@ -2479,7 +2499,7 @@
    "category": "考察・コラム",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2494,7 +2514,7 @@
    "category": "就活・学び",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -2509,7 +2529,7 @@
    "category": "就活・学び",
    "likes": 9,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
@@ -2524,7 +2544,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2539,7 +2559,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2554,7 +2574,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2569,7 +2589,7 @@
    "category": "ゲーム制作ログ",
    "likes": 3,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -2584,7 +2604,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -2599,7 +2619,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -2614,7 +2634,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
@@ -2629,7 +2649,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -2644,7 +2664,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -2659,7 +2679,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2674,7 +2694,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2689,7 +2709,7 @@
    "category": "その他",
    "likes": 2,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -2704,7 +2724,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "昼 11-17時"
@@ -2719,7 +2739,7 @@
    "category": "就活・学び",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -2734,7 +2754,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2749,7 +2769,7 @@
    "category": "就活・学び",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -2764,7 +2784,7 @@
    "category": "就活・学び",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -2779,7 +2799,7 @@
    "category": "就活・学び",
    "likes": 6,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -2794,7 +2814,7 @@
    "category": "ゲーム制作ログ",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
@@ -2809,7 +2829,7 @@
    "category": "ゲーム制作ログ",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "夜 17-22時"
@@ -2824,7 +2844,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -2839,7 +2859,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -2854,7 +2874,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -2869,7 +2889,7 @@
    "category": "その他",
    "likes": 3,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
@@ -2884,7 +2904,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -2899,7 +2919,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
@@ -2914,7 +2934,7 @@
    "category": "その他",
    "likes": 16,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.05,
    "band": "昼 11-17時"
@@ -2929,7 +2949,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -2944,7 +2964,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -2959,7 +2979,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -2974,7 +2994,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -2989,7 +3009,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3004,7 +3024,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3019,7 +3039,7 @@
    "category": "ゲーム制作ログ",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3034,7 +3054,7 @@
    "category": "その他",
    "likes": 3,
    "comments": 4,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3049,7 +3069,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 4,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3064,7 +3084,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3079,7 +3099,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3094,7 +3114,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -3109,7 +3129,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3124,7 +3144,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3139,7 +3159,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3154,7 +3174,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3169,7 +3189,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3184,7 +3204,7 @@
    "category": "その他",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "夜 17-22時"
@@ -3199,7 +3219,7 @@
    "category": "その他",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -3214,7 +3234,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -3229,7 +3249,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3244,7 +3264,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3259,7 +3279,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3274,7 +3294,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
@@ -3289,7 +3309,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3304,7 +3324,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -3319,7 +3339,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3334,7 +3354,7 @@
    "category": "ゲーム制作ログ",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
@@ -3349,7 +3369,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3364,7 +3384,7 @@
    "category": "その他",
    "likes": 3,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3379,7 +3399,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3394,7 +3414,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3409,7 +3429,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3424,7 +3444,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3439,7 +3459,7 @@
    "category": "その他",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -3454,7 +3474,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
@@ -3469,7 +3489,7 @@
    "category": "ゲーム制作ログ",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
@@ -3484,7 +3504,7 @@
    "category": "考察・コラム",
    "likes": 4,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -3499,7 +3519,7 @@
    "category": "考察・コラム",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3514,7 +3534,7 @@
    "category": "その他",
    "likes": 13,
    "comments": 3,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -3529,7 +3549,7 @@
    "category": "その他",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3544,7 +3564,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 2,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -3559,7 +3579,7 @@
    "category": "その他",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -3574,7 +3594,7 @@
    "category": "その他",
    "likes": 5,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -3589,7 +3609,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
@@ -3604,7 +3624,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -3619,7 +3639,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -3634,7 +3654,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3649,7 +3669,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3664,7 +3684,7 @@
    "category": "その他",
    "likes": 16,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "深夜 22-5時"
@@ -3679,7 +3699,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "夜 17-22時"
@@ -3694,7 +3714,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
@@ -3709,7 +3729,7 @@
    "category": "その他",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -3724,7 +3744,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3739,7 +3759,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3754,7 +3774,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3769,7 +3789,7 @@
    "category": "考察・コラム",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3784,7 +3804,7 @@
    "category": "その他",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3799,7 +3819,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -3814,7 +3834,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3829,7 +3849,7 @@
    "category": "就活・学び",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3844,7 +3864,7 @@
    "category": "就活・学び",
    "likes": 8,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3859,7 +3879,7 @@
    "category": "就活・学び",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -3874,7 +3894,7 @@
    "category": "その他",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -3889,7 +3909,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
@@ -3904,7 +3924,7 @@
    "category": "就活・学び",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -3919,7 +3939,7 @@
    "category": "その他",
    "likes": 7,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -3934,7 +3954,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3949,7 +3969,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
@@ -3964,7 +3984,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -3979,7 +3999,7 @@
    "category": "その他",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
@@ -3994,7 +4014,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4009,7 +4029,7 @@
    "category": "ゲーム制作ログ",
    "likes": 18,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -4024,7 +4044,7 @@
    "category": "その他",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4039,7 +4059,7 @@
    "category": "考察・コラム",
    "likes": 19,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
@@ -4054,7 +4074,7 @@
    "category": "その他",
    "likes": 6,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
@@ -4069,7 +4089,7 @@
    "category": "ゲーム制作ログ",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
@@ -4084,7 +4104,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -4099,7 +4119,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 1,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4114,7 +4134,7 @@
    "category": "ゲーム制作ログ",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -4129,7 +4149,7 @@
    "category": "その他",
    "likes": 9,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4144,7 +4164,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -4159,7 +4179,7 @@
    "category": "ゲーム制作ログ",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -4174,7 +4194,7 @@
    "category": "考察・コラム",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
@@ -4189,7 +4209,7 @@
    "category": "その他",
    "likes": 11,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4204,7 +4224,7 @@
    "category": "その他",
    "likes": 18,
    "comments": 4,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
@@ -4219,7 +4239,7 @@
    "category": "その他",
    "likes": 13,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -4234,7 +4254,7 @@
    "category": "その他",
    "likes": 29,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
@@ -4249,7 +4269,7 @@
    "category": "その他",
    "likes": 12,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4264,7 +4284,7 @@
    "category": "その他",
    "likes": 14,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
@@ -4279,7 +4299,7 @@
    "category": "その他",
    "likes": 10,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
@@ -4294,7 +4314,7 @@
    "category": "その他",
    "likes": 15,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
@@ -4309,7 +4329,7 @@
    "category": "その他",
    "likes": 21,
    "comments": 0,
-   "gain_1d": null,
+   "gain_1d": 0,
    "gain_7d": null,
    "likes_per_day": 0.04,
    "band": "深夜 22-5時"
