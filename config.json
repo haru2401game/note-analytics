@@ -1,0 +1,11 @@
+{
+  "dashboard_url": "https://haru2401game.github.io/note-analytics/",
+  "weekly_report_weekday": 6,
+  "categories": [
+    { "name": "企業研究", "keywords": ["企業研究"] },
+    { "name": "ゲーム制作ログ", "keywords": ["ゲーム制作", "Unity", "3D", "実装", "ゲームジャム"] },
+    { "name": "就活・学び", "keywords": ["就活", "自己分析", "授業", "ポートフォリオ", "面接", "ES"] },
+    { "name": "考察・コラム", "keywords": ["考え", "なぜ", "？", "?"] }
+  ],
+  "default_category": "その他"
+}
