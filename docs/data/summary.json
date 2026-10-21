@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-21 09:40",
+ "updated_at": "2026-10-21 09:54",
  "date": "2026-10-21",
  "user": "ha_03ru_01",
  "nickname": "長屋晴太 | はる🌎🎮[ゲーム業界志望]",
@@ -9,7 +9,7 @@
   "followers_1d": null,
   "followers_7d": null,
   "followers_30d": null,
-  "total_likes": 4106,
+  "total_likes": 4108,
   "likes_1d": null,
   "likes_7d": null,
   "notes": 274,
@@ -21,7 +21,7 @@
   {
    "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
    "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
-   "gain": 5
+   "gain": 6
   }
  ],
  "top_gainers_7d": [
@@ -73,7 +73,7 @@
   {
    "name": "ゲーム制作ログ",
    "count": 59,
-   "avg_likes": 17.2,
+   "avg_likes": 17.3,
    "median_likes": 18
   },
   {
@@ -87,7 +87,7 @@
   {
    "name": "月",
    "count": 45,
-   "avg_likes": 14.7,
+   "avg_likes": 14.8,
    "median_likes": 11
   },
   {
@@ -212,11 +212,11 @@
    "weekday": "水",
    "hour": 6,
    "category": "ゲーム制作ログ",
-   "likes": 5,
+   "likes": 6,
    "comments": 0,
-   "gain_1d": 5,
-   "gain_7d": 5,
-   "likes_per_day": 5.0,
+   "gain_1d": 6,
+   "gain_7d": 6,
+   "likes_per_day": 6.0,
    "band": "朝 5-11時"
   },
   {
@@ -692,11 +692,11 @@
    "weekday": "月",
    "hour": 12,
    "category": "その他",
-   "likes": 69,
+   "likes": 70,
    "comments": 0,
    "gain_1d": null,
    "gain_7d": null,
-   "likes_per_day": 2.23,
+   "likes_per_day": 2.26,
    "band": "昼 11-17時"
   },
   {
