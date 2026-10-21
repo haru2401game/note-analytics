@@ -3,148 +3,214 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>note分析ダッシュボード</title>
+<meta name="color-scheme" content="light">
+<title>note観測ノート</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
+/* ── tokens ─────────────────────────────────────────── */
 :root {
   color-scheme: light;
-  --bg: #f4f3ef;
-  --surface: #fcfcfb;
-  --border: #e3e1da;
-  --text: #0b0b0b;
-  --text-2: #52514e;
-  --muted: #8a8880;
-  --grid: #ebe9e3;
-  --accent: #1baf7a;
-  --series-1: #2a78d6;
-  --series-2: #eb6834;
-  --up: #008300;
-  --down: #e34948;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #111110; --surface: #1a1a19; --border: #2d2d2b;
-    --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86; --grid: #2a2a28;
-    --accent: #199e70; --series-1: #3987e5; --series-2: #d95926;
-    --up: #3fb950; --down: #e66767;
-  }
-}
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #111110; --surface: #1a1a19; --border: #2d2d2b;
-  --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86; --grid: #2a2a28;
-  --accent: #199e70; --series-1: #3987e5; --series-2: #d95926;
-  --up: #3fb950; --down: #e66767;
+  --paper: #f7fafb;
+  --grid-line: #e3ecf0;
+  --sheet: #ffffff;
+  --rule: #dfe7eb;
+  --ink: #1f2b33;
+  --ink-2: #51616c;
+  --ink-3: #85949e;
+  --chart-grid: #edf2f4;
+  --teal: #0b8c7e;
+  --teal-soft: #e3f4f1;
+  --orange: #d46b1c;
+  --orange-soft: #fcefe4;
+  --marker: #ffe55c;
+  --up: #12804a;
+  --down: #c8364c;
+  --num: "Outfit", "Zen Kaku Gothic New", sans-serif;
 }
 * { box-sizing: border-box; }
+html { background: var(--paper); }
 body {
-  margin: 0; background: var(--bg); color: var(--text);
-  font-family: "Noto Sans JP", system-ui, sans-serif; line-height: 1.6;
+  margin: 0;
+  color: var(--ink);
+  font-family: "Zen Kaku Gothic New", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: -1px -1px;
 }
-.wrap { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
-header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 20px; }
-h1 { font-size: 22px; margin: 0; }
-h1 small { font-size: 14px; font-weight: 400; color: var(--text-2); margin-left: 8px; }
-.meta { font-size: 12px; color: var(--muted); }
-h2 { font-size: 15px; margin: 0 0 12px; font-weight: 700; }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
-.grid { display: grid; gap: 16px; }
-.kpis { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: 16px; }
-.kpi .label { font-size: 12px; color: var(--text-2); }
-.kpi .value { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
-.kpi .deltas { font-size: 12px; color: var(--text-2); display: flex; gap: 10px; flex-wrap: wrap; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 32px 16px 72px; }
+
+/* ── header ─────────────────────────────────────────── */
+.masthead { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 24px; margin-bottom: 20px; }
+.masthead h1 { margin: 0; font-size: 24px; font-weight: 700; letter-spacing: 0.02em; }
+.masthead .who { margin: 2px 0 0; color: var(--ink-2); font-size: 14px; }
+.masthead .stamp { font-size: 13px; color: var(--ink-3); text-align: right; }
+.masthead .stamp b { color: var(--ink-2); font-weight: 500; font-family: var(--num); }
+
+/* ── sheets ─────────────────────────────────────────── */
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 20px; box-shadow: 0 1px 0 var(--rule); }
+.sheet h2 { margin: 0 0 14px; font-size: 15px; font-weight: 700; }
+.sheet h2 .note { font-weight: 400; font-size: 12px; color: var(--ink-3); margin-left: 8px; }
+.row { display: grid; gap: 16px; margin-bottom: 16px; }
+.row.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.row.split { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); }
+@media (max-width: 800px) { .row.two, .row.split { grid-template-columns: 1fr; } }
+.chart-box { position: relative; height: 220px; }
+
+/* ── hero: followers ───────────────────────────────── */
+.hero { display: grid; grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: 8px 32px; padding: 28px; margin-bottom: 16px; border-top: 4px solid var(--teal); }
+.hero .label { font-size: 14px; font-weight: 700; color: var(--teal); }
+.hero .big { font-family: var(--num); font-weight: 600; font-size: clamp(64px, 11vw, 104px); line-height: 1; letter-spacing: -0.03em; margin: 10px 0 18px; font-variant-numeric: tabular-nums; }
+.hero .big small { font-size: 18px; font-weight: 500; letter-spacing: 0; color: var(--ink-2); margin-left: 6px; font-family: "Zen Kaku Gothic New", sans-serif; }
+.deltas { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.deltas li { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--ink-2); border-bottom: 1px dashed var(--rule); padding-bottom: 4px; }
+.deltas b { font-family: var(--num); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.hero .trend { display: flex; flex-direction: column; min-width: 0; }
+.hero .trend-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+.hero .trend-head span { font-size: 13px; color: var(--ink-3); }
+.hero .chart-box { flex: 1; min-height: 220px; }
+@media (max-width: 720px) { .hero { grid-template-columns: 1fr; padding: 20px; } }
+
+.seg { display: inline-flex; background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 2px; }
+.seg button { border: 0; background: transparent; color: var(--ink-2); font: inherit; font-size: 13px; padding: 3px 14px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: #fff; }
+
+/* ── stat strip ─────────────────────────────────────── */
+.strip { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; padding: 0; margin-bottom: 16px; }
+.strip > div { padding: 16px 20px; border-left: 1px solid var(--rule); min-width: 0; }
+.strip > div:first-child { border-left: 0; }
+.strip .k { font-size: 13px; color: var(--ink-2); }
+.strip .v { font-family: var(--num); font-size: 30px; font-weight: 600; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.strip .s { font-size: 13px; color: var(--ink-3); }
+.strip .s b { font-family: var(--num); font-weight: 600; }
+.strip .likes { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0 16px; align-items: center; }
+.strip .spark { height: 48px; position: relative; }
+@media (max-width: 800px) {
+  .strip { grid-template-columns: 1fr 1fr; }
+  .strip > div:nth-child(3) { border-left: 0; }
+  .strip > div:nth-child(n+3) { border-top: 1px solid var(--rule); }
+  .strip .likes { grid-column: 1 / -1; }
+  .strip > div:nth-child(2) { border-left: 0; border-top: 1px solid var(--rule); }
+  .strip > div:nth-child(3) { border-left: 1px solid var(--rule); }
+}
+
 .up { color: var(--up); } .down { color: var(--down); }
-.two { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 16px; }
-@media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
-.chart-box { position: relative; height: 240px; }
-.toolbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
-.seg button, .tbtn {
-  border: 1px solid var(--border); background: transparent; color: var(--text-2);
-  padding: 4px 12px; border-radius: 999px; font: inherit; font-size: 12px; cursor: pointer;
-}
-.seg button[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
-.weekly p { margin: 4px 0; font-size: 14px; }
-.weekly .indent { padding-left: 1.2em; color: var(--text-2); }
-.empty { color: var(--muted); font-size: 13px; }
-ol.rank { margin: 0; padding-left: 1.4em; font-size: 14px; }
-ol.rank li { margin: 4px 0; }
-ol.rank a { color: var(--text); }
-.gain { color: var(--up); font-variant-numeric: tabular-nums; font-weight: 500; }
-input[type=search], select {
-  border: 1px solid var(--border); background: var(--bg); color: var(--text);
-  border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 13px;
-}
-input[type=search] { flex: 1; min-width: 160px; }
-.table-wrap { overflow: auto; max-height: 560px; border-top: 1px solid var(--border); }
-thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-th, td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; }
-th { color: var(--text-2); font-weight: 500; cursor: pointer; white-space: nowrap; user-select: none; }
-th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
-th[aria-sort="descending"]::after { content: " ▼"; font-size: 10px; }
-th[aria-sort="ascending"]::after { content: " ▲"; font-size: 10px; }
+.gain-mark { font-family: var(--num); font-weight: 600; font-variant-numeric: tabular-nums; background: linear-gradient(transparent 55%, var(--marker) 55%); padding: 0 2px; white-space: nowrap; }
+
+/* ── weekly report ─────────────────────────────────── */
+.weekly { border-left: 4px solid var(--orange); }
+.weekly .period { font-family: var(--num); font-size: 13px; color: var(--ink-3); font-weight: 400; margin-left: 8px; }
+.weekly p { margin: 0 0 6px; max-width: 62ch; }
+.weekly p.indent { padding-left: 1.2em; color: var(--ink-2); font-size: 14px; margin-bottom: 2px; }
+.empty { color: var(--ink-3); font-size: 14px; margin: 0; }
+
+/* ── ranking ────────────────────────────────────────── */
+.rank-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; }
+.rank-head h2 { margin: 0; }
+ol.rank { margin: 0; padding: 0; list-style: none; counter-reset: r; }
+ol.rank li { counter-increment: r; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 10px; align-items: baseline; padding: 9px 0; border-bottom: 1px solid var(--chart-grid); font-size: 14px; }
+ol.rank li:last-child { border-bottom: 0; }
+ol.rank li::before { content: counter(r); font-family: var(--num); font-weight: 600; color: var(--ink-3); font-size: 15px; }
+ol.rank a { text-decoration: none; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+ol.rank a:hover { text-decoration: underline; }
+
+/* ── article table ─────────────────────────────────── */
+.tools { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+input[type=search], select { border: 1px solid var(--rule); background: var(--paper); color: var(--ink); border-radius: 6px; padding: 7px 12px; font: inherit; font-size: 14px; }
+input[type=search] { flex: 1; min-width: 180px; }
+.table-wrap { overflow: auto; max-height: 600px; border: 1px solid var(--rule); border-radius: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--chart-grid); }
+thead th { position: sticky; top: 0; z-index: 1; background: var(--paper); color: var(--ink-2); font-weight: 500; font-size: 13px; white-space: nowrap; cursor: pointer; user-select: none; border-bottom: 1px solid var(--rule); }
+th.num, td.num { text-align: right; font-family: var(--num); font-variant-numeric: tabular-nums; }
+thead th.num { font-family: inherit; }
+th[aria-sort="descending"]::after { content: " ▼"; font-size: 10px; color: var(--teal); }
+th[aria-sort="ascending"]::after { content: " ▲"; font-size: 10px; color: var(--teal); }
 tbody tr { cursor: pointer; }
-tbody tr:hover { background: var(--bg); }
-td.title { min-width: 240px; }
-.cat { display: inline-block; font-size: 11px; color: var(--text-2); border: 1px solid var(--border); border-radius: 999px; padding: 0 8px; white-space: nowrap; }
-#detail { margin-bottom: 16px; display: none; padding: 12px; border: 1px solid var(--border); border-radius: 10px; }
-#detail h3 { font-size: 14px; margin: 0 0 8px; }
-footer { margin-top: 32px; font-size: 12px; color: var(--muted); }
-@media (max-width: 520px) { .kpi .value { font-size: 26px; } .chart-box { height: 200px; } }
+tbody tr:hover { background: var(--teal-soft); }
+tbody tr.sel { background: var(--teal-soft); }
+td.title { min-width: 260px; }
+td.date { font-family: var(--num); color: var(--ink-2); white-space: nowrap; }
+.cat { display: inline-block; font-size: 12px; color: var(--ink-2); background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 0 9px; white-space: nowrap; }
+#detail { display: none; margin-bottom: 14px; padding: 16px; border: 1px solid var(--rule); border-radius: 6px; background: var(--orange-soft); }
+#detail h3 { margin: 0 0 8px; font-size: 14px; font-weight: 700; }
+#detail .chart-box { height: 200px; background: var(--sheet); border-radius: 4px; padding: 8px; }
+
+footer { margin-top: 28px; font-size: 13px; color: var(--ink-3); }
+@media (max-width: 520px) { .sheet { padding: 16px; } .chart-box { height: 200px; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>note分析 <small id="who"></small></h1>
-    <div class="meta">最終更新 <span id="updated">—</span>・計測開始 <span id="since">—</span></div>
+  <header class="masthead">
+    <div>
+      <h1>note観測ノート</h1>
+      <p class="who" id="who">読み込み中…</p>
+    </div>
+    <div class="stamp">最終更新 <b id="updated">—</b><br>記録開始 <b id="since">—</b></div>
   </header>
 
-  <section class="grid kpis" id="kpis"></section>
-
-  <div class="toolbar">
-    <span class="meta">期間</span>
-    <div class="seg" id="range">
-      <button data-days="30" aria-pressed="true">30日</button>
-      <button data-days="90" aria-pressed="false">90日</button>
-      <button data-days="0" aria-pressed="false">全期間</button>
+  <section class="sheet hero" aria-label="フォロワー">
+    <div>
+      <div class="label">フォロワー</div>
+      <div class="big" id="followers">—<small>人</small></div>
+      <ul class="deltas" id="followerDeltas"></ul>
     </div>
-  </div>
-
-  <section class="grid two">
-    <div class="card"><h2>フォロワー数の推移</h2><div class="chart-box"><canvas id="cFollowers"></canvas></div></div>
-    <div class="card"><h2>1日ごとのフォロワー増減</h2><div class="chart-box"><canvas id="cFollowerDelta"></canvas></div></div>
-    <div class="card"><h2>総スキ数の推移</h2><div class="chart-box"><canvas id="cLikes"></canvas></div></div>
-    <div class="card"><h2>1日ごとの新規スキ</h2><div class="chart-box"><canvas id="cLikeDelta"></canvas></div></div>
+    <div class="trend">
+      <div class="trend-head">
+        <span>フォロワー数の推移</span>
+        <div class="seg" id="range" role="group" aria-label="表示期間">
+          <button data-days="30" aria-pressed="true">30日</button>
+          <button data-days="90" aria-pressed="false">90日</button>
+          <button data-days="0" aria-pressed="false">全期間</button>
+        </div>
+      </div>
+      <div class="chart-box"><canvas id="cFollowers" aria-label="フォロワー数の推移"></canvas></div>
+    </div>
   </section>
 
-  <section class="grid two">
-    <div class="card weekly"><h2>週次レポート <span class="meta" id="weeklyPeriod"></span></h2><div id="weekly"></div></div>
-    <div class="card">
-      <h2>スキが伸びている記事</h2>
-      <div class="toolbar seg" id="gainTabs">
-        <button data-k="top_gainers_1d" aria-pressed="true">昨日</button>
-        <button data-k="top_gainers_7d" aria-pressed="false">直近7日</button>
+  <section class="sheet strip" id="strip" aria-label="アカウントの数値"></section>
+
+  <section class="row two">
+    <div class="sheet"><h2>1日ごとのフォロワー増減</h2><div class="chart-box"><canvas id="cFollowerDelta"></canvas></div></div>
+    <div class="sheet"><h2>1日ごとの新しいスキ</h2><div class="chart-box"><canvas id="cLikeDelta"></canvas></div></div>
+  </section>
+
+  <section class="row split">
+    <div class="sheet weekly"><h2>週次レポート<span class="period" id="weeklyPeriod"></span></h2><div id="weekly"></div></div>
+    <div class="sheet">
+      <div class="rank-head">
+        <h2>スキが伸びている記事</h2>
+        <div class="seg" id="gainTabs" role="group" aria-label="集計期間">
+          <button data-k="top_gainers_1d" aria-pressed="true">昨日</button>
+          <button data-k="top_gainers_7d" aria-pressed="false">7日間</button>
+        </div>
       </div>
       <ol class="rank" id="gainers"></ol>
     </div>
   </section>
 
-  <section class="grid two">
-    <div class="card"><h2>カテゴリ別 平均スキ</h2><div class="chart-box"><canvas id="cCategory"></canvas></div></div>
-    <div class="card"><h2>週ごとの投稿数（直近12週）</h2><div class="chart-box"><canvas id="cPosts"></canvas></div></div>
-    <div class="card"><h2>公開曜日別 平均スキ</h2><div class="chart-box"><canvas id="cWeekday"></canvas></div></div>
-    <div class="card"><h2>公開時間帯別 平均スキ</h2><div class="chart-box"><canvas id="cBand"></canvas></div></div>
+  <section class="row two">
+    <div class="sheet"><h2>カテゴリ別の平均スキ</h2><div class="chart-box"><canvas id="cCategory"></canvas></div></div>
+    <div class="sheet"><h2>週ごとの投稿数<span class="note">直近12週</span></h2><div class="chart-box"><canvas id="cPosts"></canvas></div></div>
+    <div class="sheet"><h2>公開した曜日別の平均スキ</h2><div class="chart-box"><canvas id="cWeekday"></canvas></div></div>
+    <div class="sheet"><h2>公開した時間帯別の平均スキ</h2><div class="chart-box"><canvas id="cBand"></canvas></div></div>
   </section>
 
-  <section class="card">
-    <h2>記事一覧 <span class="meta">行をクリックするとスキ数の推移を表示</span></h2>
-    <div class="toolbar">
-      <input type="search" id="q" placeholder="タイトルで絞り込み">
-      <select id="catFilter"><option value="">すべてのカテゴリ</option></select>
+  <section class="sheet">
+    <h2>記事一覧<span class="note">行を選ぶとスキ数の推移を表示</span></h2>
+    <div class="tools">
+      <input type="search" id="q" placeholder="タイトルで絞り込む" aria-label="タイトルで絞り込む">
+      <select id="catFilter" aria-label="カテゴリ"><option value="">すべてのカテゴリ</option></select>
     </div>
     <div id="detail"><h3 id="detailTitle"></h3><div class="chart-box"><canvas id="cArticle"></canvas></div></div>
     <div class="table-wrap">
@@ -155,7 +221,7 @@ footer { margin-top: 32px; font-size: 12px; color: var(--muted); }
           <th data-k="published_at" aria-sort="descending">公開日</th>
           <th data-k="likes" class="num">スキ</th>
           <th data-k="gain_1d" class="num">前日比</th>
-          <th data-k="gain_7d" class="num">7日増</th>
+          <th data-k="gain_7d" class="num">7日間</th>
           <th data-k="likes_per_day" class="num">スキ/日</th>
           <th data-k="comments" class="num">コメント</th>
         </tr></thead>
@@ -164,7 +230,7 @@ footer { margin-top: 32px; font-size: 12px; color: var(--muted); }
     </div>
   </section>
 
-  <footer>データはnoteの公開情報を毎日1回取得しています。スキ数の前日比は計測開始後から表示されます。</footer>
+  <footer>noteの公開情報を毎日1回記録しています。前日比や7日間の増加は、記録がその日数分たまってから表示されます。</footer>
 </div>
 
 <script>
@@ -174,23 +240,27 @@ const signed = n => n == null ? "—" : (n > 0 ? "+" : "") + n.toLocaleString("j
 const cls = n => n > 0 ? "up" : n < 0 ? "down" : "";
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-let S, H, rangeDays = 30, charts = {}, articleStore = null;
+let S, H, rangeDays = 30, charts = {}, articleStore = null, selectedKey = null;
 let sortKey = "published_at", sortDir = -1;
 
-Chart.defaults.font.family = '"Noto Sans JP", system-ui, sans-serif';
-Chart.defaults.font.size = 11;
+Chart.defaults.font.family = '"Zen Kaku Gothic New", system-ui, sans-serif';
+Chart.defaults.font.size = 12;
+Chart.defaults.color = "#85949e";
+
+const tooltip = () => ({
+  backgroundColor: "#1f2b33", titleColor: "#ffffff", bodyColor: "#ffffff",
+  titleFont: { weight: "500" }, bodyFont: { family: '"Outfit", sans-serif', size: 13, weight: "600" },
+  padding: 10, cornerRadius: 6, displayColors: false,
+});
 
 function baseOpts(extra = {}) {
   return Object.assign({
     responsive: true, maintainAspectRatio: false, animation: false,
     interaction: { mode: "index", intersect: false },
-    plugins: {
-      legend: { display: false },
-      tooltip: { backgroundColor: css("--text"), titleColor: css("--surface"), bodyColor: css("--surface"), padding: 8, cornerRadius: 6, displayColors: false },
-    },
+    plugins: { legend: { display: false }, tooltip: tooltip() },
     scales: {
-      x: { grid: { display: false }, ticks: { color: css("--muted"), maxRotation: 0, autoSkipPadding: 16 }, border: { color: css("--border") } },
-      y: { grid: { color: css("--grid") }, ticks: { color: css("--muted") }, border: { display: false } },
+      x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkipPadding: 18 }, border: { color: css("--rule") } },
+      y: { grid: { color: css("--chart-grid") }, ticks: { font: { family: '"Outfit", sans-serif' }, precision: 0 }, border: { display: false } },
     },
   }, extra);
 }
@@ -200,73 +270,119 @@ function draw(id, config) {
   charts[id] = new Chart(document.getElementById(id), config);
 }
 
-function lineCfg(labels, data, label, color) {
+function lineCfg(labels, data, label, color, softColor, unit) {
   return {
     type: "line",
-    data: { labels, datasets: [{ label, data, borderColor: color, borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, tension: 0.25, fill: false }] },
-    options: baseOpts(),
+    data: { labels, datasets: [{ label, data, borderColor: color, backgroundColor: softColor, fill: "origin",
+      borderWidth: 2, pointRadius: 0, pointHoverRadius: 5, pointHoverBackgroundColor: color, pointHoverBorderColor: "#fff", pointHoverBorderWidth: 2, tension: 0.3 }] },
+    options: baseOpts({
+      plugins: { legend: { display: false }, tooltip: { ...tooltip(), callbacks: { label: c => `${label} ${fmt(c.parsed.y)}${unit}` } } },
+      scales: { ...baseOpts().scales, y: { ...baseOpts().scales.y, beginAtZero: false } },
+    }),
   };
 }
 
-function barCfg(labels, data, label, color, opts = {}) {
+function barCfg(labels, data, label, color, unit, opts = {}) {
   return {
     type: "bar",
-    data: { labels, datasets: [{ label, data, backgroundColor: color, borderRadius: 4, borderSkipped: "start", maxBarThickness: 28 }] },
-    options: Object.assign(baseOpts(), opts),
+    data: { labels, datasets: [{ label, data, backgroundColor: color, borderRadius: 4, borderSkipped: "start", maxBarThickness: 26 }] },
+    options: Object.assign(baseOpts({
+      plugins: { legend: { display: false }, tooltip: { ...tooltip(), callbacks: { label: c => `${label} ${signed(c.parsed.y)}${unit}` } } },
+    }), opts),
   };
 }
+
+function sparkCfg(data, color) {
+  return {
+    type: "line",
+    data: { labels: data.map((_, i) => i), datasets: [{ data, borderColor: color, borderWidth: 2, pointRadius: 0, tension: 0.3, fill: false }] },
+    options: { responsive: true, maintainAspectRatio: false, animation: false, events: [],
+      plugins: { legend: { display: false }, tooltip: { enabled: false } },
+      scales: { x: { display: false }, y: { display: false } } },
+  };
+}
+
+const short = d => d.slice(5).replace("-", "/");
 
 function renderTimeCharts() {
   const h = rangeDays ? H.slice(-rangeDays - 1) : H;
-  const labels = h.map(x => x.date.slice(5).replace("-", "/"));
-  const diff = f => h.map((x, i) => i === 0 ? null : x[f] - h[i - 1][f]);
-  const blue = css("--series-1"), orange = css("--series-2");
-  draw("cFollowers", lineCfg(labels, h.map(x => x.followers), "フォロワー", blue));
-  draw("cFollowerDelta", barCfg(labels.slice(1), diff("followers").slice(1), "増減", blue));
-  draw("cLikes", lineCfg(labels, h.map(x => x.total_likes), "総スキ", orange));
-  draw("cLikeDelta", barCfg(labels.slice(1), diff("total_likes").slice(1), "新規スキ", orange));
+  const labels = h.map(x => short(x.date));
+  const diff = f => h.slice(1).map((x, i) => x[f] - h[i][f]);
+  draw("cFollowers", lineCfg(labels, h.map(x => x.followers), "フォロワー", css("--teal"), css("--teal-soft"), "人"));
+  draw("cFollowerDelta", barCfg(labels.slice(1), diff("followers"), "増減", css("--teal"), "人"));
+  draw("cLikeDelta", barCfg(labels.slice(1), diff("total_likes"), "新しいスキ", css("--orange"), ""));
+  draw("cLikesSpark", sparkCfg(h.map(x => x.total_likes), css("--orange")));
 }
 
 function renderStatic() {
   const k = S.kpi;
-  document.getElementById("who").textContent = `${S.nickname} (@${S.user})`;
+  document.getElementById("who").textContent = `${S.nickname}（@${S.user}）`;
   document.getElementById("updated").textContent = S.updated_at;
   document.getElementById("since").textContent = S.tracking_since;
 
-  const kpi = (label, value, deltas) => `<div class="card kpi"><div class="label">${label}</div><div class="value">${value}</div><div class="deltas">${deltas.map(([l, v]) => `<span>${l} <b class="${cls(v)}">${signed(v)}</b></span>`).join("")}</div></div>`;
-  document.getElementById("kpis").innerHTML = [
-    kpi("フォロワー", fmt(k.followers), [["前日", k.followers_1d], ["7日", k.followers_7d], ["30日", k.followers_30d]]),
-    kpi("総スキ", fmt(k.total_likes), [["前日", k.likes_1d], ["7日", k.likes_7d]]),
-    `<div class="card kpi"><div class="label">記事数</div><div class="value">${fmt(k.notes)}</div><div class="deltas"><span>直近7日の投稿 <b>${k.posts_7d}本</b></span></div></div>`,
-    `<div class="card kpi"><div class="label">1記事あたり平均スキ</div><div class="value">${k.avg_likes}</div><div class="deltas"><span>総コメント <b>${fmt(k.total_comments)}</b></span></div></div>`,
-  ].join("");
+  document.getElementById("followers").innerHTML = `${fmt(k.followers)}<small>人</small>`;
+  document.getElementById("followerDeltas").innerHTML = [["前日から", k.followers_1d], ["7日間で", k.followers_7d], ["30日間で", k.followers_30d]]
+    .map(([l, v]) => `<li><span>${l}</span><b class="${cls(v)}">${signed(v)}</b></li>`).join("");
+
+  document.getElementById("strip").innerHTML = `
+    <div class="likes">
+      <div>
+        <div class="k">総スキ</div>
+        <div class="v">${fmt(k.total_likes)}</div>
+        <div class="s">前日から <b class="${cls(k.likes_1d)}">${signed(k.likes_1d)}</b>　7日間で <b class="${cls(k.likes_7d)}">${signed(k.likes_7d)}</b></div>
+      </div>
+      <div class="spark"><canvas id="cLikesSpark" aria-label="総スキの推移"></canvas></div>
+    </div>
+    <div><div class="k">記事数</div><div class="v">${fmt(k.notes)}</div><div class="s">直近7日に <b>${k.posts_7d}</b> 本</div></div>
+    <div><div class="k">1記事の平均スキ</div><div class="v">${k.avg_likes}</div><div class="s">全記事の平均</div></div>
+    <div><div class="k">コメント</div><div class="v">${fmt(k.total_comments)}</div><div class="s">全記事の合計</div></div>`;
 
   const w = S.latest_weekly;
   document.getElementById("weekly").innerHTML = w
     ? w.lines.map(l => `<p class="${l.startsWith("  ") ? "indent" : ""}">${esc(l.trim())}</p>`).join("")
-    : `<p class="empty">最初の週次レポートは日曜の夜に作成されます。</p>`;
+    : `<p class="empty">最初のレポートは日曜の夜に届きます。それまでは毎日の記録がたまっていきます。</p>`;
   document.getElementById("weeklyPeriod").textContent = w ? w.period : "";
 
-  renderGainers("top_gainers_1d");
+  renderGainers(document.querySelector("#gainTabs [aria-pressed=true]").dataset.k);
 
-  const blue = css("--series-1");
-  const horiz = { indexAxis: "y", scales: { x: { grid: { color: css("--grid") }, ticks: { color: css("--muted") }, border: { display: false } }, y: { grid: { display: false }, ticks: { color: css("--text-2") }, border: { color: css("--border") } } } };
-  const statTip = arr => ({ plugins: { legend: { display: false }, tooltip: { ...baseOpts().plugins.tooltip, callbacks: { afterLabel: c => `記事数 ${arr[c.dataIndex].count}・中央値 ${arr[c.dataIndex].median_likes}` } } } });
-  draw("cCategory", barCfg(S.categories.map(c => c.name), S.categories.map(c => c.avg_likes), "平均スキ", blue, { ...horiz, ...statTip(S.categories), interaction: { mode: "nearest", axis: "y", intersect: false } }));
-  draw("cPosts", barCfg(S.posts_per_week.map(p => p.week + "週"), S.posts_per_week.map(p => p.posts), "投稿数", blue));
-  draw("cWeekday", barCfg(S.weekday_stats.map(c => c.name), S.weekday_stats.map(c => c.avg_likes), "平均スキ", blue, statTip(S.weekday_stats)));
-  draw("cBand", barCfg(S.band_stats.map(c => c.name), S.band_stats.map(c => c.avg_likes), "平均スキ", blue, statTip(S.band_stats)));
+  const teal = css("--teal");
+  const statTip = (arr, axis = "y") => ({ ...tooltip(), callbacks: {
+    label: c => `平均 ${c.parsed[axis]} スキ`,
+    afterLabel: c => `${arr[c.dataIndex].count}本・中央値 ${arr[c.dataIndex].median_likes}`,
+  } });
+  draw("cCategory", {
+    type: "bar",
+    data: { labels: S.categories.map(c => c.name), datasets: [{ data: S.categories.map(c => c.avg_likes), backgroundColor: teal, borderRadius: 4, borderSkipped: "start", maxBarThickness: 22 }] },
+    options: baseOpts({
+      indexAxis: "y", interaction: { mode: "nearest", axis: "y", intersect: false },
+      plugins: { legend: { display: false }, tooltip: statTip(S.categories, "x") },
+      scales: {
+        x: { grid: { color: css("--chart-grid") }, ticks: { font: { family: '"Outfit", sans-serif' } }, border: { display: false } },
+        y: { grid: { display: false }, ticks: { color: css("--ink-2") }, border: { color: css("--rule") } },
+      },
+    }),
+  });
+  const simpleBar = (id, labels, data, tip) => draw(id, {
+    type: "bar",
+    data: { labels, datasets: [{ data, backgroundColor: teal, borderRadius: 4, borderSkipped: "start", maxBarThickness: 30 }] },
+    options: baseOpts({ plugins: { legend: { display: false }, tooltip: tip } }),
+  });
+  simpleBar("cPosts", S.posts_per_week.map(p => p.week + "〜"), S.posts_per_week.map(p => p.posts), { ...tooltip(), callbacks: { title: c => c[0].label + "の週", label: c => `${c.parsed.y}本` } });
+  simpleBar("cWeekday", S.weekday_stats.map(c => c.name + "曜"), S.weekday_stats.map(c => c.avg_likes), statTip(S.weekday_stats));
+  simpleBar("cBand", S.band_stats.map(c => c.name), S.band_stats.map(c => c.avg_likes), statTip(S.band_stats));
 
   const sel = document.getElementById("catFilter");
+  const cur = sel.value;
   sel.innerHTML = `<option value="">すべてのカテゴリ</option>` + S.categories.map(c => `<option>${esc(c.name)}</option>`).join("");
+  sel.value = cur;
   renderTable();
 }
 
 function renderGainers(key) {
   const list = S[key];
   document.getElementById("gainers").innerHTML = list.length
-    ? list.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="gain">+${a.gain}</span></li>`).join("")
-    : `<li class="empty" style="list-style:none;margin-left:-1.4em">データが2日分以上たまると表示されます。</li>`;
+    ? list.map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a><span class="gain-mark">+${a.gain}</span></li>`).join("")
+    : `<p class="empty">記録が2日分以上たまると表示されます。</p>`;
 }
 
 function renderTable() {
@@ -279,10 +395,10 @@ function renderTable() {
       return (x > y ? 1 : x < y ? -1 : 0) * sortDir;
     });
   document.getElementById("rows").innerHTML = rows.map(r => `
-    <tr data-key="${esc(r.key)}">
+    <tr data-key="${esc(r.key)}" tabindex="0" class="${r.key === selectedKey ? "sel" : ""}">
       <td class="title">${esc(r.title)}</td>
       <td><span class="cat">${esc(r.category)}</span></td>
-      <td>${esc(r.published_at.slice(0, 10))}</td>
+      <td class="date">${esc(r.published_at.slice(0, 10).replaceAll("-", "/"))}</td>
       <td class="num">${fmt(r.likes)}</td>
       <td class="num ${cls(r.gain_1d)}">${signed(r.gain_1d)}</td>
       <td class="num ${cls(r.gain_7d)}">${signed(r.gain_7d)}</td>
@@ -295,23 +411,23 @@ async function showArticle(key) {
   if (!articleStore) articleStore = await fetch("data/articles.json", { cache: "no-store" }).then(r => r.json());
   const rec = articleStore.articles[key];
   if (!rec) return;
+  selectedKey = key;
+  document.querySelectorAll("#rows tr").forEach(tr => tr.classList.toggle("sel", tr.dataset.key === key));
   const dates = Object.keys(rec.likes).sort();
   const box = document.getElementById("detail");
   box.style.display = "block";
-  document.getElementById("detailTitle").innerHTML = `<a href="${esc(rec.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(rec.title)}</a>`;
-  draw("cArticle", lineCfg(dates.map(d => d.slice(5).replace("-", "/")), dates.map(d => rec.likes[d]), "スキ", css("--series-2")));
-  box.scrollIntoView({ behavior: "smooth", block: "center" });
+  document.getElementById("detailTitle").innerHTML = `<a href="${esc(rec.url)}" target="_blank" rel="noopener">${esc(rec.title)}</a>`;
+  draw("cArticle", lineCfg(dates.map(short), dates.map(d => rec.likes[d]), "スキ", css("--orange"), css("--orange-soft"), ""));
+  box.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
 }
 
 function bind() {
-  document.querySelectorAll("#range button").forEach(b => b.onclick = () => {
-    document.querySelectorAll("#range button").forEach(x => x.setAttribute("aria-pressed", x === b));
-    rangeDays = +b.dataset.days; renderTimeCharts();
+  const segBind = (sel, fn) => document.querySelectorAll(`${sel} button`).forEach(b => b.onclick = () => {
+    document.querySelectorAll(`${sel} button`).forEach(x => x.setAttribute("aria-pressed", x === b));
+    fn(b);
   });
-  document.querySelectorAll("#gainTabs button").forEach(b => b.onclick = () => {
-    document.querySelectorAll("#gainTabs button").forEach(x => x.setAttribute("aria-pressed", x === b));
-    renderGainers(b.dataset.k);
-  });
+  segBind("#range", b => { rangeDays = +b.dataset.days; renderTimeCharts(); });
+  segBind("#gainTabs", b => renderGainers(b.dataset.k));
   document.getElementById("q").oninput = renderTable;
   document.getElementById("catFilter").onchange = renderTable;
   document.querySelectorAll("th[data-k]").forEach(th => th.onclick = () => {
@@ -321,21 +437,19 @@ function bind() {
     th.setAttribute("aria-sort", sortDir === -1 ? "descending" : "ascending");
     renderTable();
   });
-  document.getElementById("rows").onclick = e => {
-    const tr = e.target.closest("tr[data-key]");
-    if (tr) showArticle(tr.dataset.key);
-  };
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { renderStatic(); renderTimeCharts(); });
+  const rowsEl = document.getElementById("rows");
+  rowsEl.onclick = e => { const tr = e.target.closest("tr[data-key]"); if (tr) showArticle(tr.dataset.key); };
+  rowsEl.onkeydown = e => { if (e.key === "Enter") { const tr = e.target.closest("tr[data-key]"); if (tr) showArticle(tr.dataset.key); } };
 }
 
 (async () => {
   try {
     [S, H] = await Promise.all([
-      fetch("data/summary.json", { cache: "no-store" }).then(r => r.json()),
-      fetch("data/history.json", { cache: "no-store" }).then(r => r.json()),
+      fetch("data/summary.json", { cache: "no-store" }).then(r => { if (!r.ok) throw 0; return r.json(); }),
+      fetch("data/history.json", { cache: "no-store" }).then(r => { if (!r.ok) throw 0; return r.json(); }),
     ]);
   } catch (e) {
-    document.getElementById("kpis").innerHTML = `<div class="card empty">まだデータがありません。GitHub Actions の初回実行後に表示されます。</div>`;
+    document.getElementById("who").textContent = "まだ記録がありません。GitHubのActionsタブから「Run workflow」を実行すると、ここに表示されます。";
     return;
   }
   bind(); renderStatic(); renderTimeCharts();
