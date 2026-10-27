@@ -1,76 +1,81 @@
 {
- "updated_at": "2026-10-27 05:07",
- "date": "2026-10-27",
+ "updated_at": "2026-10-28 04:36",
+ "date": "2026-10-28",
  "user": "ha_03ru_01",
  "nickname": "長屋晴太 | はる🌎🎮[ゲーム業界志望]",
  "tracking_since": "2026-10-21",
  "kpi": {
-  "followers": 333,
-  "followers_1d": 0,
-  "followers_7d": null,
+  "followers": 336,
+  "followers_1d": 3,
+  "followers_7d": 11,
   "followers_30d": null,
-  "total_likes": 4233,
-  "likes_1d": 3,
-  "likes_7d": null,
+  "total_likes": 4251,
+  "likes_1d": 18,
+  "likes_7d": 143,
   "notes": 277,
-  "posts_7d": 4,
-  "total_comments": 123,
+  "posts_7d": 3,
+  "total_comments": 127,
   "avg_likes": 15.3
  },
  "top_gainers_1d": [
   {
    "title": "「ポートフォリオサイトをリニューアル！1本のゲームのように遊べるサイトを作ってみた」 はる日記#273",
    "url": "https://note.com/ha_03ru_01/n/n6bd60f23ec6e",
-   "gain": 1
-  },
-  {
-   "title": "「【3Dゲーム制作】コインの使い道、スキルツリーの実装！」 はる日記#272",
-   "url": "https://note.com/ha_03ru_01/n/nf9074576172d",
-   "gain": 1
-  },
-  {
-   "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
-   "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
-   "gain": 1
-  },
-  {
-   "title": "「ゲーム会社のインターン面接で聞いた\"就活生が意識すべきこと\"」 はる日記#159",
-   "url": "https://note.com/ha_03ru_01/n/n760a46c84fd3",
-   "gain": 1
+   "gain": 11
   },
   {
    "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
    "url": "https://note.com/ha_03ru_01/n/n831889094d62",
-   "gain": -1
+   "gain": 3
+  },
+  {
+   "title": "「【3Dゲーム制作】コインの使い道、スキルツリーの実装！」 はる日記#272",
+   "url": "https://note.com/ha_03ru_01/n/nf9074576172d",
+   "gain": 2
+  },
+  {
+   "title": "「ゲームを途中でやめた人は、つまらなかったから？ 約88万回表示された投稿から考えたこと」 はる日記#268",
+   "url": "https://note.com/ha_03ru_01/n/ncc00ee02dc4e",
+   "gain": 1
+  },
+  {
+   "title": "「3Dゲーム制作2本目 | パルクールアクションに挑戦」 はる日記#259",
+   "url": "https://note.com/ha_03ru_01/n/nae25602d44ca",
+   "gain": 1
   }
  ],
  "top_gainers_7d": [
+  {
+   "title": "「ポートフォリオサイトをリニューアル！1本のゲームのように遊べるサイトを作ってみた」 はる日記#273",
+   "url": "https://note.com/ha_03ru_01/n/n6bd60f23ec6e",
+   "gain": 32
+  },
   {
    "title": "「無料ブラウザゲームサイトを作ってみた」 はる日記#271",
    "url": "https://note.com/ha_03ru_01/n/n68f4c852f886",
    "gain": 32
   },
   {
-   "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
-   "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
-   "gain": 26
-  },
-  {
-   "title": "「ポートフォリオサイトをリニューアル！1本のゲームのように遊べるサイトを作ってみた」 はる日記#273",
-   "url": "https://note.com/ha_03ru_01/n/n6bd60f23ec6e",
-   "gain": 21
-  },
-  {
    "title": "「【3Dゲーム制作】コインの使い道、スキルツリーの実装！」 はる日記#272",
    "url": "https://note.com/ha_03ru_01/n/nf9074576172d",
-   "gain": 18
+   "gain": 20
+  },
+  {
+   "title": "「【3Dゲーム制作】ゲームオーバーやセーブ機能を実装！戦闘報酬システムにも挑戦」 はる日記 #270",
+   "url": "https://note.com/ha_03ru_01/n/n5f35e244d397",
+   "gain": 20
+  },
+  {
+   "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
+   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
+   "gain": 9
   }
  ],
  "categories": [
   {
    "name": "就活・学び",
    "count": 18,
-   "avg_likes": 24.2,
+   "avg_likes": 24.9,
    "median_likes": 10.0
   },
   {
@@ -82,7 +87,7 @@
   {
    "name": "考察・コラム",
    "count": 34,
-   "avg_likes": 20,
+   "avg_likes": 20.0,
    "median_likes": 19.0
   },
   {
@@ -126,13 +131,13 @@
   {
    "name": "金",
    "count": 49,
-   "avg_likes": 14,
+   "avg_likes": 14.0,
    "median_likes": 12
   },
   {
    "name": "土",
    "count": 27,
-   "avg_likes": 24.1,
+   "avg_likes": 24.7,
    "median_likes": 16
   },
   {
@@ -146,13 +151,13 @@
   {
    "name": "朝 5-11時",
    "count": 140,
-   "avg_likes": 15.5,
+   "avg_likes": 15.6,
    "median_likes": 15.0
   },
   {
    "name": "昼 11-17時",
    "count": 96,
-   "avg_likes": 14.8,
+   "avg_likes": 14.9,
    "median_likes": 9.0
   },
   {
@@ -227,11 +232,11 @@
    "weekday": "土",
    "hour": 10,
    "category": "就活・学び",
-   "likes": 21,
+   "likes": 32,
    "comments": 0,
-   "gain_1d": 1,
-   "gain_7d": 21,
-   "likes_per_day": 5.25,
+   "gain_1d": 11,
+   "gain_7d": 32,
+   "likes_per_day": 6.4,
    "band": "朝 5-11時"
   },
   {
@@ -242,11 +247,11 @@
    "weekday": "金",
    "hour": 8,
    "category": "ゲーム制作ログ",
-   "likes": 18,
+   "likes": 20,
    "comments": 0,
-   "gain_1d": 1,
-   "gain_7d": 18,
-   "likes_per_day": 3.6,
+   "gain_1d": 2,
+   "gain_7d": 20,
+   "likes_per_day": 3.33,
    "band": "朝 5-11時"
   },
   {
@@ -261,7 +266,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 32,
-   "likes_per_day": 5.33,
+   "likes_per_day": 4.57,
    "band": "朝 5-11時"
   },
   {
@@ -274,9 +279,9 @@
    "category": "ゲーム制作ログ",
    "likes": 26,
    "comments": 2,
-   "gain_1d": 1,
-   "gain_7d": 26,
-   "likes_per_day": 3.71,
+   "gain_1d": 0,
+   "gain_7d": 20,
+   "likes_per_day": 3.25,
    "band": "朝 5-11時"
   },
   {
@@ -290,8 +295,8 @@
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 3.5,
+   "gain_7d": 5,
+   "likes_per_day": 3.11,
    "band": "朝 5-11時"
   },
   {
@@ -305,8 +310,8 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 2.33,
+   "gain_7d": 5,
+   "likes_per_day": 2.1,
    "band": "夜 17-22時"
   },
   {
@@ -317,11 +322,11 @@
    "weekday": "月",
    "hour": 5,
    "category": "考察・コラム",
-   "likes": 34,
-   "comments": 6,
-   "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 3.78,
+   "likes": 35,
+   "comments": 8,
+   "gain_1d": 1,
+   "gain_7d": 5,
+   "likes_per_day": 3.5,
    "band": "朝 5-11時"
   },
   {
@@ -335,8 +340,8 @@
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 2.09,
+   "gain_7d": 1,
+   "likes_per_day": 1.92,
    "band": "昼 11-17時"
   },
   {
@@ -350,8 +355,8 @@
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 2.08,
+   "gain_7d": 1,
+   "likes_per_day": 1.92,
    "band": "朝 5-11時"
   },
   {
@@ -365,8 +370,8 @@
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.77,
+   "gain_7d": 0,
+   "likes_per_day": 1.64,
    "band": "深夜 22-5時"
   },
   {
@@ -380,8 +385,8 @@
    "likes": 25,
    "comments": 3,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.79,
+   "gain_7d": 0,
+   "likes_per_day": 1.67,
    "band": "朝 5-11時"
   },
   {
@@ -395,8 +400,8 @@
    "likes": 32,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 2.13,
+   "gain_7d": 0,
+   "likes_per_day": 2.0,
    "band": "深夜 22-5時"
   },
   {
@@ -410,8 +415,8 @@
    "likes": 25,
    "comments": 3,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.56,
+   "gain_7d": 0,
+   "likes_per_day": 1.47,
    "band": "夜 17-22時"
   },
   {
@@ -425,8 +430,8 @@
    "likes": 27,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.69,
+   "gain_7d": 1,
+   "likes_per_day": 1.59,
    "band": "朝 5-11時"
   },
   {
@@ -440,8 +445,8 @@
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.41,
+   "gain_7d": 1,
+   "likes_per_day": 1.33,
    "band": "朝 5-11時"
   },
   {
@@ -455,8 +460,8 @@
    "likes": 29,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.61,
+   "gain_7d": 1,
+   "likes_per_day": 1.53,
    "band": "昼 11-17時"
   },
   {
@@ -467,11 +472,11 @@
    "weekday": "土",
    "hour": 9,
    "category": "ゲーム制作ログ",
-   "likes": 23,
+   "likes": 24,
    "comments": 0,
-   "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.28,
+   "gain_1d": 1,
+   "gain_7d": 2,
+   "likes_per_day": 1.26,
    "band": "朝 5-11時"
   },
   {
@@ -485,8 +490,8 @@
    "likes": 36,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.89,
+   "gain_7d": 1,
+   "likes_per_day": 1.8,
    "band": "朝 5-11時"
   },
   {
@@ -500,8 +505,8 @@
    "likes": 23,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.15,
+   "gain_7d": 0,
+   "likes_per_day": 1.1,
    "band": "朝 5-11時"
   },
   {
@@ -515,8 +520,8 @@
    "likes": 27,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.29,
+   "gain_7d": 0,
+   "likes_per_day": 1.23,
    "band": "朝 5-11時"
   },
   {
@@ -530,8 +535,8 @@
    "likes": 22,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.0,
+   "gain_7d": 0,
+   "likes_per_day": 0.96,
    "band": "深夜 22-5時"
   },
   {
@@ -545,8 +550,8 @@
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.22,
+   "gain_7d": 1,
+   "likes_per_day": 1.17,
    "band": "朝 5-11時"
   },
   {
@@ -560,8 +565,8 @@
    "likes": 50,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 2.08,
+   "gain_7d": 0,
+   "likes_per_day": 2.0,
    "band": "昼 11-17時"
   },
   {
@@ -575,8 +580,8 @@
    "likes": 24,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.96,
+   "gain_7d": 0,
+   "likes_per_day": 0.92,
    "band": "朝 5-11時"
   },
   {
@@ -590,8 +595,8 @@
    "likes": 35,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.35,
+   "gain_7d": 0,
+   "likes_per_day": 1.3,
    "band": "朝 5-11時"
   },
   {
@@ -605,8 +610,8 @@
    "likes": 37,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.37,
+   "gain_7d": 0,
+   "likes_per_day": 1.32,
    "band": "昼 11-17時"
   },
   {
@@ -620,8 +625,8 @@
    "likes": 20,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.71,
+   "gain_7d": 0,
+   "likes_per_day": 0.69,
    "band": "朝 5-11時"
   },
   {
@@ -635,8 +640,8 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.55,
+   "gain_7d": 0,
+   "likes_per_day": 0.53,
    "band": "昼 11-17時"
   },
   {
@@ -650,8 +655,8 @@
    "likes": 25,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.83,
+   "gain_7d": 1,
+   "likes_per_day": 0.81,
    "band": "朝 5-11時"
   },
   {
@@ -665,8 +670,8 @@
    "likes": 17,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.55,
+   "gain_7d": 0,
+   "likes_per_day": 0.53,
    "band": "朝 5-11時"
   },
   {
@@ -680,8 +685,8 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.47,
+   "gain_7d": 0,
+   "likes_per_day": 0.45,
    "band": "朝 5-11時"
   },
   {
@@ -695,8 +700,8 @@
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.73,
+   "gain_7d": 0,
+   "likes_per_day": 0.71,
    "band": "朝 5-11時"
   },
   {
@@ -710,8 +715,8 @@
    "likes": 36,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.06,
+   "gain_7d": 0,
+   "likes_per_day": 1.03,
    "band": "朝 5-11時"
   },
   {
@@ -725,8 +730,8 @@
    "likes": 64,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.83,
+   "gain_7d": 0,
+   "likes_per_day": 1.78,
    "band": "昼 11-17時"
   },
   {
@@ -740,8 +745,8 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.47,
+   "gain_7d": 0,
+   "likes_per_day": 0.46,
    "band": "朝 5-11時"
   },
   {
@@ -755,8 +760,8 @@
    "likes": 70,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 1.89,
+   "gain_7d": 0,
+   "likes_per_day": 1.84,
    "band": "昼 11-17時"
   },
   {
@@ -770,8 +775,8 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.55,
+   "gain_7d": 0,
+   "likes_per_day": 0.54,
    "band": "朝 5-11時"
   },
   {
@@ -785,8 +790,8 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.46,
+   "gain_7d": 0,
+   "likes_per_day": 0.45,
    "band": "深夜 22-5時"
   },
   {
@@ -800,8 +805,8 @@
    "likes": 131,
    "comments": 4,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 3.2,
+   "gain_7d": 0,
+   "likes_per_day": 3.12,
    "band": "深夜 22-5時"
   },
   {
@@ -815,8 +820,8 @@
    "likes": 30,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.71,
+   "gain_7d": 0,
+   "likes_per_day": 0.7,
    "band": "深夜 22-5時"
   },
   {
@@ -830,8 +835,8 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.35,
+   "gain_7d": 0,
+   "likes_per_day": 0.34,
    "band": "夜 17-22時"
   },
   {
@@ -845,8 +850,8 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.35,
+   "gain_7d": 0,
+   "likes_per_day": 0.34,
    "band": "朝 5-11時"
   },
   {
@@ -860,8 +865,8 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.3,
+   "gain_7d": 0,
+   "likes_per_day": 0.29,
    "band": "朝 5-11時"
   },
   {
@@ -875,8 +880,8 @@
    "likes": 23,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.46,
+   "gain_7d": 0,
+   "likes_per_day": 0.45,
    "band": "昼 11-17時"
   },
   {
@@ -890,8 +895,8 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.24,
+   "gain_7d": 0,
+   "likes_per_day": 0.23,
    "band": "朝 5-11時"
   },
   {
@@ -905,8 +910,8 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.33,
+   "gain_7d": 0,
+   "likes_per_day": 0.32,
    "band": "朝 5-11時"
   },
   {
@@ -920,8 +925,8 @@
    "likes": 33,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.62,
+   "gain_7d": 0,
+   "likes_per_day": 0.61,
    "band": "朝 5-11時"
   },
   {
@@ -935,8 +940,8 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.28,
+   "gain_7d": 0,
+   "likes_per_day": 0.27,
    "band": "朝 5-11時"
   },
   {
@@ -950,8 +955,8 @@
    "likes": 26,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.47,
+   "gain_7d": 0,
+   "likes_per_day": 0.46,
    "band": "昼 11-17時"
   },
   {
@@ -965,7 +970,7 @@
    "likes": 22,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.39,
    "band": "昼 11-17時"
   },
@@ -980,8 +985,8 @@
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.49,
+   "gain_7d": 0,
+   "likes_per_day": 0.48,
    "band": "朝 5-11時"
   },
   {
@@ -995,7 +1000,7 @@
    "likes": 21,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.36,
    "band": "朝 5-11時"
   },
@@ -1010,8 +1015,8 @@
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.41,
+   "gain_7d": 0,
+   "likes_per_day": 0.4,
    "band": "昼 11-17時"
   },
   {
@@ -1025,8 +1030,8 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.35,
+   "gain_7d": 0,
+   "likes_per_day": 0.34,
    "band": "朝 5-11時"
   },
   {
@@ -1040,8 +1045,8 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.25,
+   "gain_7d": 0,
+   "likes_per_day": 0.24,
    "band": "朝 5-11時"
   },
   {
@@ -1055,7 +1060,7 @@
    "likes": 15,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.24,
    "band": "昼 11-17時"
   },
@@ -1070,7 +1075,7 @@
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.3,
    "band": "朝 5-11時"
   },
@@ -1085,7 +1090,7 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.23,
    "band": "朝 5-11時"
   },
@@ -1100,7 +1105,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.15,
    "band": "昼 11-17時"
   },
@@ -1115,7 +1120,7 @@
    "likes": 18,
    "comments": 1,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.27,
    "band": "朝 5-11時"
   },
@@ -1130,7 +1135,7 @@
    "likes": 31,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.46,
    "band": "朝 5-11時"
   },
@@ -1145,7 +1150,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.26,
    "band": "昼 11-17時"
   },
@@ -1160,8 +1165,8 @@
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.41,
+   "gain_7d": 0,
+   "likes_per_day": 0.4,
    "band": "昼 11-17時"
   },
   {
@@ -1175,8 +1180,8 @@
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.36,
+   "gain_7d": 0,
+   "likes_per_day": 0.35,
    "band": "朝 5-11時"
   },
   {
@@ -1190,8 +1195,8 @@
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.39,
+   "gain_7d": 0,
+   "likes_per_day": 0.38,
    "band": "朝 5-11時"
   },
   {
@@ -1205,7 +1210,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.18,
    "band": "昼 11-17時"
   },
@@ -1220,8 +1225,8 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.22,
+   "gain_7d": 0,
+   "likes_per_day": 0.21,
    "band": "朝 5-11時"
   },
   {
@@ -1235,8 +1240,8 @@
    "likes": 23,
    "comments": 3,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.31,
+   "gain_7d": 0,
+   "likes_per_day": 0.3,
    "band": "朝 5-11時"
   },
   {
@@ -1250,7 +1255,7 @@
    "likes": 19,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.25,
    "band": "昼 11-17時"
   },
@@ -1265,8 +1270,8 @@
    "likes": 22,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.29,
+   "gain_7d": 0,
+   "likes_per_day": 0.28,
    "band": "朝 5-11時"
   },
   {
@@ -1280,7 +1285,7 @@
    "likes": 19,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.24,
    "band": "朝 5-11時"
   },
@@ -1295,8 +1300,8 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.27,
+   "gain_7d": 0,
+   "likes_per_day": 0.26,
    "band": "朝 5-11時"
   },
   {
@@ -1310,7 +1315,7 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.21,
    "band": "朝 5-11時"
   },
@@ -1325,7 +1330,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.16,
    "band": "朝 5-11時"
   },
@@ -1340,7 +1345,7 @@
    "likes": 38,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.46,
    "band": "朝 5-11時"
   },
@@ -1355,7 +1360,7 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.19,
    "band": "朝 5-11時"
   },
@@ -1370,7 +1375,7 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.2,
    "band": "朝 5-11時"
   },
@@ -1385,8 +1390,8 @@
    "likes": 46,
    "comments": 5,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.54,
+   "gain_7d": 1,
+   "likes_per_day": 0.53,
    "band": "朝 5-11時"
   },
   {
@@ -1400,8 +1405,8 @@
    "likes": 41,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.48,
+   "gain_7d": 0,
+   "likes_per_day": 0.47,
    "band": "朝 5-11時"
   },
   {
@@ -1415,8 +1420,8 @@
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.29,
+   "gain_7d": 0,
+   "likes_per_day": 0.28,
    "band": "朝 5-11時"
   },
   {
@@ -1430,7 +1435,7 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.18,
    "band": "朝 5-11時"
   },
@@ -1445,7 +1450,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.16,
    "band": "朝 5-11時"
   },
@@ -1460,7 +1465,7 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.19,
    "band": "朝 5-11時"
   },
@@ -1475,7 +1480,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.2,
    "band": "朝 5-11時"
   },
@@ -1490,8 +1495,8 @@
    "likes": 33,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.36,
+   "gain_7d": 0,
+   "likes_per_day": 0.35,
    "band": "朝 5-11時"
   },
   {
@@ -1505,7 +1510,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.19,
    "band": "深夜 22-5時"
   },
@@ -1520,8 +1525,8 @@
    "likes": 26,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.28,
+   "gain_7d": 0,
+   "likes_per_day": 0.27,
    "band": "朝 5-11時"
   },
   {
@@ -1535,8 +1540,8 @@
    "likes": 29,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.31,
+   "gain_7d": 0,
+   "likes_per_day": 0.3,
    "band": "朝 5-11時"
   },
   {
@@ -1550,7 +1555,7 @@
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.2,
    "band": "朝 5-11時"
   },
@@ -1565,7 +1570,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.09,
    "band": "朝 5-11時"
   },
@@ -1580,8 +1585,8 @@
    "likes": 33,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.34,
+   "gain_7d": 0,
+   "likes_per_day": 0.33,
    "band": "朝 5-11時"
   },
   {
@@ -1595,7 +1600,7 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.21,
    "band": "朝 5-11時"
   },
@@ -1610,7 +1615,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.13,
    "band": "朝 5-11時"
   },
@@ -1625,7 +1630,7 @@
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.24,
    "band": "朝 5-11時"
   },
@@ -1640,7 +1645,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.14,
    "band": "朝 5-11時"
   },
@@ -1655,8 +1660,8 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.17,
+   "gain_7d": 0,
+   "likes_per_day": 0.16,
    "band": "夜 17-22時"
   },
   {
@@ -1670,8 +1675,8 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.16,
+   "gain_7d": 0,
+   "likes_per_day": 0.15,
    "band": "朝 5-11時"
   },
   {
@@ -1685,7 +1690,7 @@
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.22,
    "band": "朝 5-11時"
   },
@@ -1700,7 +1705,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.11,
    "band": "夜 17-22時"
   },
@@ -1715,7 +1720,7 @@
    "likes": 17,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.16,
    "band": "朝 5-11時"
   },
@@ -1730,7 +1735,7 @@
    "likes": 18,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.17,
    "band": "朝 5-11時"
   },
@@ -1745,7 +1750,7 @@
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.21,
    "band": "昼 11-17時"
   },
@@ -1760,7 +1765,7 @@
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.23,
    "band": "朝 5-11時"
   },
@@ -1775,7 +1780,7 @@
    "likes": 39,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 1,
    "likes_per_day": 0.36,
    "band": "昼 11-17時"
   },
@@ -1790,7 +1795,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.07,
    "band": "朝 5-11時"
   },
@@ -1805,8 +1810,8 @@
    "likes": 26,
    "comments": 9,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.24,
+   "gain_7d": 0,
+   "likes_per_day": 0.23,
    "band": "朝 5-11時"
   },
   {
@@ -1820,7 +1825,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -1835,7 +1840,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.09,
    "band": "昼 11-17時"
   },
@@ -1850,7 +1855,7 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.13,
    "band": "朝 5-11時"
   },
@@ -1865,7 +1870,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "夜 17-22時"
   },
@@ -1880,7 +1885,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -1895,7 +1900,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 1,
    "likes_per_day": 0.11,
    "band": "昼 11-17時"
   },
@@ -1910,7 +1915,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.15,
    "band": "朝 5-11時"
   },
@@ -1925,7 +1930,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.08,
    "band": "昼 11-17時"
   },
@@ -1940,7 +1945,7 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.17,
    "band": "朝 5-11時"
   },
@@ -1952,11 +1957,11 @@
    "weekday": "土",
    "hour": 15,
    "category": "就活・学び",
-   "likes": 229,
-   "comments": 21,
-   "gain_1d": -1,
-   "gain_7d": null,
-   "likes_per_day": 1.86,
+   "likes": 232,
+   "comments": 23,
+   "gain_1d": 3,
+   "gain_7d": 9,
+   "likes_per_day": 1.87,
    "band": "昼 11-17時"
   },
   {
@@ -1970,7 +1975,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.1,
    "band": "朝 5-11時"
   },
@@ -1984,8 +1989,8 @@
    "category": "就活・学び",
    "likes": 14,
    "comments": 4,
-   "gain_1d": 1,
-   "gain_7d": null,
+   "gain_1d": 0,
+   "gain_7d": 1,
    "likes_per_day": 0.11,
    "band": "朝 5-11時"
   },
@@ -2000,7 +2005,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "朝 5-11時"
   },
@@ -2015,7 +2020,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -2030,7 +2035,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2045,7 +2050,7 @@
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -2060,7 +2065,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
   },
@@ -2075,7 +2080,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "朝 5-11時"
   },
@@ -2090,7 +2095,7 @@
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -2105,7 +2110,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2120,7 +2125,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
   },
@@ -2135,7 +2140,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2150,7 +2155,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2165,7 +2170,7 @@
    "likes": 6,
    "comments": 1,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2180,8 +2185,8 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
-   "likes_per_day": 0.04,
+   "gain_7d": 0,
+   "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
   {
@@ -2195,7 +2200,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2210,7 +2215,7 @@
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
   },
@@ -2225,7 +2230,7 @@
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -2240,7 +2245,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -2255,7 +2260,7 @@
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -2270,7 +2275,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2285,7 +2290,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -2300,7 +2305,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2315,7 +2320,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.08,
    "band": "朝 5-11時"
   },
@@ -2330,7 +2335,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2345,7 +2350,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -2360,7 +2365,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 1,
    "likes_per_day": 0.12,
    "band": "朝 5-11時"
   },
@@ -2375,7 +2380,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
   },
@@ -2390,7 +2395,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
   },
@@ -2405,7 +2410,7 @@
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -2420,7 +2425,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "昼 11-17時"
   },
@@ -2435,7 +2440,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.08,
    "band": "夜 17-22時"
   },
@@ -2450,7 +2455,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -2465,7 +2470,7 @@
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -2480,7 +2485,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2495,7 +2500,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -2510,7 +2515,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
   },
@@ -2525,7 +2530,7 @@
    "likes": 2,
    "comments": 1,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "深夜 22-5時"
   },
@@ -2540,7 +2545,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2555,7 +2560,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -2570,7 +2575,7 @@
    "likes": 9,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
   },
@@ -2585,7 +2590,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2600,7 +2605,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2615,7 +2620,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2630,7 +2635,7 @@
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -2645,7 +2650,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -2660,7 +2665,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -2675,7 +2680,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
   },
@@ -2690,7 +2695,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -2705,7 +2710,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2720,7 +2725,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2735,7 +2740,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2750,7 +2755,7 @@
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -2765,7 +2770,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2780,7 +2785,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2795,7 +2800,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2810,7 +2815,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2825,7 +2830,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -2840,7 +2845,7 @@
    "likes": 6,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -2855,7 +2860,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "朝 5-11時"
   },
@@ -2870,7 +2875,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "夜 17-22時"
   },
@@ -2885,7 +2890,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -2900,7 +2905,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -2915,7 +2920,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -2930,7 +2935,7 @@
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
   },
@@ -2945,7 +2950,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -2960,7 +2965,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
   },
@@ -2975,7 +2980,7 @@
    "likes": 16,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.05,
    "band": "昼 11-17時"
   },
@@ -2990,7 +2995,7 @@
    "likes": 9,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3005,7 +3010,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3020,7 +3025,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3035,7 +3040,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3050,7 +3055,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3065,7 +3070,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3080,7 +3085,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3095,7 +3100,7 @@
    "likes": 3,
    "comments": 4,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -3110,7 +3115,7 @@
    "likes": 6,
    "comments": 4,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3125,7 +3130,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -3140,7 +3145,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3155,7 +3160,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3170,7 +3175,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3185,7 +3190,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3200,7 +3205,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3215,7 +3220,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3230,7 +3235,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3245,7 +3250,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "夜 17-22時"
   },
@@ -3260,7 +3265,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -3275,7 +3280,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3290,7 +3295,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3305,7 +3310,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3320,7 +3325,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -3335,7 +3340,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "夜 17-22時"
   },
@@ -3350,7 +3355,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3365,7 +3370,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3380,7 +3385,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3395,7 +3400,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
   },
@@ -3410,7 +3415,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3425,7 +3430,7 @@
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -3440,7 +3445,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3455,7 +3460,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3470,7 +3475,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3485,7 +3490,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3500,7 +3505,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3515,7 +3520,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
   },
@@ -3530,7 +3535,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
   },
@@ -3545,7 +3550,7 @@
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3560,7 +3565,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3575,7 +3580,7 @@
    "likes": 13,
    "comments": 3,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -3590,7 +3595,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3605,7 +3610,7 @@
    "likes": 11,
    "comments": 2,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -3620,7 +3625,7 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -3635,7 +3640,7 @@
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3650,7 +3655,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
   },
@@ -3665,7 +3670,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -3680,7 +3685,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -3695,7 +3700,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3710,7 +3715,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3725,7 +3730,7 @@
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "深夜 22-5時"
   },
@@ -3740,7 +3745,7 @@
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "夜 17-22時"
   },
@@ -3755,7 +3760,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "深夜 22-5時"
   },
@@ -3770,7 +3775,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -3785,7 +3790,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3800,7 +3805,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3815,7 +3820,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -3830,7 +3835,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3845,7 +3850,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3860,7 +3865,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -3875,7 +3880,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3890,7 +3895,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3905,7 +3910,7 @@
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3920,7 +3925,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -3935,7 +3940,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -3950,7 +3955,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
   },
@@ -3965,7 +3970,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -3980,7 +3985,7 @@
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -3995,7 +4000,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -4010,7 +4015,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
@@ -4025,7 +4030,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -4040,7 +4045,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "深夜 22-5時"
   },
@@ -4055,7 +4060,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4070,7 +4075,7 @@
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -4085,7 +4090,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4100,7 +4105,7 @@
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "昼 11-17時"
   },
@@ -4115,7 +4120,7 @@
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.01,
    "band": "昼 11-17時"
   },
@@ -4130,7 +4135,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "朝 5-11時"
   },
@@ -4145,7 +4150,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -4160,7 +4165,7 @@
    "likes": 11,
    "comments": 1,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4175,7 +4180,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -4190,7 +4195,7 @@
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4205,7 +4210,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -4220,7 +4225,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "夜 17-22時"
   },
@@ -4235,7 +4240,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "朝 5-11時"
   },
@@ -4250,7 +4255,7 @@
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4265,7 +4270,7 @@
    "likes": 18,
    "comments": 4,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "朝 5-11時"
   },
@@ -4280,7 +4285,7 @@
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -4295,7 +4300,7 @@
    "likes": 29,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.06,
    "band": "昼 11-17時"
   },
@@ -4310,7 +4315,7 @@
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4325,7 +4330,7 @@
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "昼 11-17時"
   },
@@ -4340,7 +4345,7 @@
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.02,
    "band": "昼 11-17時"
   },
@@ -4355,7 +4360,7 @@
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.03,
    "band": "夜 17-22時"
   },
@@ -4370,7 +4375,7 @@
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": null,
+   "gain_7d": 0,
    "likes_per_day": 0.04,
    "band": "深夜 22-5時"
   }
