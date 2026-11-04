@@ -1,73 +1,63 @@
 {
- "updated_at": "2026-11-04 05:37",
- "date": "2026-11-04",
+ "updated_at": "2026-11-05 05:55",
+ "date": "2026-11-05",
  "user": "ha_03ru_01",
  "nickname": "長屋晴太 | はる🌎🎮[ゲーム業界志望]",
  "tracking_since": "2026-10-21",
  "kpi": {
-  "followers": 355,
-  "followers_1d": 1,
-  "followers_7d": 19,
+  "followers": 358,
+  "followers_1d": 3,
+  "followers_7d": 21,
   "followers_30d": null,
-  "total_likes": 4373,
-  "likes_1d": -34,
-  "likes_7d": 122,
+  "total_likes": 4377,
+  "likes_1d": 4,
+  "likes_7d": 93,
   "notes": 277,
-  "posts_7d": 1,
-  "total_comments": 141,
+  "posts_7d": 0,
+  "total_comments": 142,
   "avg_likes": 15.8
  },
  "top_gainers_1d": [
   {
    "title": "「いつからか自分で考えられなくなっていた」 はる日記#274",
    "url": "https://note.com/ha_03ru_01/n/n9963645ee641",
-   "gain": 7
+   "gain": 2
   },
   {
-   "title": "「頭の良いPDCAよりアホなDDDDという話」 はる日記#275",
-   "url": "https://note.com/ha_03ru_01/n/n9d09ae35d9de",
-   "gain": 5
+   "title": "「ゲームを途中でやめた人は、つまらなかったから？ 約88万回表示された投稿から考えたこと」 はる日記#268",
+   "url": "https://note.com/ha_03ru_01/n/ncc00ee02dc4e",
+   "gain": 1
   },
   {
    "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
    "url": "https://note.com/ha_03ru_01/n/n831889094d62",
-   "gain": 3
-  },
-  {
-   "title": "「ポートフォリオサイトをリニューアル！1本のゲームのように遊べるサイトを作ってみた」 はる日記#273",
-   "url": "https://note.com/ha_03ru_01/n/n6bd60f23ec6e",
    "gain": 1
-  },
-  {
-   "title": "「unity1week\"しろ\"に参加します！」 はる日記#190",
-   "url": "https://note.com/ha_03ru_01/n/n48df44d573c5",
-   "gain": -1
   }
  ],
  "top_gainers_7d": [
   {
-   "title": "「頭の良いPDCAよりアホなDDDDという話」 はる日記#275",
-   "url": "https://note.com/ha_03ru_01/n/n9d09ae35d9de",
-   "gain": 58
+   "title": "「いつからか自分で考えられなくなっていた」 はる日記#274",
+   "url": "https://note.com/ha_03ru_01/n/n9963645ee641",
+   "gain": 41
   },
   {
    "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
    "url": "https://note.com/ha_03ru_01/n/n831889094d62",
-   "gain": 32
+   "gain": 29
   },
   {
    "title": "「ポートフォリオサイトをリニューアル！1本のゲームのように遊べるサイトを作ってみた」 はる日記#273",
    "url": "https://note.com/ha_03ru_01/n/n6bd60f23ec6e",
-   "gain": 6
+   "gain": 3
   },
   {
    "title": "「【3Dゲーム制作】コインの使い道、スキルツリーの実装！」 はる日記#272",
    "url": "https://note.com/ha_03ru_01/n/nf9074576172d",
-   "gain": 3
+   "gain": 2
   },
   {
-   "title": "「正解を探すのをやめてみる| ゲーム業界で働く方との対話で気づいたこと」 はる日記#262",
-   "url": "https://note.com/ha_03ru_01/n/n196711e9c4b4",
+   "title": "「ゲームを途中でやめた人は、つまらなかったから？ 約88万回表示された投稿から考えたこと」 はる日記#268",
+   "url": "https://note.com/ha_03ru_01/n/ncc00ee02dc4e",
    "gain": 2
   }
  ],
@@ -81,7 +71,7 @@
   {
    "name": "考察・コラム",
    "count": 35,
-   "avg_likes": 21.3,
+   "avg_likes": 21.4,
    "median_likes": 19
   },
   {
@@ -101,7 +91,7 @@
   {
    "name": "月",
    "count": 43,
-   "avg_likes": 14.7,
+   "avg_likes": 14.8,
    "median_likes": 11
   },
   {
@@ -131,7 +121,7 @@
   {
    "name": "土",
    "count": 27,
-   "avg_likes": 26.1,
+   "avg_likes": 26.2,
    "median_likes": 16
   },
   {
@@ -151,7 +141,7 @@
   {
    "name": "昼 11-17時",
    "count": 97,
-   "avg_likes": 15.7,
+   "avg_likes": 15.8,
    "median_likes": 9
   },
   {
@@ -228,9 +218,9 @@
    "category": "その他",
    "likes": 58,
    "comments": 6,
-   "gain_1d": 5,
-   "gain_7d": 58,
-   "likes_per_day": 8.29,
+   "gain_1d": 0,
+   "gain_7d": null,
+   "likes_per_day": 7.25,
    "band": "朝 5-11時"
   },
   {
@@ -241,11 +231,11 @@
    "weekday": "水",
    "hour": 12,
    "category": "考察・コラム",
-   "likes": 63,
-   "comments": 7,
-   "gain_1d": 7,
-   "gain_7d": null,
-   "likes_per_day": 7.88,
+   "likes": 65,
+   "comments": 8,
+   "gain_1d": 2,
+   "gain_7d": 41,
+   "likes_per_day": 7.22,
    "band": "昼 11-17時"
   },
   {
@@ -258,9 +248,9 @@
    "category": "就活・学び",
    "likes": 38,
    "comments": 0,
-   "gain_1d": 1,
-   "gain_7d": 6,
-   "likes_per_day": 3.17,
+   "gain_1d": 0,
+   "gain_7d": 3,
+   "likes_per_day": 2.92,
    "band": "朝 5-11時"
   },
   {
@@ -274,8 +264,8 @@
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": 3,
-   "likes_per_day": 1.77,
+   "gain_7d": 2,
+   "likes_per_day": 1.64,
    "band": "朝 5-11時"
   },
   {
@@ -290,7 +280,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 2.36,
+   "likes_per_day": 2.2,
    "band": "朝 5-11時"
   },
   {
@@ -305,7 +295,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.73,
+   "likes_per_day": 1.62,
    "band": "朝 5-11時"
   },
   {
@@ -320,7 +310,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.75,
+   "likes_per_day": 1.65,
    "band": "朝 5-11時"
   },
   {
@@ -331,11 +321,11 @@
    "weekday": "月",
    "hour": 5,
    "category": "考察・コラム",
-   "likes": 36,
+   "likes": 37,
    "comments": 8,
-   "gain_1d": 0,
-   "gain_7d": 1,
-   "likes_per_day": 2.12,
+   "gain_1d": 1,
+   "gain_7d": 2,
+   "likes_per_day": 2.06,
    "band": "朝 5-11時"
   },
   {
@@ -350,7 +340,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 1.26,
+   "likes_per_day": 1.2,
    "band": "昼 11-17時"
   },
   {
@@ -365,7 +355,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.25,
+   "likes_per_day": 1.19,
    "band": "朝 5-11時"
   },
   {
@@ -380,7 +370,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.1,
+   "likes_per_day": 1.05,
    "band": "深夜 22-5時"
   },
   {
@@ -395,7 +385,7 @@
    "comments": 3,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.14,
+   "likes_per_day": 1.09,
    "band": "朝 5-11時"
   },
   {
@@ -410,7 +400,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.39,
+   "likes_per_day": 1.33,
    "band": "深夜 22-5時"
   },
   {
@@ -424,8 +414,8 @@
    "likes": 29,
    "comments": 0,
    "gain_1d": 0,
-   "gain_7d": 2,
-   "likes_per_day": 1.21,
+   "gain_7d": 1,
+   "likes_per_day": 1.16,
    "band": "朝 5-11時"
   },
   {
@@ -440,7 +430,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 1.0,
+   "likes_per_day": 0.96,
    "band": "朝 5-11時"
   },
   {
@@ -455,7 +445,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.12,
+   "likes_per_day": 1.07,
    "band": "昼 11-17時"
   },
   {
@@ -470,7 +460,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 0.96,
+   "likes_per_day": 0.93,
    "band": "朝 5-11時"
   },
   {
@@ -485,7 +475,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.33,
+   "likes_per_day": 1.29,
    "band": "朝 5-11時"
   },
   {
@@ -500,7 +490,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.82,
+   "likes_per_day": 0.79,
    "band": "朝 5-11時"
   },
   {
@@ -515,7 +505,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 0.97,
+   "likes_per_day": 0.93,
    "band": "朝 5-11時"
   },
   {
@@ -530,7 +520,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.73,
+   "likes_per_day": 0.71,
    "band": "深夜 22-5時"
   },
   {
@@ -545,7 +535,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.9,
+   "likes_per_day": 0.88,
    "band": "朝 5-11時"
   },
   {
@@ -560,7 +550,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 1.59,
+   "likes_per_day": 1.55,
    "band": "昼 11-17時"
   },
   {
@@ -575,7 +565,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.73,
+   "likes_per_day": 0.71,
    "band": "朝 5-11時"
   },
   {
@@ -590,7 +580,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.03,
+   "likes_per_day": 1.0,
    "band": "朝 5-11時"
   },
   {
@@ -605,7 +595,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 1.09,
+   "likes_per_day": 1.06,
    "band": "昼 11-17時"
   },
   {
@@ -620,7 +610,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.56,
+   "likes_per_day": 0.54,
    "band": "朝 5-11時"
   },
   {
@@ -635,7 +625,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.43,
+   "likes_per_day": 0.42,
    "band": "昼 11-17時"
   },
   {
@@ -650,7 +640,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 0.68,
+   "likes_per_day": 0.67,
    "band": "朝 5-11時"
   },
   {
@@ -665,7 +655,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.44,
+   "likes_per_day": 0.42,
    "band": "朝 5-11時"
   },
   {
@@ -680,7 +670,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.38,
+   "likes_per_day": 0.37,
    "band": "朝 5-11時"
   },
   {
@@ -695,7 +685,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.59,
+   "likes_per_day": 0.57,
    "band": "朝 5-11時"
   },
   {
@@ -710,7 +700,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.86,
+   "likes_per_day": 0.84,
    "band": "朝 5-11時"
   },
   {
@@ -725,7 +715,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.49,
+   "likes_per_day": 1.45,
    "band": "昼 11-17時"
   },
   {
@@ -740,7 +730,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.39,
+   "likes_per_day": 0.38,
    "band": "朝 5-11時"
   },
   {
@@ -755,7 +745,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 1.56,
+   "likes_per_day": 1.52,
    "band": "昼 11-17時"
   },
   {
@@ -770,7 +760,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.46,
+   "likes_per_day": 0.45,
    "band": "朝 5-11時"
   },
   {
@@ -800,7 +790,7 @@
    "comments": 4,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 2.67,
+   "likes_per_day": 2.62,
    "band": "深夜 22-5時"
   },
   {
@@ -815,7 +805,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.6,
+   "likes_per_day": 0.59,
    "band": "深夜 22-5時"
   },
   {
@@ -845,7 +835,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.3,
+   "likes_per_day": 0.29,
    "band": "朝 5-11時"
   },
   {
@@ -875,7 +865,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.4,
+   "likes_per_day": 0.39,
    "band": "昼 11-17時"
   },
   {
@@ -920,7 +910,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.54,
+   "likes_per_day": 0.53,
    "band": "朝 5-11時"
   },
   {
@@ -950,7 +940,7 @@
    "comments": 4,
    "gain_1d": 0,
    "gain_7d": 1,
-   "likes_per_day": 0.43,
+   "likes_per_day": 0.42,
    "band": "昼 11-17時"
   },
   {
@@ -980,7 +970,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.43,
+   "likes_per_day": 0.42,
    "band": "朝 5-11時"
   },
   {
@@ -995,7 +985,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.32,
+   "likes_per_day": 0.31,
    "band": "朝 5-11時"
   },
   {
@@ -1010,7 +1000,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.36,
+   "likes_per_day": 0.35,
    "band": "昼 11-17時"
   },
   {
@@ -1025,7 +1015,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.31,
+   "likes_per_day": 0.3,
    "band": "朝 5-11時"
   },
   {
@@ -1040,7 +1030,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.22,
+   "likes_per_day": 0.21,
    "band": "朝 5-11時"
   },
   {
@@ -1070,7 +1060,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.27,
+   "likes_per_day": 0.26,
    "band": "朝 5-11時"
   },
   {
@@ -1145,7 +1135,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.24,
+   "likes_per_day": 0.23,
    "band": "昼 11-17時"
   },
   {
@@ -1220,7 +1210,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.2,
+   "likes_per_day": 0.19,
    "band": "朝 5-11時"
   },
   {
@@ -1235,7 +1225,7 @@
    "comments": 3,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.28,
+   "likes_per_day": 0.27,
    "band": "朝 5-11時"
   },
   {
@@ -1250,7 +1240,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.23,
+   "likes_per_day": 0.22,
    "band": "昼 11-17時"
   },
   {
@@ -1325,7 +1315,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.15,
+   "likes_per_day": 0.14,
    "band": "朝 5-11時"
   },
   {
@@ -1355,7 +1345,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.18,
+   "likes_per_day": 0.17,
    "band": "朝 5-11時"
   },
   {
@@ -1400,7 +1390,7 @@
    "comments": 2,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.44,
+   "likes_per_day": 0.43,
    "band": "朝 5-11時"
   },
   {
@@ -1430,7 +1420,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.17,
+   "likes_per_day": 0.16,
    "band": "朝 5-11時"
   },
   {
@@ -1503,7 +1493,7 @@
    "category": "その他",
    "likes": 17,
    "comments": 0,
-   "gain_1d": -1,
+   "gain_1d": 0,
    "gain_7d": -1,
    "likes_per_day": 0.17,
    "band": "深夜 22-5時"
@@ -1533,7 +1523,7 @@
    "category": "ゲーム制作ログ",
    "likes": 28,
    "comments": 0,
-   "gain_1d": -1,
+   "gain_1d": 0,
    "gain_7d": -1,
    "likes_per_day": 0.27,
    "band": "朝 5-11時"
@@ -1565,7 +1555,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.09,
+   "likes_per_day": 0.08,
    "band": "朝 5-11時"
   },
   {
@@ -1578,7 +1568,7 @@
    "category": "ゲーム制作ログ",
    "likes": 31,
    "comments": 0,
-   "gain_1d": -1,
+   "gain_1d": 0,
    "gain_7d": -2,
    "likes_per_day": 0.29,
    "band": "朝 5-11時"
@@ -1593,7 +1583,7 @@
    "category": "ゲーム制作ログ",
    "likes": 19,
    "comments": 0,
-   "gain_1d": -1,
+   "gain_1d": 0,
    "gain_7d": -2,
    "likes_per_day": 0.18,
    "band": "朝 5-11時"
@@ -1685,7 +1675,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.21,
+   "likes_per_day": 0.2,
    "band": "朝 5-11時"
   },
   {
@@ -1775,7 +1765,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.34,
+   "likes_per_day": 0.33,
    "band": "昼 11-17時"
   },
   {
@@ -1951,11 +1941,11 @@
    "weekday": "土",
    "hour": 15,
    "category": "就活・学び",
-   "likes": 264,
+   "likes": 265,
    "comments": 25,
-   "gain_1d": 3,
-   "gain_7d": 32,
-   "likes_per_day": 2.02,
+   "gain_1d": 1,
+   "gain_7d": 29,
+   "likes_per_day": 2.01,
    "band": "昼 11-17時"
   },
   {
@@ -1985,7 +1975,7 @@
    "comments": 4,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.11,
+   "likes_per_day": 0.1,
    "band": "朝 5-11時"
   },
   {
@@ -2995,7 +2985,7 @@
   },
   {
    "key": "n4d445c76c48d",
-   "title": "「ポーションバーサーカー」 はる日記#92",
+   "title": "「POTION BERSERKER」 はる日記#92",
    "url": "https://note.com/ha_03ru_01/n/n4d445c76c48d",
    "published_at": "2025-12-24 11:26",
    "weekday": "水",
@@ -3710,7 +3700,7 @@
    "comments": 0,
    "gain_1d": 0,
    "gain_7d": 0,
-   "likes_per_day": 0.02,
+   "likes_per_day": 0.01,
    "band": "朝 5-11時"
   },
   {
@@ -4255,7 +4245,7 @@
   },
   {
    "key": "n94d8500da7e4",
-   "title": "「がんばれ！天使ちゃん」コンテスト用ゲーム作品の話 はる日記#８",
+   "title": "「がんばれ！天使ちゃん」コンテスト用ゲーム作品の話 はる日記#8",
    "url": "https://note.com/ha_03ru_01/n/n94d8500da7e4",
    "published_at": "2025-06-27 09:24",
    "weekday": "金",
