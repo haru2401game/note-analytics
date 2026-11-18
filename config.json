@@ -1,6 +1,8 @@
 {
   "dashboard_url": "https://haru2401game.github.io/note-analytics/",
   "weekly_report_weekday": 6,
+  "tracked_magazine": { "key": "mbede04c37bef", "name": "ゲームクリエイターズマガジン" },
+  "correlation_min_days": 14,
   "categories": [
     { "name": "企業研究", "keywords": ["企業研究"] },
     { "name": "ゲーム制作ログ", "keywords": ["ゲーム制作", "Unity", "3D", "実装", "ゲームジャム"] },

@@ -145,6 +145,14 @@ td.date { font-family: var(--num); color: var(--ink-2); white-space: nowrap; }
 #detail h3 { margin: 0 0 8px; font-size: 14px; font-weight: 700; }
 #detail .chart-box { height: 200px; background: var(--sheet); border-radius: 4px; padding: 8px; }
 
+/* ── follower vs magazine compare ──────────────────── */
+.compare .lead { margin: -6px 0 12px; font-size: 13px; color: var(--ink-2); }
+.compare .lead b { font-family: var(--num); font-weight: 600; }
+.mini-head { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+.mini-head i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.chart-box.mini { height: 110px; }
+.caveat { font-size: 12px; color: var(--ink-3); margin: 8px 0 0; }
+
 footer { margin-top: 28px; font-size: 13px; color: var(--ink-3); }
 @media (max-width: 520px) { .sheet { padding: 16px; } .chart-box { height: 200px; } }
 </style>
@@ -183,6 +191,18 @@ footer { margin-top: 28px; font-size: 13px; color: var(--ink-3); }
   <section class="row two">
     <div class="sheet"><h2>1日ごとのフォロワー増減</h2><div class="chart-box"><canvas id="cFollowerDelta"></canvas></div></div>
     <div class="sheet"><h2>1日ごとの新しいスキ</h2><div class="chart-box"><canvas id="cLikeDelta"></canvas></div></div>
+  </section>
+
+  <section class="sheet compare" aria-label="フォロワー増加とマガジン追加・投稿の比較" style="margin-bottom:16px">
+    <h2>フォロワー増加・マガジン追加・自分の投稿<span class="note">日別。上のグラフと同じ期間</span></h2>
+    <p class="lead" id="compareLead"></p>
+    <div class="mini-head"><i style="background:var(--teal)"></i>フォロワー増加数</div>
+    <div class="chart-box mini"><canvas id="cCmpFollowers" aria-label="日別のフォロワー増加数"></canvas></div>
+    <div class="mini-head"><i style="background:var(--orange)"></i><span id="cmpMagLabel">マガジン追加数</span></div>
+    <div class="chart-box mini"><canvas id="cCmpMagazine" aria-label="日別のマガジン追加数"></canvas></div>
+    <div class="mini-head"><i style="background:var(--ink-3)"></i>自分の投稿数</div>
+    <div class="chart-box mini"><canvas id="cCmpPosts" aria-label="日別の自分の投稿数"></canvas></div>
+    <p class="caveat" id="compareCaveat"></p>
   </section>
 
   <section class="row split">
@@ -312,6 +332,49 @@ function renderTimeCharts() {
   draw("cFollowerDelta", barCfg(labels.slice(1), diff("followers"), "増減", css("--teal"), "人"));
   draw("cLikeDelta", barCfg(labels.slice(1), diff("total_likes"), "新しいスキ", css("--orange"), ""));
   draw("cLikesSpark", sparkCfg(h.map(x => x.total_likes), css("--orange")));
+  renderCompare();
+}
+
+// 日別の比較：summary.json の daily_compare を使う。古い summary.json にない場合は history から作る。
+function compareSeries() {
+  if (Array.isArray(S.daily_compare)) return S.daily_compare;
+  return H.slice(1).map((x, i) => ({ date: x.date, followers_delta: x.followers - H[i].followers, magazine_added: null, posts: null }));
+}
+
+function renderCompare() {
+  const all = compareSeries();
+  const c = rangeDays ? all.slice(-rangeDays) : all;
+  const labels = c.map(x => short(x.date));
+  // 3つのグラフの縦軸の幅をそろえて、日付の位置を上下で一致させる
+  const opts = () => {
+    const o = baseOpts({ plugins: { legend: { display: false } } });
+    o.scales.y.afterFit = s => { s.width = 44; };
+    o.scales.y.ticks.maxTicksLimit = 3;
+    return o;
+  };
+  const cfg = (data, color, unit, label) => {
+    const o = opts();
+    o.plugins.tooltip = { ...tooltip(), callbacks: { label: t => t.raw == null ? `${label} 記録なし` : `${label} ${signed(t.raw)}${unit}` } };
+    return { type: "bar", data: { labels, datasets: [{ data, backgroundColor: color, borderRadius: 3, borderSkipped: "start", maxBarThickness: 18 }] }, options: o };
+  };
+  draw("cCmpFollowers", cfg(c.map(x => x.followers_delta), css("--teal"), "人", "フォロワー"));
+  draw("cCmpMagazine", cfg(c.map(x => x.magazine_added ?? null), css("--orange"), "件", "マガジン追加"));
+  draw("cCmpPosts", cfg(c.map(x => x.posts ?? null), css("--ink-3"), "本", "投稿"));
+
+  const m = S.magazine;
+  document.getElementById("cmpMagLabel").textContent = `マガジン追加数${m && m.name ? `（${m.name}）` : ""}`;
+  const lead = [];
+  if (m && m.week && m.week.added != null) lead.push(`直近7日のマガジン追加 <b>${signed(m.week.added)}</b> 件${m.week.days < 7 ? `（${m.week.days}日分）` : ""}`);
+  const corr = m && m.correlation;
+  if (corr && corr.status === "ok") lead.push(`フォロワー増加との相関係数 <b>${corr.r > 0 ? "+" : ""}${corr.r.toFixed(2)}</b>（${corr.n}日分）`);
+  else if (corr) lead.push(`相関係数：データ不足（${corr.n}/${corr.min_days}日）`);
+  document.getElementById("compareLead").innerHTML = lead.join("　") || "マガジン追加数はまだ記録がありません。";
+
+  const caveat = [];
+  if (!m || !m.tracking_since) caveat.push("マガジンの収録数は、次回の自動記録から取りはじめます。");
+  else caveat.push(`マガジンの収録数は ${m.tracking_since} から記録しています。追加数（前日との差）は記録2日目から出ます。それより前は空欄です。`);
+  if (corr && corr.status === "ok") caveat.push("相関は「同じ日に一緒に増えやすいか」を見る目安で、原因の証明ではありません。");
+  document.getElementById("compareCaveat").textContent = caveat.join(" ");
 }
 
 function renderStatic() {

@@ -147,9 +147,69 @@ def hour_band(h):
     return "深夜 22-5時"
 
 
+# ---------------------------------------------------------------- マガジン追加とフォロワー増加
+
+def daily_compare(history: list, rows: list) -> list:
+    """日ごとの「フォロワー増加数」「マガジン追加数」「自分の投稿数」。
+    前日の記録がない日（記録の抜け）や、マガジン数を記録していない日は None にする。"""
+    posts = defaultdict(int)
+    for r in rows:
+        if r["published_at"]:
+            posts[r["published_at"][:10]] += 1
+    hist = sorted(history, key=lambda h: h["date"])
+    result = []
+    for prev, cur in zip(hist, hist[1:]):
+        consecutive = shift(cur["date"], 1) == prev["date"]
+        mag = None
+        if consecutive and prev.get("magazine_notes") is not None and cur.get("magazine_notes") is not None:
+            mag = cur["magazine_notes"] - prev["magazine_notes"]
+        result.append({
+            "date": cur["date"],
+            "followers_delta": cur["followers"] - prev["followers"] if consecutive else None,
+            "magazine_added": mag,
+            "posts": posts.get(cur["date"], 0),
+        })
+    return result
+
+
+def pearson(xs: list, ys: list):
+    if len(xs) < 2:
+        return None
+    mx, my = statistics.mean(xs), statistics.mean(ys)
+    sxy = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    sxx = sum((x - mx) ** 2 for x in xs)
+    syy = sum((y - my) ** 2 for y in ys)
+    if sxx == 0 or syy == 0:
+        return None
+    return sxy / (sxx * syy) ** 0.5
+
+
+def magazine_correlation(compare: list, min_days: int) -> dict:
+    pairs = [(c["magazine_added"], c["followers_delta"]) for c in compare
+             if c["magazine_added"] is not None and c["followers_delta"] is not None]
+    n = len(pairs)
+    r = pearson([p[0] for p in pairs], [p[1] for p in pairs]) if n >= min_days else None
+    status = "ok" if r is not None else ("insufficient" if n < min_days else "no_variance")
+    return {"r": round(r, 2) if r is not None else None, "n": n, "min_days": min_days, "status": status}
+
+
+def correlation_text(corr: dict) -> str:
+    if corr["status"] == "ok":
+        return f"フォロワー増加とマガジン追加数の相関係数は {corr['r']:+.2f}（{corr['n']}日分）。"
+    if corr["status"] == "insufficient":
+        return f"フォロワー増加とマガジン追加数の相関係数: データ不足（{corr['n']}/{corr['min_days']}日）。"
+    return f"フォロワー増加とマガジン追加数の相関係数: 値の変化がないため計算できません（{corr['n']}日分）。"
+
+
+def magazine_week(compare: list, today: str) -> dict:
+    week = [c for c in compare if c["date"] >= shift(today, 6) and c["magazine_added"] is not None]
+    return {"added": sum(c["magazine_added"] for c in week) if week else None, "days": len(week)}
+
+
 # ---------------------------------------------------------------- 週次レポート
 
-def weekly_report(history: list, rows: list, today: str, categories: list) -> dict:
+def weekly_report(history: list, rows: list, today: str, categories: list,
+                  magazine: dict | None = None) -> dict:
     f_this = history_delta(history, "followers", today, 7)
     f_last = None
     hist_series = {h["date"]: h["followers"] for h in history}
@@ -172,6 +232,17 @@ def weekly_report(history: list, rows: list, today: str, categories: list) -> di
     lines.append(f"今週の投稿は {len(posted)} 本。")
     if posted and f_this is not None and len(posted) > 0:
         lines.append(f"1投稿あたりのフォロワー増は約 {f_this / len(posted):.1f}人。")
+
+    if magazine:
+        wk = magazine["week"]
+        name = magazine.get("name") or "マガジン"
+        if wk["added"] is None:
+            lines.append(f"{name}への追加数は、まだ記録がありません。")
+        elif wk["days"] < 7:
+            lines.append(f"{name}への追加は今週 {wk['added']:+d}件（記録できた{wk['days']}日分）。")
+        else:
+            lines.append(f"{name}への追加は今週 {wk['added']:+d}件。")
+        lines.append(correlation_text(magazine["correlation"]))
 
     if gainers:
         lines.append("今週いちばん伸びた記事:")
@@ -228,6 +299,21 @@ def main() -> dict:
     weekday_stats = group_stats(rows, "weekday", order=WEEKDAYS)
     band_stats = group_stats(rows, "band", order=["朝 5-11時", "昼 11-17時", "夜 17-22時", "深夜 22-5時"])
 
+    compare = daily_compare(history, rows)
+    tracked = config.get("tracked_magazine") or {}
+    magazine = None
+    if tracked.get("key"):
+        mag_series = [h for h in history if h.get("magazine_notes") is not None]
+        magazine = {
+            "key": tracked["key"],
+            "name": tracked.get("name", ""),
+            "notes": mag_series[-1]["magazine_notes"] if mag_series else None,
+            "tracking_since": mag_series[0]["date"] if mag_series else None,
+            "added_1d": compare[-1]["magazine_added"] if compare else None,
+            "week": magazine_week(compare, today),
+            "correlation": magazine_correlation(compare, int(config.get("correlation_min_days", 14))),
+        }
+
     def top(field, n=5):
         return [
             {"title": r["title"], "url": r["url"], "gain": r[field]}
@@ -259,6 +345,8 @@ def main() -> dict:
         "weekday_stats": weekday_stats,
         "band_stats": band_stats,
         "posts_per_week": posts_per_week(rows, today),
+        "daily_compare": compare,
+        "magazine": magazine,
         "articles": rows,
     }
 
@@ -268,7 +356,7 @@ def main() -> dict:
                    or os.environ.get("FORCE_WEEKLY") == "1")
     summary["weekly_generated"] = False
     if want_weekly:
-        report = weekly_report(history, rows, today, categories)
+        report = weekly_report(history, rows, today, categories, magazine)
         weekly = [w for w in weekly if w["date"] != today] + [report]
         write_report_md(report, summary["user"])
         summary["weekly_generated"] = True

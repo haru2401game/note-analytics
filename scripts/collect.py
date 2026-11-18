@@ -4,9 +4,10 @@ note の公開データを取得して docs/data/ に1日分を追記するス�
 取得するもの（すべてログイン不要の公開情報）:
   - フォロワー数 / フォロー数 / 記事数
   - 記事ごとのスキ数・コメント数・公開日時
+  - 運営しているマガジン（config.json の tracked_magazine）の収録記事数
 
 保存先:
-  docs/data/history.json   … 日ごとのアカウント全体の数値
+  docs/data/history.json   … 日ごとのアカウント全体の数値（magazine_notes を含む）
   docs/data/articles.json  … 記事ごとのスキ数・コメント数の日次推移
 """
 
@@ -21,7 +22,9 @@ import requests
 
 NOTE_USER = os.environ.get("NOTE_USER", "ha_03ru_01")
 API_BASE = os.environ.get("NOTE_API_BASE", "https://note.com/api/v2")
-DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
+API_V1 = os.environ.get("NOTE_API_V1", "https://note.com/api/v1")
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "docs" / "data"
 JST = timezone(timedelta(hours=9))
 
 HEADERS = {
@@ -101,6 +104,22 @@ def fetch_articles() -> list[dict]:
     return articles
 
 
+def fetch_magazine_count(magazine_key: str):
+    """マガジンの収録記事数（公開情報）。取れなければ None を返し、日次処理は止めない。"""
+    try:
+        data = get_json(f"{API_V1}/magazines/{magazine_key}").get("data", {})
+        n = pick(data, "note_count", "noteCount")
+        return int(n) if n is not None else None
+    except Exception as e:  # noqa: BLE001  マガジン取得の失敗で日次の記録全体を落とさない
+        print(f"  warn: magazine {magazine_key} の取得に失敗: {e}", file=sys.stderr)
+        return None
+
+
+def load_config() -> dict:
+    path = ROOT / "config.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
 def load(name: str, default):
     path = DATA_DIR / name
     if path.exists():
@@ -119,20 +138,31 @@ def main() -> None:
     date = today_jst()
     print(f"[{date}] collecting @{NOTE_USER}")
 
+    config = load_config()
     creator = fetch_creator()
     articles = fetch_articles()
     print(f"  followers={creator['followers']} articles={len(articles)}")
 
+    tracked = (config.get("tracked_magazine") or {}).get("key")
+    magazine_notes = None
+    if tracked:
+        time.sleep(REQUEST_INTERVAL_SEC)
+        magazine_notes = fetch_magazine_count(tracked)
+        print(f"  magazine {tracked}: notes={magazine_notes}")
+
     # --- アカウント全体の推移 ---
     history = [h for h in load("history.json", []) if h["date"] != date]
-    history.append({
+    entry = {
         "date": date,
         "followers": creator["followers"],
         "following": creator["following"],
         "notes": creator["notes"] or len(articles),
         "total_likes": sum(a["likes"] for a in articles),
         "total_comments": sum(a["comments"] for a in articles),
-    })
+    }
+    if magazine_notes is not None:  # 取れなかった日は項目ごと省く（前日差は出さない）
+        entry["magazine_notes"] = magazine_notes
+    history.append(entry)
     history.sort(key=lambda h: h["date"])
     save("history.json", history)
 
