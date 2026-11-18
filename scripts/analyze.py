@@ -105,7 +105,8 @@ def build_rows(store: dict, today: str, config: dict) -> list:
     return rows
 
 
-def group_stats(rows: list, key: str, order=None) -> list:
+def group_stats(rows: list, key: str, order=None, min_count: int = 10) -> list:
+    """区分ごとの記事数・平均・中央値。記事数が min_count 未満の区分は low_sample=True。"""
     groups = defaultdict(list)
     for r in rows:
         if r[key] not in ("", None):
@@ -117,6 +118,7 @@ def group_stats(rows: list, key: str, order=None) -> list:
             "count": len(groups[n]),
             "avg_likes": round(statistics.mean(groups[n]), 1),
             "median_likes": statistics.median(groups[n]),
+            "low_sample": len(groups[n]) < min_count,
         }
         for n in names if groups.get(n)
     ]
@@ -296,8 +298,10 @@ def main() -> dict:
     categories = group_stats(rows, "category")
     for r in rows:
         r["band"] = hour_band(r["hour"])
-    weekday_stats = group_stats(rows, "weekday", order=WEEKDAYS)
-    band_stats = group_stats(rows, "band", order=["朝 5-11時", "昼 11-17時", "夜 17-22時", "深夜 22-5時"])
+    min_count = int(config.get("min_reliable_count", 10))
+    weekday_stats = group_stats(rows, "weekday", order=WEEKDAYS, min_count=min_count)
+    band_stats = group_stats(rows, "band", order=["朝 5-11時", "昼 11-17時", "夜 17-22時", "深夜 22-5時"],
+                             min_count=min_count)
 
     compare = daily_compare(history, rows)
     tracked = config.get("tracked_magazine") or {}
@@ -344,6 +348,7 @@ def main() -> dict:
         "categories": categories,
         "weekday_stats": weekday_stats,
         "band_stats": band_stats,
+        "min_reliable_count": min_count,
         "posts_per_week": posts_per_week(rows, today),
         "daily_compare": compare,
         "magazine": magazine,

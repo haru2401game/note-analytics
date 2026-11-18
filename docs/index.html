@@ -222,8 +222,8 @@ footer { margin-top: 28px; font-size: 13px; color: var(--ink-3); }
   <section class="row two">
     <div class="sheet"><h2>カテゴリ別の平均スキ</h2><div class="chart-box"><canvas id="cCategory"></canvas></div></div>
     <div class="sheet"><h2>週ごとの投稿数<span class="note">直近12週</span></h2><div class="chart-box"><canvas id="cPosts"></canvas></div></div>
-    <div class="sheet"><h2>公開した曜日別の平均スキ</h2><div class="chart-box"><canvas id="cWeekday"></canvas></div></div>
-    <div class="sheet"><h2>公開した時間帯別の平均スキ</h2><div class="chart-box"><canvas id="cBand"></canvas></div></div>
+    <div class="sheet"><h2>公開した曜日別のスキ<span class="note">中央値</span></h2><div class="chart-box"><canvas id="cWeekday"></canvas></div><p class="caveat" id="weekdayNote"></p></div>
+    <div class="sheet"><h2>公開した時間帯別のスキ<span class="note">中央値</span></h2><div class="chart-box"><canvas id="cBand"></canvas></div><p class="caveat" id="bandNote"></p></div>
   </section>
 
   <section class="sheet">
@@ -431,14 +431,50 @@ function renderStatic() {
     options: baseOpts({ plugins: { legend: { display: false }, tooltip: tip } }),
   });
   simpleBar("cPosts", S.posts_per_week.map(p => p.week + "〜"), S.posts_per_week.map(p => p.posts), { ...tooltip(), callbacks: { title: c => c[0].label + "の週", label: c => `${c.parsed.y}本` } });
-  simpleBar("cWeekday", S.weekday_stats.map(c => c.name + "曜"), S.weekday_stats.map(c => c.avg_likes), statTip(S.weekday_stats));
-  simpleBar("cBand", S.band_stats.map(c => c.name), S.band_stats.map(c => c.avg_likes), statTip(S.band_stats));
+  const minN = S.min_reliable_count ?? 10;
+  medianChart("cWeekday", "weekdayNote", S.weekday_stats, c => c.name + "曜", minN);
+  medianChart("cBand", "bandNote", S.band_stats, c => c.name, minN);
 
   const sel = document.getElementById("catFilter");
   const cur = sel.value;
   sel.innerHTML = `<option value="">すべてのカテゴリ</option>` + S.categories.map(c => `<option>${esc(c.name)}</option>`).join("");
   sel.value = cur;
   renderTable();
+}
+
+// 棒＝中央値（メイン）、◆＝平均（補足）。記事数が少ない区分は棒を薄くし、ラベルに「参考」をつける。
+// 古い summary.json に median_likes / low_sample がない場合は平均と記事数から補う。
+function medianChart(id, noteId, stats, nameOf, minN) {
+  const med = c => c.median_likes ?? c.avg_likes;
+  const low = c => c.low_sample ?? (c.count < minN);
+  const teal = css("--teal");
+  draw(id, {
+    type: "bar",
+    data: {
+      labels: stats.map(c => [nameOf(c), `${c.count}本${low(c) ? "・参考" : ""}`]),
+      datasets: [
+        { type: "bar", label: "中央値", data: stats.map(med), order: 2,
+          backgroundColor: stats.map(c => low(c) ? teal + "40" : teal),
+          borderColor: stats.map(c => low(c) ? teal : "transparent"), borderWidth: stats.map(c => low(c) ? 1 : 0),
+          borderRadius: 4, borderSkipped: "start", maxBarThickness: 30 },
+        { type: "line", label: "平均", data: stats.map(c => c.avg_likes), order: 1, showLine: false,
+          pointStyle: "rectRot", pointRadius: 5, pointHoverRadius: 6,
+          pointBackgroundColor: css("--orange"), pointBorderColor: "#fff", pointBorderWidth: 1.5 },
+      ],
+    },
+    options: baseOpts({
+      plugins: { legend: { display: false }, tooltip: { ...tooltip(), callbacks: {
+        title: t => t[0].label.replace(",", "　"),
+        label: t => t.datasetIndex === 0 ? `中央値 ${t.parsed.y} スキ` : `平均 ${t.parsed.y} スキ`,
+        afterBody: t => low(stats[t[0].dataIndex]) ? [`記事が${minN}本未満のため参考値`] : [],
+      } } },
+      scales: { ...baseOpts().scales, x: { ...baseOpts().scales.x, ticks: { maxRotation: 0, autoSkip: false, font: { size: 11 } } } },
+    }),
+  });
+  const lows = stats.filter(low).map(nameOf);
+  document.getElementById(noteId).innerHTML =
+    `棒＝中央値、<span style="color:var(--orange)">◆</span>＝平均。` +
+    (lows.length ? `薄い棒（${esc(lows.join("・"))}）は記事が${minN}本未満のため参考値です。` : `どの区分も記事が${minN}本以上あります。`);
 }
 
 function renderGainers(key) {
