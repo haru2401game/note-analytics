@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-11-18 07:37",
+ "updated_at": "2026-11-18 14:42",
  "date": "2026-11-18",
  "user": "ha_03ru_01",
- "nickname": "長屋晴太 | はる🌎🎮[ゲーム業界志望]",
+ "nickname": "長屋晴太 | はる🌎🎮[ゲームプログラマー志望]",
  "tracking_since": "2026-10-21",
  "kpi": {
-  "followers": 399,
-  "followers_1d": 3,
-  "followers_7d": 21,
+  "followers": 401,
+  "followers_1d": 5,
+  "followers_7d": 23,
   "followers_30d": null,
-  "total_likes": 4655,
-  "likes_1d": 27,
-  "likes_7d": 150,
-  "notes": 280,
-  "posts_7d": 2,
+  "total_likes": 4671,
+  "likes_1d": 43,
+  "likes_7d": 166,
+  "notes": 281,
+  "posts_7d": 3,
   "total_comments": 157,
   "avg_likes": 16.6
  },
@@ -24,24 +24,24 @@
    "gain": 14
   },
   {
+   "title": "【ハルコレ2026】敗者復活戦に挑戦中！ゲーム制作に夢中になった私に、あなたの1コメントを貸してください！ はる日記#279",
+   "url": "https://note.com/ha_03ru_01/n/n1fb5bd59978f",
+   "gain": 10
+  },
+  {
+   "title": "長屋晴太｜ゲームプログラマー志望のポートフォリオ【28卒】",
+   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
+   "gain": 8
+  },
+  {
    "title": "「【Unity】ボス戦を作ってゲームループを完成させるまで ― アニメーション3つのボスをどう戦わせたか」 はる日記#277",
    "url": "https://note.com/ha_03ru_01/n/ne182fb52c96a",
    "gain": 5
   },
   {
-   "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
-   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
-   "gain": 4
-  },
-  {
    "title": "「頭の良いPDCAよりアホなDDDDという話」 はる日記#275",
    "url": "https://note.com/ha_03ru_01/n/n9d09ae35d9de",
-   "gain": 2
-  },
-  {
-   "title": "「ゲーム制作もWeb制作も、楽しい理由は同じだった」 はる日記#276",
-   "url": "https://note.com/ha_03ru_01/n/n199a0362e906",
-   "gain": 1
+   "gain": 3
   }
  ],
  "top_gainers_7d": [
@@ -56,45 +56,49 @@
    "gain": 37
   },
   {
+   "title": "長屋晴太｜ゲームプログラマー志望のポートフォリオ【28卒】",
+   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
+   "gain": 26
+  },
+  {
    "title": "「【学園祭】ゲーム展示に企画運営、全身青タイツまで。全力で楽しんだ学園祭を振り返る」 はる日記#278",
    "url": "https://note.com/ha_03ru_01/n/n1276aa3d04c0",
    "gain": 25
   },
   {
-   "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
-   "url": "https://note.com/ha_03ru_01/n/n831889094d62",
-   "gain": 22
-  },
-  {
-   "title": "「頭の良いPDCAよりアホなDDDDという話」 はる日記#275",
-   "url": "https://note.com/ha_03ru_01/n/n9d09ae35d9de",
-   "gain": 8
+   "title": "【ハルコレ2026】敗者復活戦に挑戦中！ゲーム制作に夢中になった私に、あなたの1コメントを貸してください！ はる日記#279",
+   "url": "https://note.com/ha_03ru_01/n/n1fb5bd59978f",
+   "gain": 10
   }
  ],
  "categories": [
   {
-   "name": "就活・学び",
-   "count": 18,
-   "avg_likes": 30.5,
-   "median_likes": 10.0
-  },
-  {
-   "name": "考察・コラム",
-   "count": 35,
-   "avg_likes": 22.2,
-   "median_likes": 19
+   "name": "イベント・日常",
+   "count": 81,
+   "avg_likes": 24.5,
+   "median_likes": 21,
+   "low_sample": false
   },
   {
    "name": "ゲーム制作ログ",
-   "count": 62,
-   "avg_likes": 19.1,
-   "median_likes": 18.0
+   "count": 162,
+   "avg_likes": 14.2,
+   "median_likes": 9.0,
+   "low_sample": false
   },
   {
-   "name": "その他",
-   "count": 165,
-   "avg_likes": 13.0,
-   "median_likes": 9
+   "name": "就活・学び",
+   "count": 21,
+   "avg_likes": 14.0,
+   "median_likes": 10,
+   "low_sample": false
+  },
+  {
+   "name": "考察・コラム",
+   "count": 17,
+   "avg_likes": 5.6,
+   "median_likes": 4,
+   "low_sample": false
   }
  ],
  "weekday_stats": [
@@ -102,71 +106,83 @@
    "name": "月",
    "count": 44,
    "avg_likes": 15.1,
-   "median_likes": 11.0
+   "median_likes": 11.0,
+   "low_sample": false
   },
   {
    "name": "火",
    "count": 45,
    "avg_likes": 13.8,
-   "median_likes": 9
+   "median_likes": 9,
+   "low_sample": false
   },
   {
    "name": "水",
-   "count": 49,
+   "count": 50,
    "avg_likes": 14.2,
-   "median_likes": 9
+   "median_likes": 9.0,
+   "low_sample": false
   },
   {
    "name": "木",
    "count": 47,
    "avg_likes": 17.9,
-   "median_likes": 10
+   "median_likes": 10,
+   "low_sample": false
   },
   {
    "name": "金",
    "count": 49,
    "avg_likes": 14.2,
-   "median_likes": 13
+   "median_likes": 13,
+   "low_sample": false
   },
   {
    "name": "土",
    "count": 27,
-   "avg_likes": 28.4,
-   "median_likes": 16
+   "avg_likes": 28.5,
+   "median_likes": 16,
+   "low_sample": false
   },
   {
    "name": "日",
    "count": 19,
    "avg_likes": 19.4,
-   "median_likes": 17
+   "median_likes": 17,
+   "low_sample": false
   }
  ],
  "band_stats": [
   {
    "name": "朝 5-11時",
-   "count": 142,
+   "count": 143,
    "avg_likes": 16.7,
-   "median_likes": 15.5
+   "median_likes": 15,
+   "low_sample": false
   },
   {
    "name": "昼 11-17時",
    "count": 99,
    "avg_likes": 17.1,
-   "median_likes": 9
+   "median_likes": 9,
+   "low_sample": false
   },
   {
    "name": "夜 17-22時",
    "count": 23,
    "avg_likes": 9.7,
-   "median_likes": 11
+   "median_likes": 11,
+   "low_sample": false
   },
   {
    "name": "深夜 22-5時",
    "count": 16,
    "avg_likes": 22.9,
-   "median_likes": 16.5
+   "median_likes": 16.5,
+   "low_sample": false
   }
  ],
+ "min_reliable_count": 10,
  "posts_per_week": [
   {
    "week": "08/31",
@@ -214,10 +230,216 @@
   },
   {
    "week": "11/16",
+   "posts": 2
+  }
+ ],
+ "daily_compare": [
+  {
+   "date": "2026-10-22",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-10-23",
+   "followers_delta": 7,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-10-24",
+   "followers_delta": 0,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-10-25",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-10-26",
+   "followers_delta": -1,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-10-27",
+   "followers_delta": 0,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-10-28",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-10-29",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-10-30",
+   "followers_delta": 9,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-10-31",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-01",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-02",
+   "followers_delta": 4,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-03",
+   "followers_delta": 0,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-04",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-05",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-06",
+   "followers_delta": 4,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-07",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-08",
+   "followers_delta": 2,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-09",
+   "followers_delta": 6,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-10",
+   "followers_delta": 4,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-11-11",
+   "followers_delta": 1,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-12",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-11-13",
+   "followers_delta": 2,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-14",
+   "followers_delta": 3,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-15",
+   "followers_delta": 6,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-16",
+   "followers_delta": 2,
+   "magazine_added": null,
+   "posts": 1
+  },
+  {
+   "date": "2026-11-17",
+   "followers_delta": 2,
+   "magazine_added": null,
+   "posts": 0
+  },
+  {
+   "date": "2026-11-18",
+   "followers_delta": 5,
+   "magazine_added": null,
    "posts": 1
   }
  ],
+ "magazine": {
+  "key": "mbede04c37bef",
+  "name": "ゲームクリエイターズマガジン",
+  "notes": 24068,
+  "tracking_since": "2026-11-18",
+  "added_1d": null,
+  "week": {
+   "added": null,
+   "days": 0
+  },
+  "correlation": {
+   "r": null,
+   "n": 0,
+   "min_days": 14,
+   "status": "insufficient"
+  }
+ },
  "articles": [
+  {
+   "key": "n1fb5bd59978f",
+   "title": "【ハルコレ2026】敗者復活戦に挑戦中！ゲーム制作に夢中になった私に、あなたの1コメントを貸してください！ はる日記#279",
+   "url": "https://note.com/ha_03ru_01/n/n1fb5bd59978f",
+   "published_at": "2026-11-18 09:50",
+   "weekday": "水",
+   "hour": 9,
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
+   "likes": 10,
+   "comments": 0,
+   "gain_1d": 10,
+   "gain_7d": 10,
+   "likes_per_day": 10.0,
+   "band": "朝 5-11時"
+  },
   {
    "key": "n1276aa3d04c0",
    "title": "「【学園祭】ゲーム展示に企画運営、全身青タイツまで。全力で楽しんだ学園祭を振り返る」 はる日記#278",
@@ -225,7 +447,11 @@
    "published_at": "2026-11-16 16:36",
    "weekday": "月",
    "hour": 16,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 25,
    "comments": 0,
    "gain_1d": 14,
@@ -241,6 +467,10 @@
    "weekday": "木",
    "hour": 10,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 48,
    "comments": 1,
    "gain_1d": 5,
@@ -256,6 +486,10 @@
    "weekday": "火",
    "hour": 11,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 57,
    "comments": 3,
    "gain_1d": 1,
@@ -270,12 +504,16 @@
    "published_at": "2026-10-29 06:14",
    "weekday": "木",
    "hour": 6,
-   "category": "その他",
-   "likes": 103,
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
+   "likes": 104,
    "comments": 10,
-   "gain_1d": 2,
-   "gain_7d": 8,
-   "likes_per_day": 4.9,
+   "gain_1d": 3,
+   "gain_7d": 9,
+   "likes_per_day": 4.95,
    "band": "朝 5-11時"
   },
   {
@@ -285,12 +523,16 @@
    "published_at": "2026-10-28 12:29",
    "weekday": "水",
    "hour": 12,
-   "category": "考察・コラム",
-   "likes": 89,
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
+   "likes": 90,
    "comments": 9,
-   "gain_1d": 0,
-   "gain_7d": 6,
-   "likes_per_day": 4.05,
+   "gain_1d": 1,
+   "gain_7d": 7,
+   "likes_per_day": 4.09,
    "band": "昼 11-17時"
   },
   {
@@ -300,7 +542,11 @@
    "published_at": "2026-10-24 10:00",
    "weekday": "土",
    "hour": 10,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 43,
    "comments": 0,
    "gain_1d": 1,
@@ -316,6 +562,10 @@
    "weekday": "金",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 27,
    "comments": 1,
    "gain_1d": 0,
@@ -330,7 +580,11 @@
    "published_at": "2026-10-22 06:36",
    "weekday": "木",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 36,
    "comments": 2,
    "gain_1d": 0,
@@ -346,6 +600,10 @@
    "weekday": "水",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 29,
    "comments": 2,
    "gain_1d": 0,
@@ -361,6 +619,10 @@
    "weekday": "火",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 30,
    "comments": 0,
    "gain_1d": 0,
@@ -375,7 +637,11 @@
    "published_at": "2026-10-19 05:21",
    "weekday": "月",
    "hour": 5,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 39,
    "comments": 8,
    "gain_1d": 0,
@@ -391,6 +657,10 @@
    "weekday": "土",
    "hour": 15,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
@@ -406,6 +676,10 @@
    "weekday": "金",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 26,
    "comments": 0,
    "gain_1d": 0,
@@ -421,6 +695,10 @@
    "weekday": "木",
    "hour": 4,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
@@ -436,6 +714,11 @@
    "weekday": "水",
    "hour": 5,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 25,
    "comments": 3,
    "gain_1d": 0,
@@ -451,6 +734,11 @@
    "weekday": "火",
    "hour": 4,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 32,
    "comments": 0,
    "gain_1d": 0,
@@ -465,7 +753,11 @@
    "published_at": "2026-10-12 05:41",
    "weekday": "月",
    "hour": 5,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 30,
    "comments": 0,
    "gain_1d": 0,
@@ -480,7 +772,11 @@
    "published_at": "2026-10-11 08:38",
    "weekday": "日",
    "hour": 8,
-   "category": "就活・学び",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 26,
    "comments": 0,
    "gain_1d": 0,
@@ -496,6 +792,11 @@
    "weekday": "土",
    "hour": 15,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 30,
    "comments": 0,
    "gain_1d": 0,
@@ -511,6 +812,11 @@
    "weekday": "土",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
@@ -526,6 +832,11 @@
    "weekday": "金",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 36,
    "comments": 0,
    "gain_1d": 0,
@@ -540,7 +851,11 @@
    "published_at": "2026-10-08 10:14",
    "weekday": "木",
    "hour": 10,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 23,
    "comments": 2,
    "gain_1d": 0,
@@ -555,7 +870,11 @@
    "published_at": "2026-10-07 09:25",
    "weekday": "水",
    "hour": 9,
-   "category": "就活・学び",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -570,7 +889,11 @@
    "published_at": "2026-10-06 22:16",
    "weekday": "火",
    "hour": 22,
-   "category": "ゲーム制作ログ",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 22,
    "comments": 2,
    "gain_1d": 0,
@@ -585,7 +908,11 @@
    "published_at": "2026-10-05 07:04",
    "weekday": "月",
    "hour": 7,
-   "category": "ゲーム制作ログ",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -600,7 +927,11 @@
    "published_at": "2026-10-04 15:29",
    "weekday": "日",
    "hour": 15,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 51,
    "comments": 0,
    "gain_1d": 0,
@@ -615,7 +946,11 @@
    "published_at": "2026-10-03 08:15",
    "weekday": "土",
    "hour": 8,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 25,
    "comments": 2,
    "gain_1d": 0,
@@ -630,7 +965,11 @@
    "published_at": "2026-10-02 05:47",
    "weekday": "金",
    "hour": 5,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 35,
    "comments": 0,
    "gain_1d": 0,
@@ -645,7 +984,11 @@
    "published_at": "2026-10-01 14:16",
    "weekday": "木",
    "hour": 14,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 39,
    "comments": 0,
    "gain_1d": 0,
@@ -661,6 +1004,11 @@
    "weekday": "水",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 20,
    "comments": 4,
    "gain_1d": 0,
@@ -675,7 +1023,11 @@
    "published_at": "2026-09-29 12:27",
    "weekday": "火",
    "hour": 12,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -690,7 +1042,11 @@
    "published_at": "2026-09-28 08:11",
    "weekday": "月",
    "hour": 8,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 26,
    "comments": 2,
    "gain_1d": 0,
@@ -705,7 +1061,11 @@
    "published_at": "2026-09-27 05:32",
    "weekday": "日",
    "hour": 5,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 2,
    "gain_1d": 0,
@@ -720,7 +1080,11 @@
    "published_at": "2026-09-26 10:21",
    "weekday": "土",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -735,7 +1099,11 @@
    "published_at": "2026-09-25 06:42",
    "weekday": "金",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
@@ -750,7 +1118,11 @@
    "published_at": "2026-09-24 06:20",
    "weekday": "木",
    "hour": 6,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 36,
    "comments": 0,
    "gain_1d": 0,
@@ -765,7 +1137,11 @@
    "published_at": "2026-09-23 11:12",
    "weekday": "水",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 64,
    "comments": 0,
    "gain_1d": 0,
@@ -781,6 +1157,11 @@
    "weekday": "火",
    "hour": 7,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -795,7 +1176,11 @@
    "published_at": "2026-09-21 12:46",
    "weekday": "月",
    "hour": 12,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 70,
    "comments": 0,
    "gain_1d": 0,
@@ -810,7 +1195,11 @@
    "published_at": "2026-09-20 08:46",
    "weekday": "日",
    "hour": 8,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
@@ -825,7 +1214,11 @@
    "published_at": "2026-09-19 22:18",
    "weekday": "土",
    "hour": 22,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -840,7 +1233,11 @@
    "published_at": "2026-09-17 23:18",
    "weekday": "木",
    "hour": 23,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 132,
    "comments": 4,
    "gain_1d": 0,
@@ -856,6 +1253,10 @@
    "weekday": "水",
    "hour": 23,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 30,
    "comments": 2,
    "gain_1d": 0,
@@ -871,6 +1272,10 @@
    "weekday": "火",
    "hour": 19,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -886,6 +1291,10 @@
    "weekday": "土",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -901,6 +1310,10 @@
    "weekday": "金",
    "hour": 7,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -915,7 +1328,11 @@
    "published_at": "2026-09-08 15:59",
    "weekday": "火",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 23,
    "comments": 2,
    "gain_1d": 0,
@@ -930,7 +1347,11 @@
    "published_at": "2026-09-07 06:05",
    "weekday": "月",
    "hour": 6,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -945,7 +1366,11 @@
    "published_at": "2026-09-06 07:51",
    "weekday": "日",
    "hour": 7,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -960,7 +1385,11 @@
    "published_at": "2026-09-05 07:49",
    "weekday": "土",
    "hour": 7,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 33,
    "comments": 0,
    "gain_1d": 0,
@@ -975,7 +1404,11 @@
    "published_at": "2026-09-04 05:36",
    "weekday": "金",
    "hour": 5,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -990,7 +1423,11 @@
    "published_at": "2026-09-03 11:08",
    "weekday": "木",
    "hour": 11,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 4,
    "gain_1d": 0,
@@ -1005,7 +1442,11 @@
    "published_at": "2026-09-02 16:22",
    "weekday": "水",
    "hour": 16,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 22,
    "comments": 0,
    "gain_1d": 0,
@@ -1020,7 +1461,11 @@
    "published_at": "2026-09-01 10:39",
    "weekday": "火",
    "hour": 10,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -1035,7 +1480,11 @@
    "published_at": "2026-08-31 06:31",
    "weekday": "月",
    "hour": 6,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 21,
    "comments": 2,
    "gain_1d": 0,
@@ -1050,7 +1499,11 @@
    "published_at": "2026-08-30 11:49",
    "weekday": "日",
    "hour": 11,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
@@ -1065,7 +1518,11 @@
    "published_at": "2026-08-29 08:33",
    "weekday": "土",
    "hour": 8,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
@@ -1080,7 +1537,11 @@
    "published_at": "2026-08-28 06:58",
    "weekday": "金",
    "hour": 6,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -1095,7 +1556,11 @@
    "published_at": "2026-08-27 15:34",
    "weekday": "木",
    "hour": 15,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 15,
    "comments": 2,
    "gain_1d": 0,
@@ -1110,7 +1575,11 @@
    "published_at": "2026-08-26 05:13",
    "weekday": "水",
    "hour": 5,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
@@ -1125,7 +1594,11 @@
    "published_at": "2026-08-25 07:37",
    "weekday": "火",
    "hour": 7,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -1140,7 +1613,11 @@
    "published_at": "2026-08-24 15:00",
    "weekday": "月",
    "hour": 15,
-   "category": "就活・学び",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -1155,7 +1632,11 @@
    "published_at": "2026-08-23 08:08",
    "weekday": "日",
    "hour": 8,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 18,
    "comments": 1,
    "gain_1d": 0,
@@ -1170,7 +1651,11 @@
    "published_at": "2026-08-22 10:22",
    "weekday": "土",
    "hour": 10,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 31,
    "comments": 0,
    "gain_1d": 0,
@@ -1185,7 +1670,11 @@
    "published_at": "2026-08-21 11:49",
    "weekday": "金",
    "hour": 11,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -1200,7 +1689,11 @@
    "published_at": "2026-08-20 12:32",
    "weekday": "木",
    "hour": 12,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -1215,7 +1708,11 @@
    "published_at": "2026-08-19 09:26",
    "weekday": "水",
    "hour": 9,
-   "category": "考察・コラム",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
@@ -1230,7 +1727,11 @@
    "published_at": "2026-08-17 08:03",
    "weekday": "月",
    "hour": 8,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -1245,7 +1746,11 @@
    "published_at": "2026-08-16 14:08",
    "weekday": "日",
    "hour": 14,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -1260,7 +1765,11 @@
    "published_at": "2026-08-15 05:38",
    "weekday": "土",
    "hour": 5,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -1275,7 +1784,11 @@
    "published_at": "2026-08-14 05:35",
    "weekday": "金",
    "hour": 5,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 23,
    "comments": 3,
    "gain_1d": 0,
@@ -1290,7 +1803,11 @@
    "published_at": "2026-08-13 13:23",
    "weekday": "木",
    "hour": 13,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 19,
    "comments": 2,
    "gain_1d": 0,
@@ -1305,7 +1822,11 @@
    "published_at": "2026-08-12 10:18",
    "weekday": "水",
    "hour": 10,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 22,
    "comments": 0,
    "gain_1d": 0,
@@ -1321,6 +1842,10 @@
    "weekday": "火",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 19,
    "comments": 2,
    "gain_1d": 0,
@@ -1335,7 +1860,11 @@
    "published_at": "2026-08-10 07:12",
    "weekday": "月",
    "hour": 7,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
@@ -1350,7 +1879,11 @@
    "published_at": "2026-08-09 07:17",
    "weekday": "日",
    "hour": 7,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -1366,6 +1899,10 @@
    "weekday": "土",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -1380,7 +1917,11 @@
    "published_at": "2026-08-07 08:52",
    "weekday": "金",
    "hour": 8,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 38,
    "comments": 0,
    "gain_1d": 0,
@@ -1395,7 +1936,11 @@
    "published_at": "2026-08-06 08:33",
    "weekday": "木",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -1410,7 +1955,11 @@
    "published_at": "2026-08-05 07:10",
    "weekday": "水",
    "hour": 7,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -1425,7 +1974,11 @@
    "published_at": "2026-08-04 07:52",
    "weekday": "火",
    "hour": 7,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 46,
    "comments": 5,
    "gain_1d": 0,
@@ -1440,7 +1993,11 @@
    "published_at": "2026-08-03 09:25",
    "weekday": "月",
    "hour": 9,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 41,
    "comments": 2,
    "gain_1d": 0,
@@ -1455,7 +2012,12 @@
    "published_at": "2026-08-02 09:19",
    "weekday": "日",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
@@ -1470,7 +2032,11 @@
    "published_at": "2026-08-01 08:46",
    "weekday": "土",
    "hour": 8,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -1485,7 +2051,11 @@
    "published_at": "2026-07-31 05:56",
    "weekday": "金",
    "hour": 5,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -1500,7 +2070,12 @@
    "published_at": "2026-07-30 10:19",
    "weekday": "木",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -1515,7 +2090,11 @@
    "published_at": "2026-07-29 07:55",
    "weekday": "水",
    "hour": 7,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -1530,7 +2109,11 @@
    "published_at": "2026-07-28 09:39",
    "weekday": "火",
    "hour": 9,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 33,
    "comments": 0,
    "gain_1d": 0,
@@ -1545,7 +2128,11 @@
    "published_at": "2026-07-27 04:58",
    "weekday": "月",
    "hour": 4,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -1560,7 +2147,11 @@
    "published_at": "2026-07-26 09:50",
    "weekday": "日",
    "hour": 9,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 26,
    "comments": 0,
    "gain_1d": 0,
@@ -1575,7 +2166,11 @@
    "published_at": "2026-07-25 08:38",
    "weekday": "土",
    "hour": 8,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 28,
    "comments": 0,
    "gain_1d": 0,
@@ -1590,7 +2185,12 @@
    "published_at": "2026-07-24 08:33",
    "weekday": "金",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
@@ -1605,7 +2205,11 @@
    "published_at": "2026-07-23 09:18",
    "weekday": "木",
    "hour": 9,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -1621,6 +2225,10 @@
    "weekday": "水",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 31,
    "comments": 0,
    "gain_1d": 0,
@@ -1635,7 +2243,11 @@
    "published_at": "2026-07-21 09:49",
    "weekday": "火",
    "hour": 9,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -1650,7 +2262,11 @@
    "published_at": "2026-07-20 08:28",
    "weekday": "月",
    "hour": 8,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -1665,7 +2281,11 @@
    "published_at": "2026-07-19 09:03",
    "weekday": "日",
    "hour": 9,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 24,
    "comments": 0,
    "gain_1d": 0,
@@ -1681,6 +2301,10 @@
    "weekday": "土",
    "hour": 8,
    "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -1695,7 +2319,11 @@
    "published_at": "2026-07-17 17:32",
    "weekday": "金",
    "hour": 17,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -1710,7 +2338,11 @@
    "published_at": "2026-07-17 09:07",
    "weekday": "金",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -1725,7 +2357,11 @@
    "published_at": "2026-07-16 09:03",
    "weekday": "木",
    "hour": 9,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
@@ -1740,7 +2376,11 @@
    "published_at": "2026-07-15 21:23",
    "weekday": "水",
    "hour": 21,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -1755,7 +2395,11 @@
    "published_at": "2026-07-15 06:27",
    "weekday": "水",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 17,
    "comments": 2,
    "gain_1d": 0,
@@ -1771,6 +2415,10 @@
    "weekday": "火",
    "hour": 6,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 18,
    "comments": 2,
    "gain_1d": 0,
@@ -1785,7 +2433,11 @@
    "published_at": "2026-07-13 14:58",
    "weekday": "月",
    "hour": 14,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 23,
    "comments": 0,
    "gain_1d": 0,
@@ -1800,7 +2452,11 @@
    "published_at": "2026-07-13 05:49",
    "weekday": "月",
    "hour": 5,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 25,
    "comments": 0,
    "gain_1d": 0,
@@ -1815,7 +2471,11 @@
    "published_at": "2026-07-12 13:28",
    "weekday": "日",
    "hour": 13,
-   "category": "考察・コラム",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 39,
    "comments": 0,
    "gain_1d": 0,
@@ -1831,6 +2491,11 @@
    "weekday": "土",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "就活・成長 / CAREER"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -1845,7 +2510,11 @@
    "published_at": "2026-07-10 10:59",
    "weekday": "金",
    "hour": 10,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 26,
    "comments": 9,
    "gain_1d": 0,
@@ -1860,7 +2529,11 @@
    "published_at": "2026-07-09 06:04",
    "weekday": "木",
    "hour": 6,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -1875,7 +2548,11 @@
    "published_at": "2026-07-08 13:01",
    "weekday": "水",
    "hour": 13,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -1890,7 +2567,11 @@
    "published_at": "2026-07-07 09:21",
    "weekday": "火",
    "hour": 9,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -1905,7 +2586,11 @@
    "published_at": "2026-07-06 20:24",
    "weekday": "月",
    "hour": 20,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -1920,7 +2605,11 @@
    "published_at": "2026-07-06 07:39",
    "weekday": "月",
    "hour": 7,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -1935,7 +2624,11 @@
    "published_at": "2026-07-04 12:47",
    "weekday": "土",
    "hour": 12,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -1951,6 +2644,10 @@
    "weekday": "金",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -1965,7 +2662,11 @@
    "published_at": "2026-07-02 13:00",
    "weekday": "木",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -1980,7 +2681,11 @@
    "published_at": "2026-06-29 09:32",
    "weekday": "月",
    "hour": 9,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,
@@ -1990,17 +2695,25 @@
   },
   {
    "key": "n831889094d62",
-   "title": "「長屋晴太｜ゲームを作り、遊ぶ人に届けるポートフォリオ」",
+   "title": "長屋晴太｜ゲームプログラマー志望のポートフォリオ【28卒】",
    "url": "https://note.com/ha_03ru_01/n/n831889094d62",
    "published_at": "2026-06-27 15:59",
    "weekday": "土",
    "hour": 15,
-   "category": "就活・学び",
-   "likes": 318,
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT",
+    "ゲーム分析 / ANALYSIS",
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
+   "likes": 322,
    "comments": 28,
-   "gain_1d": 4,
-   "gain_7d": 22,
-   "likes_per_day": 2.19,
+   "gain_1d": 8,
+   "gain_7d": 26,
+   "likes_per_day": 2.22,
    "band": "昼 11-17時"
   },
   {
@@ -2010,7 +2723,11 @@
    "published_at": "2026-06-26 09:02",
    "weekday": "金",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -2026,6 +2743,10 @@
    "weekday": "木",
    "hour": 10,
    "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 14,
    "comments": 4,
    "gain_1d": 0,
@@ -2040,7 +2761,12 @@
    "published_at": "2026-06-24 09:15",
    "weekday": "水",
    "hour": 9,
-   "category": "ゲーム制作ログ",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -2055,7 +2781,12 @@
    "published_at": "2026-06-23 19:19",
    "weekday": "火",
    "hour": 19,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2070,7 +2801,12 @@
    "published_at": "2026-06-23 09:21",
    "weekday": "火",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2085,7 +2821,12 @@
    "published_at": "2026-06-22 06:40",
    "weekday": "月",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
@@ -2100,7 +2841,11 @@
    "published_at": "2026-06-20 12:02",
    "weekday": "土",
    "hour": 12,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2116,6 +2861,12 @@
    "weekday": "金",
    "hour": 10,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2130,7 +2881,11 @@
    "published_at": "2026-06-18 13:33",
    "weekday": "木",
    "hour": 13,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
@@ -2145,7 +2900,11 @@
    "published_at": "2026-06-17 09:10",
    "weekday": "水",
    "hour": 9,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2160,7 +2919,11 @@
    "published_at": "2026-06-16 14:09",
    "weekday": "火",
    "hour": 14,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2175,7 +2938,11 @@
    "published_at": "2026-06-15 10:05",
    "weekday": "月",
    "hour": 10,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2190,7 +2957,11 @@
    "published_at": "2026-06-10 14:37",
    "weekday": "水",
    "hour": 14,
-   "category": "ゲーム制作ログ",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2205,7 +2976,11 @@
    "published_at": "2026-06-09 09:31",
    "weekday": "火",
    "hour": 9,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 6,
    "comments": 1,
    "gain_1d": 0,
@@ -2221,6 +2996,10 @@
    "weekday": "月",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2235,7 +3014,11 @@
    "published_at": "2026-06-07 09:14",
    "weekday": "日",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2250,7 +3033,11 @@
    "published_at": "2026-06-06 21:15",
    "weekday": "土",
    "hour": 21,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
@@ -2265,7 +3052,11 @@
    "published_at": "2026-06-05 14:58",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
@@ -2280,7 +3071,11 @@
    "published_at": "2026-06-05 10:53",
    "weekday": "金",
    "hour": 10,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -2295,7 +3090,11 @@
    "published_at": "2026-06-03 10:11",
    "weekday": "水",
    "hour": 10,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
@@ -2310,7 +3109,11 @@
    "published_at": "2026-06-03 05:36",
    "weekday": "水",
    "hour": 5,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2325,7 +3128,11 @@
    "published_at": "2026-06-02 11:04",
    "weekday": "火",
    "hour": 11,
-   "category": "その他",
+   "category": "考察・コラム",
+   "category_source": "magazine",
+   "magazines": [
+    "ゲーム分析 / ANALYSIS"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2340,7 +3147,11 @@
    "published_at": "2026-06-02 08:34",
    "weekday": "火",
    "hour": 8,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2355,7 +3166,12 @@
    "published_at": "2026-06-01 10:22",
    "weekday": "月",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "就活・成長 / CAREER"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -2370,7 +3186,11 @@
    "published_at": "2026-05-28 10:33",
    "weekday": "木",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2385,7 +3205,11 @@
    "published_at": "2026-05-27 09:32",
    "weekday": "水",
    "hour": 9,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -2401,6 +3225,10 @@
    "weekday": "火",
    "hour": 10,
    "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -2415,7 +3243,11 @@
    "published_at": "2026-05-22 09:26",
    "weekday": "金",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2430,7 +3262,11 @@
    "published_at": "2026-05-21 11:29",
    "weekday": "木",
    "hour": 11,
-   "category": "考察・コラム",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -2445,7 +3281,12 @@
    "published_at": "2026-05-20 09:31",
    "weekday": "水",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 1,
    "comments": 0,
    "gain_1d": 0,
@@ -2460,7 +3301,11 @@
    "published_at": "2026-05-19 13:30",
    "weekday": "火",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2475,7 +3320,11 @@
    "published_at": "2026-05-18 18:58",
    "weekday": "月",
    "hour": 18,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -2491,6 +3340,10 @@
    "weekday": "木",
    "hour": 16,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -2505,7 +3358,11 @@
    "published_at": "2026-05-14 11:46",
    "weekday": "木",
    "hour": 11,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
@@ -2521,6 +3378,10 @@
    "weekday": "水",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2536,6 +3397,10 @@
    "weekday": "火",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2551,6 +3416,11 @@
    "weekday": "月",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2566,6 +3436,10 @@
    "weekday": "日",
    "hour": 3,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 2,
    "comments": 1,
    "gain_1d": 0,
@@ -2580,7 +3454,11 @@
    "published_at": "2026-05-01 09:03",
    "weekday": "金",
    "hour": 9,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2595,7 +3473,11 @@
    "published_at": "2026-04-30 17:40",
    "weekday": "木",
    "hour": 17,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2611,6 +3493,10 @@
    "weekday": "火",
    "hour": 10,
    "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 9,
    "comments": 2,
    "gain_1d": 0,
@@ -2625,7 +3511,11 @@
    "published_at": "2026-04-27 10:49",
    "weekday": "月",
    "hour": 10,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -2640,7 +3530,11 @@
    "published_at": "2026-04-24 10:44",
    "weekday": "金",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -2655,7 +3549,11 @@
    "published_at": "2026-04-23 10:47",
    "weekday": "木",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2671,6 +3569,10 @@
    "weekday": "水",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
@@ -2685,7 +3587,11 @@
    "published_at": "2026-04-21 08:35",
    "weekday": "火",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -2700,7 +3606,11 @@
    "published_at": "2026-04-20 11:53",
    "weekday": "月",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2715,7 +3625,12 @@
    "published_at": "2026-04-18 21:25",
    "weekday": "土",
    "hour": 21,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2730,7 +3645,11 @@
    "published_at": "2026-04-17 14:00",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2745,7 +3664,11 @@
    "published_at": "2026-04-16 13:39",
    "weekday": "木",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -2760,7 +3683,11 @@
    "published_at": "2026-04-15 10:32",
    "weekday": "水",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -2775,7 +3702,11 @@
    "published_at": "2026-04-14 09:58",
    "weekday": "火",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2790,7 +3721,12 @@
    "published_at": "2026-04-13 14:50",
    "weekday": "月",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 2,
    "comments": 0,
    "gain_1d": 0,
@@ -2805,7 +3741,12 @@
    "published_at": "2026-04-11 15:37",
    "weekday": "土",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -2820,7 +3761,11 @@
    "published_at": "2026-04-10 11:11",
    "weekday": "金",
    "hour": 11,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2835,7 +3780,11 @@
    "published_at": "2026-04-09 09:33",
    "weekday": "木",
    "hour": 9,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2850,7 +3799,11 @@
    "published_at": "2026-04-08 11:00",
    "weekday": "水",
    "hour": 11,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2865,7 +3818,11 @@
    "published_at": "2026-04-07 12:09",
    "weekday": "火",
    "hour": 12,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -2880,7 +3837,11 @@
    "published_at": "2026-04-03 15:05",
    "weekday": "金",
    "hour": 15,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 2,
    "gain_1d": 0,
@@ -2896,6 +3857,11 @@
    "weekday": "木",
    "hour": 5,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -2911,6 +3877,11 @@
    "weekday": "木",
    "hour": 21,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -2925,7 +3896,12 @@
    "published_at": "2026-01-29 09:22",
    "weekday": "木",
    "hour": 9,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -2940,7 +3916,11 @@
    "published_at": "2026-01-13 17:56",
    "weekday": "火",
    "hour": 17,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -2955,7 +3935,12 @@
    "published_at": "2026-01-08 08:24",
    "weekday": "木",
    "hour": 8,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -2970,7 +3955,11 @@
    "published_at": "2026-01-07 20:20",
    "weekday": "水",
    "hour": 20,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
@@ -2985,7 +3974,11 @@
    "published_at": "2026-01-05 14:11",
    "weekday": "月",
    "hour": 14,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3000,7 +3993,11 @@
    "published_at": "2025-12-31 23:41",
    "weekday": "水",
    "hour": 23,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3015,7 +4012,11 @@
    "published_at": "2025-12-26 16:42",
    "weekday": "金",
    "hour": 16,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 16,
    "comments": 2,
    "gain_1d": 0,
@@ -3030,7 +4031,11 @@
    "published_at": "2025-12-25 14:41",
    "weekday": "木",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 2,
    "gain_1d": 0,
@@ -3045,7 +4050,12 @@
    "published_at": "2025-12-24 11:26",
    "weekday": "水",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3060,7 +4070,12 @@
    "published_at": "2025-12-23 15:26",
    "weekday": "火",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3075,7 +4090,11 @@
    "published_at": "2025-12-22 14:52",
    "weekday": "月",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3090,7 +4109,11 @@
    "published_at": "2025-12-22 09:55",
    "weekday": "月",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3105,7 +4128,11 @@
    "published_at": "2025-12-19 14:30",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3121,6 +4148,10 @@
    "weekday": "木",
    "hour": 9,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3135,7 +4166,11 @@
    "published_at": "2025-12-17 08:43",
    "weekday": "水",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 3,
    "comments": 4,
    "gain_1d": 0,
@@ -3150,7 +4185,11 @@
    "published_at": "2025-12-16 13:32",
    "weekday": "火",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 4,
    "gain_1d": 0,
@@ -3165,7 +4204,11 @@
    "published_at": "2025-12-15 09:44",
    "weekday": "月",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3180,7 +4223,11 @@
    "published_at": "2025-12-12 12:51",
    "weekday": "金",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3195,7 +4242,11 @@
    "published_at": "2025-12-10 09:22",
    "weekday": "水",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3210,7 +4261,11 @@
    "published_at": "2025-12-09 13:51",
    "weekday": "火",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -3225,7 +4280,11 @@
    "published_at": "2025-12-08 12:24",
    "weekday": "月",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -3240,7 +4299,11 @@
    "published_at": "2025-12-01 15:25",
    "weekday": "月",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3255,7 +4318,11 @@
    "published_at": "2025-11-28 16:33",
    "weekday": "金",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3270,7 +4337,11 @@
    "published_at": "2025-11-26 14:16",
    "weekday": "水",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3285,7 +4356,11 @@
    "published_at": "2025-11-25 18:12",
    "weekday": "火",
    "hour": 18,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -3300,7 +4375,11 @@
    "published_at": "2025-11-24 14:09",
    "weekday": "月",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -3315,7 +4394,11 @@
    "published_at": "2025-11-21 12:48",
    "weekday": "金",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -3330,7 +4413,11 @@
    "published_at": "2025-11-20 09:00",
    "weekday": "木",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3345,7 +4432,11 @@
    "published_at": "2025-11-19 14:02",
    "weekday": "水",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3360,7 +4451,11 @@
    "published_at": "2025-11-19 06:15",
    "weekday": "水",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3375,7 +4470,11 @@
    "published_at": "2025-11-18 17:24",
    "weekday": "火",
    "hour": 17,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3390,7 +4489,12 @@
    "published_at": "2025-11-16 16:46",
    "weekday": "日",
    "hour": 16,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3405,7 +4509,12 @@
    "published_at": "2025-11-13 11:57",
    "weekday": "木",
    "hour": 11,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3420,7 +4529,12 @@
    "published_at": "2025-11-10 09:42",
    "weekday": "月",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3436,6 +4550,10 @@
    "weekday": "日",
    "hour": 22,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3450,7 +4568,11 @@
    "published_at": "2025-11-08 16:29",
    "weekday": "土",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3465,7 +4587,11 @@
    "published_at": "2025-11-07 06:24",
    "weekday": "金",
    "hour": 6,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 3,
    "comments": 0,
    "gain_1d": 0,
@@ -3480,7 +4606,11 @@
    "published_at": "2025-11-06 09:30",
    "weekday": "木",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3495,7 +4625,11 @@
    "published_at": "2025-11-05 14:08",
    "weekday": "水",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3510,7 +4644,11 @@
    "published_at": "2025-11-04 05:47",
    "weekday": "火",
    "hour": 5,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3525,7 +4663,11 @@
    "published_at": "2025-11-01 15:42",
    "weekday": "土",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3540,7 +4682,11 @@
    "published_at": "2025-10-31 12:22",
    "weekday": "金",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3555,7 +4701,12 @@
    "published_at": "2025-10-29 23:09",
    "weekday": "水",
    "hour": 23,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3571,6 +4722,10 @@
    "weekday": "水",
    "hour": 22,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -3585,7 +4740,11 @@
    "published_at": "2025-10-28 16:38",
    "weekday": "火",
    "hour": 16,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 4,
    "comments": 0,
    "gain_1d": 0,
@@ -3600,7 +4759,11 @@
    "published_at": "2025-10-27 13:55",
    "weekday": "月",
    "hour": 13,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3615,7 +4778,11 @@
    "published_at": "2025-10-23 13:51",
    "weekday": "木",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 13,
    "comments": 3,
    "gain_1d": 0,
@@ -3630,7 +4797,11 @@
    "published_at": "2025-10-22 11:38",
    "weekday": "水",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -3645,7 +4816,11 @@
    "published_at": "2025-10-21 08:45",
    "weekday": "火",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 2,
    "gain_1d": 0,
@@ -3660,7 +4835,11 @@
    "published_at": "2025-10-17 14:05",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -3675,7 +4854,11 @@
    "published_at": "2025-10-14 12:20",
    "weekday": "火",
    "hour": 12,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 5,
    "comments": 0,
    "gain_1d": 0,
@@ -3690,7 +4873,12 @@
    "published_at": "2025-10-09 19:32",
    "weekday": "木",
    "hour": 19,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3705,7 +4893,11 @@
    "published_at": "2025-10-08 17:52",
    "weekday": "水",
    "hour": 17,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3720,7 +4912,11 @@
    "published_at": "2025-10-06 10:28",
    "weekday": "月",
    "hour": 10,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3735,7 +4931,11 @@
    "published_at": "2025-10-03 13:51",
    "weekday": "金",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -3750,7 +4950,12 @@
    "published_at": "2025-10-02 10:07",
    "weekday": "木",
    "hour": 10,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3765,7 +4970,11 @@
    "published_at": "2025-09-28 23:19",
    "weekday": "日",
    "hour": 23,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 16,
    "comments": 0,
    "gain_1d": 0,
@@ -3780,7 +4989,11 @@
    "published_at": "2025-09-27 18:14",
    "weekday": "土",
    "hour": 18,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 17,
    "comments": 0,
    "gain_1d": 0,
@@ -3795,7 +5008,11 @@
    "published_at": "2025-09-26 23:28",
    "weekday": "金",
    "hour": 23,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3810,7 +5027,12 @@
    "published_at": "2025-09-25 21:34",
    "weekday": "木",
    "hour": 21,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -3825,7 +5047,11 @@
    "published_at": "2025-09-24 11:51",
    "weekday": "水",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3840,7 +5066,11 @@
    "published_at": "2025-09-22 14:22",
    "weekday": "月",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3855,7 +5085,11 @@
    "published_at": "2025-09-19 12:48",
    "weekday": "金",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -3870,7 +5104,12 @@
    "published_at": "2025-09-17 12:35",
    "weekday": "水",
    "hour": 12,
-   "category": "考察・コラム",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3885,7 +5124,11 @@
    "published_at": "2025-09-13 15:26",
    "weekday": "土",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3900,7 +5143,12 @@
    "published_at": "2025-09-12 19:07",
    "weekday": "金",
    "hour": 19,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -3915,7 +5163,12 @@
    "published_at": "2025-09-11 16:32",
    "weekday": "木",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "就活・成長 / CAREER"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -3930,7 +5183,11 @@
    "published_at": "2025-09-10 14:24",
    "weekday": "水",
    "hour": 14,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -3945,7 +5202,11 @@
    "published_at": "2025-09-10 13:55",
    "weekday": "水",
    "hour": 13,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 8,
    "comments": 0,
    "gain_1d": 0,
@@ -3960,7 +5221,11 @@
    "published_at": "2025-09-08 14:30",
    "weekday": "月",
    "hour": 14,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -3975,7 +5240,11 @@
    "published_at": "2025-09-05 15:13",
    "weekday": "金",
    "hour": 15,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -3990,7 +5259,11 @@
    "published_at": "2025-09-04 18:48",
    "weekday": "木",
    "hour": 18,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -4005,7 +5278,11 @@
    "published_at": "2025-09-04 10:36",
    "weekday": "木",
    "hour": 10,
-   "category": "就活・学び",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -4020,7 +5297,11 @@
    "published_at": "2025-09-03 08:22",
    "weekday": "水",
    "hour": 8,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 7,
    "comments": 0,
    "gain_1d": 0,
@@ -4035,7 +5316,11 @@
    "published_at": "2025-09-02 08:36",
    "weekday": "火",
    "hour": 8,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -4050,7 +5335,11 @@
    "published_at": "2025-08-29 09:58",
    "weekday": "金",
    "hour": 9,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -4065,7 +5354,13 @@
    "published_at": "2025-08-25 09:23",
    "weekday": "月",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4080,7 +5375,12 @@
    "published_at": "2025-08-10 01:53",
    "weekday": "日",
    "hour": 1,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -4095,7 +5395,11 @@
    "published_at": "2025-08-07 14:37",
    "weekday": "木",
    "hour": 14,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -4111,6 +5415,11 @@
    "weekday": "水",
    "hour": 10,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 18,
    "comments": 0,
    "gain_1d": 0,
@@ -4125,7 +5434,11 @@
    "published_at": "2025-08-01 15:51",
    "weekday": "金",
    "hour": 15,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -4140,7 +5453,12 @@
    "published_at": "2025-07-31 11:04",
    "weekday": "木",
    "hour": 11,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 19,
    "comments": 0,
    "gain_1d": 0,
@@ -4155,7 +5473,12 @@
    "published_at": "2025-07-29 14:11",
    "weekday": "火",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 6,
    "comments": 0,
    "gain_1d": 0,
@@ -4171,6 +5494,11 @@
    "weekday": "火",
    "hour": 8,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4185,7 +5513,11 @@
    "published_at": "2025-07-23 14:02",
    "weekday": "水",
    "hour": 14,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4200,7 +5532,11 @@
    "published_at": "2025-07-23 13:36",
    "weekday": "水",
    "hour": 13,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 11,
    "comments": 1,
    "gain_1d": 0,
@@ -4216,6 +5552,11 @@
    "weekday": "火",
    "hour": 14,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4230,7 +5571,11 @@
    "published_at": "2025-07-15 16:15",
    "weekday": "火",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 9,
    "comments": 0,
    "gain_1d": 0,
@@ -4245,7 +5590,11 @@
    "published_at": "2025-07-08 16:48",
    "weekday": "火",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4261,6 +5610,10 @@
    "weekday": "金",
    "hour": 19,
    "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4275,7 +5628,11 @@
    "published_at": "2025-06-30 10:12",
    "weekday": "月",
    "hour": 10,
-   "category": "考察・コラム",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -4290,7 +5647,11 @@
    "published_at": "2025-06-27 14:45",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 11,
    "comments": 0,
    "gain_1d": 0,
@@ -4305,7 +5666,13 @@
    "published_at": "2025-06-27 09:24",
    "weekday": "金",
    "hour": 9,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 18,
    "comments": 4,
    "gain_1d": 0,
@@ -4320,7 +5687,11 @@
    "published_at": "2025-06-23 20:39",
    "weekday": "月",
    "hour": 20,
-   "category": "その他",
+   "category": "就活・学び",
+   "category_source": "magazine",
+   "magazines": [
+    "就活・成長 / CAREER"
+   ],
    "likes": 13,
    "comments": 0,
    "gain_1d": 0,
@@ -4335,7 +5706,11 @@
    "published_at": "2025-06-20 14:04",
    "weekday": "金",
    "hour": 14,
-   "category": "その他",
+   "category": "イベント・日常",
+   "category_source": "magazine",
+   "magazines": [
+    "イベント・日常 / EVENT"
+   ],
    "likes": 29,
    "comments": 0,
    "gain_1d": 0,
@@ -4350,7 +5725,12 @@
    "published_at": "2025-06-20 12:40",
    "weekday": "金",
    "hour": 12,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "開発・制作 / DEVELOPMENT",
+    "イベント・日常 / EVENT"
+   ],
    "likes": 12,
    "comments": 0,
    "gain_1d": 0,
@@ -4365,7 +5745,12 @@
    "published_at": "2025-06-19 16:54",
    "weekday": "木",
    "hour": 16,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 14,
    "comments": 0,
    "gain_1d": 0,
@@ -4380,7 +5765,12 @@
    "published_at": "2025-05-26 11:20",
    "weekday": "月",
    "hour": 11,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 10,
    "comments": 0,
    "gain_1d": 0,
@@ -4395,7 +5785,12 @@
    "published_at": "2025-05-16 19:06",
    "weekday": "金",
    "hour": 19,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 15,
    "comments": 0,
    "gain_1d": 0,
@@ -4410,7 +5805,12 @@
    "published_at": "2025-05-16 00:14",
    "weekday": "金",
    "hour": 0,
-   "category": "その他",
+   "category": "ゲーム制作ログ",
+   "category_source": "magazine",
+   "magazines": [
+    "【🎮 制作ゲーム一覧】",
+    "開発・制作 / DEVELOPMENT"
+   ],
    "likes": 21,
    "comments": 0,
    "gain_1d": 0,

@@ -225,10 +225,11 @@
  },
  {
   "date": "2026-11-18",
-  "followers": 399,
+  "followers": 401,
   "following": 7,
-  "notes": 280,
-  "total_likes": 4655,
-  "total_comments": 157
+  "notes": 281,
+  "total_likes": 4671,
+  "total_comments": 157,
+  "magazine_notes": 24068
  }
 ]
