@@ -4,6 +4,15 @@
   "tracked_magazine": { "key": "mbede04c37bef", "name": "ゲームクリエイターズマガジン" },
   "correlation_min_days": 14,
   "min_reliable_count": 10,
+  "category_magazines": [
+    { "key": "md93091202e8f", "name": "【🎮 制作ゲーム一覧】", "category": "ゲーム制作ログ" },
+    { "key": "m21a7d13f3573", "name": "開発・制作 / DEVELOPMENT", "category": "ゲーム制作ログ" },
+    { "key": "m2449062bccd9", "name": "ゲーム分析 / ANALYSIS", "category": "考察・コラム" },
+    { "key": "m790560b97e6f", "name": "就活・成長 / CAREER", "category": "就活・学び" },
+    { "key": "m1d0953dadce6", "name": "イベント・日常 / EVENT", "category": "イベント・日常" }
+  ],
+  "category_magazine_priority": ["md93091202e8f", "m21a7d13f3573", "m2449062bccd9", "m790560b97e6f", "m1d0953dadce6"],
+  "membership_refresh_days": 7,
   "categories": [
     { "name": "企業研究", "keywords": ["企業研究"] },
     { "name": "ゲーム制作ログ", "keywords": ["ゲーム制作", "Unity", "3D", "実装", "ゲームジャム"] },

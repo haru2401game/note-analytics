@@ -140,6 +140,7 @@ tbody tr:hover { background: var(--teal-soft); }
 tbody tr.sel { background: var(--teal-soft); }
 td.title { min-width: 260px; }
 td.date { font-family: var(--num); color: var(--ink-2); white-space: nowrap; }
+.cat.guess { border-style: dashed; }
 .cat { display: inline-block; font-size: 12px; color: var(--ink-2); background: var(--paper); border: 1px solid var(--rule); border-radius: 999px; padding: 0 9px; white-space: nowrap; }
 #detail { display: none; margin-bottom: 14px; padding: 16px; border: 1px solid var(--rule); border-radius: 6px; background: var(--orange-soft); }
 #detail h3 { margin: 0 0 8px; font-size: 14px; font-weight: 700; }
@@ -227,7 +228,7 @@ footer { margin-top: 28px; font-size: 13px; color: var(--ink-3); }
   </section>
 
   <section class="sheet">
-    <h2>記事一覧<span class="note">行を選ぶとスキ数の推移を表示</span></h2>
+    <h2>記事一覧<span class="note">行を選ぶとスキ数の推移を表示。カテゴリが点線の記事は、マガジンに入っていないためタイトルから推定</span></h2>
     <div class="tools">
       <input type="search" id="q" placeholder="タイトルで絞り込む" aria-label="タイトルで絞り込む">
       <select id="catFilter" aria-label="カテゴリ"><option value="">すべてのカテゴリ</option></select>
@@ -338,7 +339,9 @@ function renderTimeCharts() {
 // 日別の比較：summary.json の daily_compare を使う。古い summary.json にない場合は history から作る。
 function compareSeries() {
   if (Array.isArray(S.daily_compare)) return S.daily_compare;
-  return H.slice(1).map((x, i) => ({ date: x.date, followers_delta: x.followers - H[i].followers, magazine_added: null, posts: null }));
+  const posts = {};
+  (S.articles || []).forEach(r => { const d = (r.published_at || "").slice(0, 10); if (d) posts[d] = (posts[d] || 0) + 1; });
+  return H.slice(1).map((x, i) => ({ date: x.date, followers_delta: x.followers - H[i].followers, magazine_added: null, posts: posts[x.date] || 0 }));
 }
 
 function renderCompare() {
@@ -484,6 +487,11 @@ function renderGainers(key) {
     : `<p class="empty">記録が2日分以上たまると表示されます。</p>`;
 }
 
+// カテゴリの決め方：入っているマガジン（実線の枠）か、タイトルからの推定（点線の枠）か
+const catTitle = r => r.category_source === "magazine"
+  ? `マガジンで分類：${(r.magazines || []).join("、")}`
+  : r.category_source === "title" ? "どのマガジンにも入っていないため、タイトルから推定" : "";
+
 function renderTable() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   const cat = document.getElementById("catFilter").value;
@@ -496,7 +504,7 @@ function renderTable() {
   document.getElementById("rows").innerHTML = rows.map(r => `
     <tr data-key="${esc(r.key)}" tabindex="0" class="${r.key === selectedKey ? "sel" : ""}">
       <td class="title">${esc(r.title)}</td>
-      <td><span class="cat">${esc(r.category)}</span></td>
+      <td><span class="cat${r.category_source === "title" ? " guess" : ""}" title="${esc(catTitle(r))}">${esc(r.category)}</span></td>
       <td class="date">${esc(r.published_at.slice(0, 10).replaceAll("-", "/"))}</td>
       <td class="num">${fmt(r.likes)}</td>
       <td class="num ${cls(r.gain_1d)}">${signed(r.gain_1d)}</td>

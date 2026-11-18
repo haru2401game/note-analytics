@@ -5,6 +5,7 @@ note の公開データを取得して docs/data/ に1日分を追記するス�
   - フォロワー数 / フォロー数 / 記事数
   - 記事ごとのスキ数・コメント数・公開日時
   - 運営しているマガジン（config.json の tracked_magazine）の収録記事数
+  - カテゴリ分類用マガジン（config.json の category_magazines）に入っている記事
 
 保存先:
   docs/data/history.json   … 日ごとのアカウント全体の数値（magazine_notes を含む）
@@ -115,6 +116,65 @@ def fetch_magazine_count(magazine_key: str):
         return None
 
 
+def fetch_magazine_keys(magazine_key: str) -> list[str]:
+    """マガジンに入っている記事の key 一覧（公開情報）。1ページ14件ほどなので、ページごとに待つ。"""
+    keys = []
+    for page in range(1, MAX_PAGES + 1):
+        section = get_json(
+            f"{API_V1}/layout/magazine/{magazine_key}/section", params={"page": page},
+        ).get("data", {}).get("section", {})
+        contents = section.get("contents") or []
+        keys += [c["key"] for c in contents if isinstance(c, dict) and c.get("key")]
+        if pick(section, "is_last_page", "isLastPage", default=True) or not contents:
+            break
+        time.sleep(REQUEST_INTERVAL_SEC)
+    return keys
+
+
+def update_category_magazines(store: dict, config: dict, date: str) -> None:
+    """カテゴリ分類用マガジン（config.json の category_magazines）の収録記事を store に記録する。
+
+    リクエストを増やしすぎないよう、毎日は各マガジンの収録数（1回ずつ）だけ確認し、
+    収録数が変わったとき・前回の一覧取得から membership_refresh_days 日たったときだけ
+    記事一覧をページ送りで取り直す。失敗したマガジンは前回の結果をそのまま使う。
+    """
+    mags = config.get("category_magazines") or []
+    if not mags:
+        return
+    refresh_days = int(config.get("membership_refresh_days", 7))
+    force = os.environ.get("FORCE_MAGAZINES") == "1"
+    saved = store.setdefault("category_magazines", {})
+    today = datetime.strptime(date, "%Y-%m-%d")
+    for m in mags:
+        key = m["key"]
+        rec = saved.setdefault(key, {})
+        rec["name"] = m.get("name", "")
+        time.sleep(REQUEST_INTERVAL_SEC)
+        count = fetch_magazine_count(key)
+        if count is None:
+            continue
+        last = rec.get("checked_at")
+        stale = (not last or force
+                 or (today - datetime.strptime(last, "%Y-%m-%d")).days >= refresh_days)
+        if rec.get("note_count") == count and not stale and "keys" in rec:
+            print(f"  magazine {key}: {count}件（変化なし）")
+            continue
+        try:
+            time.sleep(REQUEST_INTERVAL_SEC)
+            keys = fetch_magazine_keys(key)
+        except Exception as e:  # noqa: BLE001
+            print(f"  warn: magazine {key} の記事一覧の取得に失敗: {e}", file=sys.stderr)
+            continue
+        rec.update({"note_count": count, "checked_at": date, "keys": keys})
+        print(f"  magazine {key}: {count}件（一覧を更新 {len(keys)}件）")
+
+    # 記事ごとに「入っているマガジン」を付ける（全マガジンの一覧がそろってから）
+    if all("keys" in saved.get(m["key"], {}) for m in mags):
+        members = {m["key"]: set(saved[m["key"]]["keys"]) for m in mags}
+        for akey, arec in store["articles"].items():
+            arec["magazines"] = [m["key"] for m in mags if akey in members[m["key"]]]
+
+
 def load_config() -> dict:
     path = ROOT / "config.json"
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
@@ -180,6 +240,7 @@ def main() -> None:
         rec["comments"][date] = a["comments"]
     store["nickname"] = creator["nickname"]
     store["user"] = NOTE_USER
+    update_category_magazines(store, config, date)
     save("articles.json", store)
     print("  saved.")
 

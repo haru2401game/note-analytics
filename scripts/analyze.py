@@ -44,11 +44,28 @@ def parse_published(s: str):
         return None
 
 
-def categorize(title: str, config: dict) -> str:
+def categorize_by_title(title: str, config: dict) -> str:
     for cat in config.get("categories", []):
         if any(k in title for k in cat["keywords"]):
             return cat["name"]
     return config.get("default_category", "その他")
+
+
+def categorize(rec: dict, config: dict) -> tuple[str, str]:
+    """カテゴリと、その決め方（"magazine" / "title"）を返す。
+
+    記事が入っているカテゴリ分類用マガジンを第一の情報源にする。複数に入っているときは
+    config.json の category_magazine_priority の順（なければ category_magazines の並び順）で決める。
+    どのマガジンにも入っていない記事（またはマガジン情報がまだない記事）だけタイトルで判定する。
+    """
+    mags = {m["key"]: m for m in config.get("category_magazines", [])}
+    priority = config.get("category_magazine_priority") or list(mags)
+    priority = [k for k in priority if k in mags] + [k for k in mags if k not in priority]
+    joined = set(rec.get("magazines") or [])
+    for k in priority:
+        if k in joined:
+            return mags[k]["category"], "magazine"
+    return categorize_by_title(rec.get("title", ""), config), "title"
 
 
 # ---------------------------------------------------------------- 差分計算
@@ -80,12 +97,14 @@ def article_gain(rec: dict, today: str, days: int):
 # ---------------------------------------------------------------- 分析本体
 
 def build_rows(store: dict, today: str, config: dict) -> list:
+    mag_names = {m["key"]: m.get("name", m["key"]) for m in config.get("category_magazines", [])}
     rows = []
     for key, rec in store.get("articles", {}).items():
         likes = rec["likes"].get(today)
         if likes is None:  # 今日の取得で見つからなかった記事（削除・非公開など）
             continue
         pub = parse_published(rec.get("published_at", ""))
+        category, category_source = categorize(rec, config)
         days_live = max((d(today) - d(pub.strftime("%Y-%m-%d"))).days, 0) + 1 if pub else None
         rows.append({
             "key": key,
@@ -94,7 +113,9 @@ def build_rows(store: dict, today: str, config: dict) -> list:
             "published_at": pub.strftime("%Y-%m-%d %H:%M") if pub else "",
             "weekday": WEEKDAYS[pub.weekday()] if pub else "",
             "hour": pub.hour if pub else None,
-            "category": categorize(rec["title"], config),
+            "category": category,
+            "category_source": category_source,
+            "magazines": [mag_names.get(k, k) for k in rec.get("magazines") or []],
             "likes": likes,
             "comments": rec["comments"].get(today, 0),
             "gain_1d": article_gain(rec, today, 1),
